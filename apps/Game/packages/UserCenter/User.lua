@@ -207,7 +207,7 @@ function User:onADShow(db, msg, instance, msgid)
     end
     
     local idstr = msg.id
-    local cfg = dbConfig:get("cfg_ad", {
+    local cfg = dbConfig.get("cfg_ad", {
         adid = idstr,
     })
     if cfg == nil then
