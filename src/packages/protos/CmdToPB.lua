@@ -27,6 +27,7 @@ local _M = {
     [12] = "SigninRecord",
     [13] = "SigninGet",
     [22] = "ShopBuy",
+    [41] = "ADShow",
     [21] = "ShopRecord",
     [15] = "MapRecordSave",
 }

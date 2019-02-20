@@ -14,6 +14,8 @@ local ngx_now = ngx.now
 local gbc = cc.import("#gbc")
 local Constants = gbc.Constants
 
+local dbConfig = cc.import("#dbConfig")
+
 local netpack = cc.import("#netpack")
 local net_encode = netpack.encode
 
@@ -197,6 +199,39 @@ function User:onCreateRole(db, msg, instance, msgid)
 end
 
 ----
+--观看广告
+function User:onADShow(db, msg, instance, msgid)
+    if not db or not msg or not instance then
+        instance:sendError(self.id, "NoParam", msgid)
+        return false
+    end
+    
+    local idstr = msg.id
+    local cfg = dbConfig:get("cfg_ad", {
+        adid = idstr,
+    })
+    if cfg == nil then
+        instance:sendError(self.id, "OperationNotPermit", msgid)
+        return false
+    end
+    
+    if not self._Role or not self._Props then
+        instance:sendError(self.id, "OperationNotPermit", msgid)
+        return false
+    end
+    
+    local items, err, rewards = self._Props:AddRewards(db, cfg.rewards, self._Role)
+    if err then
+        instance:sendError(self.id, err, msgid)
+    end
+    if items then
+        instance:sendPack(self.id, "Props", {items = items}, msgid)
+    end
+    if items then
+        instance:sendPack(self.id, "Rewards", {items = rewards}, msgid)
+    end
+    instance:sendPack(self.id, "Role", self._Role:get(), msgid)
+end
 
 --商店购买
 function User:onShopBuy(db, msg, instance, msgid)

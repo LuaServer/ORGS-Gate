@@ -21,6 +21,7 @@ package pb;
 	
 	OpenBox==31
 	GainBox==32
+	ADShow==41
 
 	FinishMission==51
 	MissionEvent==52
@@ -282,6 +283,10 @@ message SigninGet{
 
 message ShopBuy{
 	int32 id = 1; //购买商店物品
+}
+
+message ADShow{
+	string id = 1; //广告ID
 }
 
 message ShopRecord{

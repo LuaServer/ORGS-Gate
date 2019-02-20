@@ -31,6 +31,7 @@ namespace Pb{
         SigninRecord = 12,
         SigninGet = 13,
         ShopBuy = 22,
+        ADShow = 41,
         ShopRecord = 21,
         MapRecordSave = 15
     }
@@ -67,6 +68,7 @@ namespace Pb{
             dict.Add(PBDefine.SigninRecord, SigninRecord.Parser);
             dict.Add(PBDefine.SigninGet, SigninGet.Parser);
             dict.Add(PBDefine.ShopBuy, ShopBuy.Parser);
+            dict.Add(PBDefine.ADShow, ADShow.Parser);
             dict.Add(PBDefine.ShopRecord, ShopRecord.Parser);
             dict.Add(PBDefine.MapRecordSave, MapRecordSave.Parser);
         }
