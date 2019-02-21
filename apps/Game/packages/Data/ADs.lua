@@ -43,10 +43,11 @@ function ADs:Finish(id)
     if ad_data.count <= 0 or ad_data.time > ngx.now() then
         return nil, "OperationNotPermit"
     end
-    
+    local cfg = ad:getConfig()
     ad:set("count", ad_data.count - 1)
+    ad:set("time", cfg.delay + ngx.now())
     
-    return ad:get(), nil, ad:getConfig()
+    return ad:get(), nil, cfg
 end
 
 return ADs
