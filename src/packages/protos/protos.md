@@ -36,6 +36,7 @@ package pb;
 	Rewards==108
 	AchvList==109
 	Talents==110
+	ADList==111
 
 	Chapter==1021
 	Box==1061
@@ -286,7 +287,19 @@ message ShopBuy{
 }
 
 message ADShow{
-	string id = 1; //广告ID
+	int32 id = 1; //广告ID
+}
+
+message ADItem{
+	int32 id = 1;
+	int32 rid = 2;
+	int32 cid = 3;
+	int32 time = 4;
+	int32 count = 5;
+}
+
+message ADList{
+	repeated ADItem items = 1;
 }
 
 message ShopRecord{

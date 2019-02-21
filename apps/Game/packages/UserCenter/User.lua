@@ -8,6 +8,7 @@ local Props = Data.Props
 local Shop = Data.Shop
 local Talents = Data.Talents
 local Achvs = Data.Achvs
+local ADs = Data.ADs
 
 local ngx_now = ngx.now
 
@@ -64,6 +65,12 @@ function User:loadUser(db, instance, rid, lastTime, loginTime)
     local shop_data = self._Shop:Initialize(db, rid)
     if shop_data then
         instance:sendPack(self.id, "ShopRecord", shop_data)
+    end
+    
+    self._ADs = ADs:new()
+    local ads_data = self._ADs:Initialize(db, rid, lastTime, loginTime)
+    if ads_data then
+        instance:sendPack(self.id, "ADList", ads_data)
     end
 end
 
@@ -125,6 +132,7 @@ function User:Save(db)
         self._Props:save(db)
         self._Talents:save(db)
         self._Shop:save(db)
+        self._ADs:save(db)
     end
 end
 
@@ -206,19 +214,20 @@ function User:onADShow(db, msg, instance, msgid)
         return false
     end
     
-    local idstr = msg.id
-    local cfg = dbConfig.get("cfg_ad", {
-        adid = idstr,
-    })
-    if cfg == nil then
-        instance:sendError(self.id, "OperationNotPermit", msgid)
-        return false
-    end
+    local id = msg.id
     
     if not self._Role or not self._Props then
         instance:sendError(self.id, "OperationNotPermit", msgid)
         return false
     end
+    
+    local ad_data, err, cfg = self._ADs:Finish(id)
+    if err then
+        instance:sendError(self.id, err, msgid)
+        return false
+    end
+    
+    instance:sendPack(self.id, "ADList", {items = {ad_data}}, msgid)
     
     local items, err, rewards = self._Props:AddRewards(db, cfg.rewards, self._Role)
     if err then

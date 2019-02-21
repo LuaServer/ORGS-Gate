@@ -28,6 +28,7 @@ local _M = {
     SigninGet = 13,
     ShopBuy = 22,
     ADShow = 41,
+    ADList = 111,
     ShopRecord = 21,
     MapRecordSave = 15,
 }

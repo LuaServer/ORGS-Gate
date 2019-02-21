@@ -10,6 +10,7 @@ local _M = {
     Box = cc.import(".Box", _CUR),
     Signin = cc.import(".Signin", _CUR),
     Shop = cc.import(".Shop", _CUR),
+    AD = cc.import(".AD", _CUR),
 }
 
 return _M
