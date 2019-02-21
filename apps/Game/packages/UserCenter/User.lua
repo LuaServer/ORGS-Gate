@@ -70,7 +70,7 @@ function User:loadUser(db, instance, rid, lastTime, loginTime)
     self._ADs = ADs:new()
     local ads_data = self._ADs:Initialize(db, rid, lastTime, loginTime)
     if ads_data then
-        instance:sendPack(self.id, "ADList", ads_data)
+        instance:sendPack(self.id, "ADList", {items = ads_data})
     end
 end
 
