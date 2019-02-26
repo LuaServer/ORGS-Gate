@@ -14,7 +14,6 @@ package pb;
 	Delete==11
 	SigninRecord==12
 	SigninGet==13
-	MapRecordSave==15
 
 	ShopRecord==21
 	ShopBuy==22
@@ -353,7 +352,7 @@ message PlayerRecord{
 }
 
 message HomeRecord{
-	repeated TowerData towers = 1; // 塔数据
+	//repeated TowerData towers = 1; // 塔数据
 	repeated BuildData builds = 2; //建筑数据
 	int64 time = 3; //时间
 	int32 autoid = 4; //分配的序号id
@@ -364,6 +363,7 @@ message HomeRecord{
 	repeated EnemyData enemys = 9; //敌人
 }
 
+/*
 //地图记录
 message MapRecord{
 	repeated TowerData towers = 1; // 塔数据
@@ -377,6 +377,7 @@ message MapRecord{
 	repeated PickupData pickups = 9; //拾取
 	repeated EnemyData enemys = 10; //敌人
 }
+*/
 
 message RecordItem{
 	enum SaveType{
@@ -391,12 +392,14 @@ message RecordSave{
 	repeated RecordItem items = 1;
 }
 
+/*
 //保存数据命令
 message MapRecordSave{
 	int32 id = 1;
 	int32 seq = 2;
 	bytes record = 3;
 }
+*/
 
 //矿产数据
 message OreData{
@@ -461,6 +464,7 @@ message CalendarData{
 	repeated SpawnerEvent events = 3; //事件
 }
 
+/*
 //塔数据
 message TowerData{
 	int32 id = 1; //塔的唯一ID
@@ -470,6 +474,7 @@ message TowerData{
 	int32 repairTime = 5;
 	Vector position = 6;
 }
+*/
 
 //任务数据
 message CMissionItem{

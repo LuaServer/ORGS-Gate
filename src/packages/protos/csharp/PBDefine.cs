@@ -35,8 +35,7 @@ namespace Pb{
         ADShow = 41,
         ADList = 111,
         ShopRecord = 21,
-        RecordSave = 42,
-        MapRecordSave = 15
+        RecordSave = 42
     }
 
     public static class PBRegister
@@ -76,7 +75,6 @@ namespace Pb{
             dict.Add(PBDefine.ADList, ADList.Parser);
             dict.Add(PBDefine.ShopRecord, ShopRecord.Parser);
             dict.Add(PBDefine.RecordSave, RecordSave.Parser);
-            dict.Add(PBDefine.MapRecordSave, MapRecordSave.Parser);
         }
     }
 }

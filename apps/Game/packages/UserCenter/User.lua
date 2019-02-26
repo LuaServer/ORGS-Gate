@@ -451,22 +451,22 @@ function User:onFinishChapter(db, msg, instance, msgid)
 end
 
 --保存存档
-function User:onMapRecordSave(db, msg, instance, msgid)
-    if not db or not msg or not instance then
-        instance:sendError(self.id, "NoParam", msgid)
-        return false
-    end
-    if not self._Chatpers then
-        instance:sendError(self.id, "OperationNotPermit", msgid)
-        return false
-    end
-    local data, err = self._Chatpers:Save(msg.id, msg.seq, msg.record)
-    if err then
-        instance:sendError(self.id, err, msgid)
-        return false
-    end
-    instance:sendPack(self.id, "Chapters", {items = {data}}, msgid)
-end
+-- function User:onMapRecordSave(db, msg, instance, msgid)
+--     if not db or not msg or not instance then
+--         instance:sendError(self.id, "NoParam", msgid)
+--         return false
+--     end
+--     if not self._Chatpers then
+--         instance:sendError(self.id, "OperationNotPermit", msgid)
+--         return false
+--     end
+--     local data, err = self._Chatpers:Save(msg.id, msg.seq, msg.record)
+--     if err then
+--         instance:sendError(self.id, err, msgid)
+--         return false
+--     end
+--     instance:sendPack(self.id, "Chapters", {items = {data}}, msgid)
+-- end
 
 --保存玩家数据
 function User:onRecordSave(db, msg, instance, msgid)
