@@ -478,7 +478,7 @@ function User:onRecordSave(db, msg, instance, msgid)
         return false
     end
     
-    cc.dump(msg)
+    cc.dump(#(msg.items))
 end
 
 return User
