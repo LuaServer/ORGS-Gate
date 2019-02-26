@@ -327,17 +327,6 @@ message ItemData{
 }
 
 //角色数据
-message PlayerData{
-	int32 health = 1;
-	int32 stamina = 2;
-	repeated ItemData props = 3;
-	repeated ItemData weapons = 4;
-	Vector Position = 5;
-	repeated ItemData equipedProps = 6;
-	repeated ItemData equipedWeapons = 7;
-}
-
-//角色数据
 message PlayerRecord{
 	int32 health = 1;
 	int32 stamina = 2;
@@ -360,22 +349,6 @@ message HomeRecord{
 	repeated EnemyData enemys = 9; //敌人
 }
 
-/*
-//地图记录
-message MapRecord{
-	repeated TowerData towers = 1; // 塔数据
-	repeated BuildData builds = 2; //建筑数据
-	int64 time = 3; //时间
-	int32 autoid = 4; //分配的序号id
-	CalendarData calendar = 5; //日历信息
-	repeated CMissionData missions = 6; //任务列表
-	PlayerData player = 7; //角色数据
-	repeated OreData ores = 8; //矿
-	repeated PickupData pickups = 9; //拾取
-	repeated EnemyData enemys = 10; //敌人
-}
-*/
-
 message RecordItem{
 	enum SaveType{
 		Player = 0;
@@ -388,15 +361,6 @@ message RecordItem{
 message RecordSave{
 	repeated RecordItem items = 1;
 }
-
-/*
-//保存数据命令
-message MapRecordSave{
-	int32 id = 1;
-	int32 seq = 2;
-	bytes record = 3;
-}
-*/
 
 //矿产数据
 message OreData{
@@ -460,18 +424,6 @@ message CalendarData{
 	int32 nextwave = 2; //小一波到来的时间id
 	repeated SpawnerEvent events = 3; //事件
 }
-
-/*
-//塔数据
-message TowerData{
-	int32 id = 1; //塔的唯一ID
-	int32 cid = 2;
-	int32 health = 3;
-	int32 upgradeTime = 4;
-	int32 repairTime = 5;
-	Vector position = 6;
-}
-*/
 
 //任务数据
 message CMissionItem{
