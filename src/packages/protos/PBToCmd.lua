@@ -12,6 +12,7 @@ local _M = {
     Props = 107,
     Chapter = 1021,
     Chapters = 102,
+    GameRecord = 112,
     FinishMission = 51,
     FinishAchv = 53,
     MissionEvent = 52,
@@ -30,6 +31,7 @@ local _M = {
     ADShow = 41,
     ADList = 111,
     ShopRecord = 21,
+    RecordSave = 51,
     MapRecordSave = 15,
 }
 return _M

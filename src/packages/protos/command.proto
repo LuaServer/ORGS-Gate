@@ -19,6 +19,7 @@ package pb;
 	OpenBox==31
 	GainBox==32
 	ADShow==41
+	RecordSave==51
 
 	FinishMission==51
 	MissionEvent==52
@@ -34,6 +35,7 @@ package pb;
 	AchvList==109
 	Talents==110
 	ADList==111
+	GameRecord==112
 
 	Chapter==1021
 	Box==1061
@@ -168,6 +170,13 @@ message Chapter{
 
 message Chapters{
 	repeated Chapter items = 1;
+}
+
+message GameRecord{
+	int32 id = 1;
+	int32 rid = 2;
+	bytes home = 3; //家的数据
+	bytes player = 4; //玩家数据
 }
 
 //完成任务
@@ -329,6 +338,29 @@ message PlayerData{
 	repeated ItemData equipedWeapons = 7;
 }
 
+//角色数据
+message PlayerRecord{
+	int32 health = 1;
+	int32 stamina = 2;
+	repeated ItemData props = 3;
+	repeated ItemData weapons = 4;
+	Vector Position = 5;
+	repeated ItemData equipedProps = 6;
+	repeated ItemData equipedWeapons = 7;
+}
+
+message HomeRecord{
+	repeated TowerData towers = 1; // 塔数据
+	repeated BuildData builds = 2; //建筑数据
+	int64 time = 3; //时间
+	int32 autoid = 4; //分配的序号id
+	CalendarData calendar = 5; //日历信息
+	repeated CMissionData missions = 6; //任务列表
+	repeated OreData ores = 7; //矿
+	repeated PickupData pickups = 8; //拾取
+	repeated EnemyData enemys = 9; //敌人
+}
+
 //地图记录
 message MapRecord{
 	repeated TowerData towers = 1; // 塔数据
@@ -341,6 +373,19 @@ message MapRecord{
 	repeated OreData ores = 8; //矿
 	repeated PickupData pickups = 9; //拾取
 	repeated EnemyData enemys = 10; //敌人
+}
+
+message RecordItem{
+	enum SaveType{
+		Player = 0;
+		Home = 1;
+	}
+	SaveType tp = 1;
+	bytes record = 2;
+}
+
+message RecordSave{
+	repeated RecordItem items = 1;
 }
 
 //保存数据命令

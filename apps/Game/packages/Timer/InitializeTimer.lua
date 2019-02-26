@@ -26,6 +26,7 @@ function InitializeTimer:runEventLoop()
     self:createTable(db, Table.Shop)
     self:createTable(db, Table.Talent)
     self:createTable(db, Table.AD)
+    self:createTable(db, Table.Record)
     
     self:clearUserList()
     self:Initialized()

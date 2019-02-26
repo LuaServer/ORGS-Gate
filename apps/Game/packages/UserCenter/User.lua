@@ -9,13 +9,14 @@ local Shop = Data.Shop
 local Talents = Data.Talents
 local Achvs = Data.Achvs
 local ADs = Data.ADs
+local Record = Data.Record
 
 local ngx_now = ngx.now
 
 local gbc = cc.import("#gbc")
 local Constants = gbc.Constants
 
-local dbConfig = cc.import("#dbConfig")
+-- local dbConfig = cc.import("#dbConfig")
 
 local netpack = cc.import("#netpack")
 local net_encode = netpack.encode
@@ -28,6 +29,13 @@ function User:ctor(id)
 end
 
 function User:loadUser(db, instance, rid, lastTime, loginTime)
+    --存档记录
+    self._Record = Record:new()
+    local record_data = self._Record:Initialize(db, rid)
+    if record_data then
+        instance:sendPack(self.id, "GameRecord", record_data)
+    end
+    
     --章节数据
     self._Chatpers = Chapters:new()
     local chapters_data = self._Chatpers:Initialize(db, rid)
@@ -457,6 +465,18 @@ function User:onMapRecordSave(db, msg, instance, msgid)
         return false
     end
     instance:sendPack(self.id, "Chapters", {items = {data}}, msgid)
+end
+
+--保存玩家数据
+function User:onRecordSave(db, msg, instance, msgid)
+    if not db or not msg or not instance then
+        instance:sendError(self.id, "NoParam", msgid)
+        return false
+    end
+    if not self._Record then
+        instance:sendError(self.id, "OperationNotPermit", msgid)
+        return false
+    end
 end
 
 return User

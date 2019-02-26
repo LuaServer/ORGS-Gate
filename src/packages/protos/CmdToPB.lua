@@ -12,6 +12,7 @@ local _M = {
     [107] = "Props",
     [1021] = "Chapter",
     [102] = "Chapters",
+    [112] = "GameRecord",
     [51] = "FinishMission",
     [53] = "FinishAchv",
     [52] = "MissionEvent",
@@ -30,6 +31,7 @@ local _M = {
     [41] = "ADShow",
     [111] = "ADList",
     [21] = "ShopRecord",
+    [51] = "RecordSave",
     [15] = "MapRecordSave",
 }
 return _M

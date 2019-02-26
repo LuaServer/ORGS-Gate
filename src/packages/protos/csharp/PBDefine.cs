@@ -16,6 +16,7 @@ namespace Pb{
         Props = 107,
         Chapter = 1021,
         Chapters = 102,
+        GameRecord = 112,
         FinishMission = 51,
         FinishAchv = 53,
         MissionEvent = 52,
@@ -34,6 +35,7 @@ namespace Pb{
         ADShow = 41,
         ADList = 111,
         ShopRecord = 21,
+        RecordSave = 51,
         MapRecordSave = 15
     }
 
@@ -54,6 +56,7 @@ namespace Pb{
             dict.Add(PBDefine.Props, Props.Parser);
             dict.Add(PBDefine.Chapter, Chapter.Parser);
             dict.Add(PBDefine.Chapters, Chapters.Parser);
+            dict.Add(PBDefine.GameRecord, GameRecord.Parser);
             dict.Add(PBDefine.FinishMission, FinishMission.Parser);
             dict.Add(PBDefine.FinishAchv, FinishAchv.Parser);
             dict.Add(PBDefine.MissionEvent, MissionEvent.Parser);
@@ -72,6 +75,7 @@ namespace Pb{
             dict.Add(PBDefine.ADShow, ADShow.Parser);
             dict.Add(PBDefine.ADList, ADList.Parser);
             dict.Add(PBDefine.ShopRecord, ShopRecord.Parser);
+            dict.Add(PBDefine.RecordSave, RecordSave.Parser);
             dict.Add(PBDefine.MapRecordSave, MapRecordSave.Parser);
         }
     }

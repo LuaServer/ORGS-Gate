@@ -54,6 +54,12 @@ local _M = {
 			MakeEquip = 13,
 		},
 	},
+	RecordItem={
+		SaveType={
+			e = 0,
+			Home = 1,
+		},
+	},
 	BuildData={
 		BuildType={
 			pe = 0,

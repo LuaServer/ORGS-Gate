@@ -11,6 +11,7 @@ local _M = {
     Signin = cc.import(".Signin", _CUR),
     Shop = cc.import(".Shop", _CUR),
     AD = cc.import(".AD", _CUR),
+    Record = cc.import(".Record", _CUR),
 }
 
 return _M
