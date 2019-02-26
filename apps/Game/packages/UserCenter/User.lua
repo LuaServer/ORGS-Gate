@@ -477,6 +477,8 @@ function User:onRecordSave(db, msg, instance, msgid)
         instance:sendError(self.id, "OperationNotPermit", msgid)
         return false
     end
+    
+    cc.dump(msg)
 end
 
 return User
