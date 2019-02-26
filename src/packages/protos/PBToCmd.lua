@@ -31,7 +31,7 @@ local _M = {
     ADShow = 41,
     ADList = 111,
     ShopRecord = 21,
-    RecordSave = 51,
+    RecordSave = 42,
     MapRecordSave = 15,
 }
 return _M

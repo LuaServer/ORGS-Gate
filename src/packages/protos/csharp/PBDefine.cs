@@ -35,7 +35,7 @@ namespace Pb{
         ADShow = 41,
         ADList = 111,
         ShopRecord = 21,
-        RecordSave = 51,
+        RecordSave = 42,
         MapRecordSave = 15
     }
 

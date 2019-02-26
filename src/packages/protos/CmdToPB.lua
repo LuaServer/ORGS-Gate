@@ -31,7 +31,7 @@ local _M = {
     [41] = "ADShow",
     [111] = "ADList",
     [21] = "ShopRecord",
-    [51] = "RecordSave",
+    [42] = "RecordSave",
     [15] = "MapRecordSave",
 }
 return _M

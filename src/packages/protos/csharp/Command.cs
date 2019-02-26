@@ -214,7 +214,7 @@ namespace Pb {
   /// OpenBox==31
   /// GainBox==32
   /// ADShow==41
-  /// RecordSave==51
+  /// RecordSave==42
   ///
   /// FinishMission==51
   /// MissionEvent==52
