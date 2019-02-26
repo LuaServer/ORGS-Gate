@@ -107,11 +107,11 @@ function User:Login(db, instance)
     if diamond < 30000 then
         role:add("diamond", 15000)
     end
-    --角色数据加载成功
-    instance:sendPack(self.id, "Role", self._Role:get())
     
     self:loadUser(db, instance, role:get("id"), role:get("loginTime"), ngx_now())
     role:set("loginTime", ngx_now())
+    --角色数据加载成功
+    instance:sendPack(self.id, "Role", self._Role:get())
     
     --设置玩家信息缓存
     if redis then
@@ -477,8 +477,19 @@ function User:onRecordSave(db, msg, instance, msgid)
         instance:sendError(self.id, "OperationNotPermit", msgid)
         return false
     end
-    
-    cc.dump(#(msg.items))
+    local len = #(msg.items)
+    for i = 1, len do
+        local item = msg.items[i]
+        if item.tp == "Home" then
+            self._Record:set("home", item.record)
+        elseif item.tp == "Player" then
+            self._Record:set("player", item.record)
+        end
+    end
+    local record_data = self._Record:get()
+    if record_data then
+        instance:sendPack(self.id, "GameRecord", record_data)
+    end
 end
 
 return User
