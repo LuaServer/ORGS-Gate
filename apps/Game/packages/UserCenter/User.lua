@@ -134,6 +134,7 @@ end
 function User:Save(db)
     if self._Role then
         self._Role:save(db)
+        self._Record:save(db)
         self._Chatpers:save(db)
         self._Missions:save(db)
         self._Achvs:save(db)
