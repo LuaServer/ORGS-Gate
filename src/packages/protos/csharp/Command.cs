@@ -110,12 +110,11 @@ namespace Pb {
             "bURhdGESHQoHd2VhcG9ucxgIIAMoCzIMLnBiLkl0ZW1EYXRhIoQBCglCdWls",
             "ZFR5cGUSCAoETm9uZRAAEgcKA0JlZBABEgoKBkR5bmFtbxACEg0KCVdvcmtC",
             "ZW5jaBADEgsKB0tpdGNoZW4QBBIOCgpMYWJvcmF0b3J5EAUSEQoNTWVkaWNp",
-            "bmVDaGVzdBAGEg0KCVdhcmVIb3VzZRAHEgoKBkNvcHRlchAIIlAKDENhbGVu",
-            "ZGFyRGF0YRIMCgR0aW1lGAEgASgFEhAKCG5leHR3YXZlGAIgASgFEiAKBmV2",
-            "ZW50cxgDIAMoCzIQLnBiLlNwYXduZXJFdmVudCIrCgxDTWlzc2lvbkl0ZW0S",
-            "CgoCaWQYASABKAUSDwoHcHJvY2VzcxgCIAEoBSJPCgxDTWlzc2lvbkRhdGES",
-            "CgoCaWQYASABKAUSHgoEbGlzdBgCIAMoCzIQLnBiLkNNaXNzaW9uSXRlbRIT",
-            "CgtyZWZyZXNoVGltZRgDIAEoBWIGcHJvdG8z"));
+            "bmVDaGVzdBAGEg0KCVdhcmVIb3VzZRAHEgoKBkNvcHRlchAIIhwKDENhbGVu",
+            "ZGFyRGF0YRIMCgR0aW1lGAEgASgFIisKDENNaXNzaW9uSXRlbRIKCgJpZBgB",
+            "IAEoBRIPCgdwcm9jZXNzGAIgASgFIk8KDENNaXNzaW9uRGF0YRIKCgJpZBgB",
+            "IAEoBRIeCgRsaXN0GAIgAygLMhAucGIuQ01pc3Npb25JdGVtEhMKC3JlZnJl",
+            "c2hUaW1lGAMgASgFYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -166,7 +165,7 @@ namespace Pb {
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.EnemyData), global::Pb.EnemyData.Parser, new[]{ "Id", "Cid", "Health", "Tid", "Position", "Rotation", "Router", "RouterIndex", "Spawner" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.SpawnerEvent), global::Pb.SpawnerEvent.Parser, new[]{ "Id", "Count" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.BuildData), global::Pb.BuildData.Parser, new[]{ "Cid", "Btype", "Health", "UpgradeTime", "RepairTime", "Composites", "Props", "Weapons" }, null, new[]{ typeof(global::Pb.BuildData.Types.BuildType) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.CalendarData), global::Pb.CalendarData.Parser, new[]{ "Time", "Nextwave", "Events" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.CalendarData), global::Pb.CalendarData.Parser, new[]{ "Time" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.CMissionItem), global::Pb.CMissionItem.Parser, new[]{ "Id", "Process" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.CMissionData), global::Pb.CMissionData.Parser, new[]{ "Id", "List", "RefreshTime" }, null, null, null)
           }));
@@ -8643,8 +8642,6 @@ namespace Pb {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public CalendarData(CalendarData other) : this() {
       time_ = other.time_;
-      nextwave_ = other.nextwave_;
-      events_ = other.events_.Clone();
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8666,33 +8663,6 @@ namespace Pb {
       }
     }
 
-    /// <summary>Field number for the "nextwave" field.</summary>
-    public const int NextwaveFieldNumber = 2;
-    private int nextwave_;
-    /// <summary>
-    /// 小一波到来的时间id
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Nextwave {
-      get { return nextwave_; }
-      set {
-        nextwave_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "events" field.</summary>
-    public const int EventsFieldNumber = 3;
-    private static readonly pb::FieldCodec<global::Pb.SpawnerEvent> _repeated_events_codec
-        = pb::FieldCodec.ForMessage(26, global::Pb.SpawnerEvent.Parser);
-    private readonly pbc::RepeatedField<global::Pb.SpawnerEvent> events_ = new pbc::RepeatedField<global::Pb.SpawnerEvent>();
-    /// <summary>
-    /// 事件
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Pb.SpawnerEvent> Events {
-      get { return events_; }
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as CalendarData);
@@ -8707,8 +8677,6 @@ namespace Pb {
         return true;
       }
       if (Time != other.Time) return false;
-      if (Nextwave != other.Nextwave) return false;
-      if(!events_.Equals(other.events_)) return false;
       return true;
     }
 
@@ -8716,8 +8684,6 @@ namespace Pb {
     public override int GetHashCode() {
       int hash = 1;
       if (Time != 0) hash ^= Time.GetHashCode();
-      if (Nextwave != 0) hash ^= Nextwave.GetHashCode();
-      hash ^= events_.GetHashCode();
       return hash;
     }
 
@@ -8732,11 +8698,6 @@ namespace Pb {
         output.WriteRawTag(8);
         output.WriteInt32(Time);
       }
-      if (Nextwave != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Nextwave);
-      }
-      events_.WriteTo(output, _repeated_events_codec);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8745,10 +8706,6 @@ namespace Pb {
       if (Time != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Time);
       }
-      if (Nextwave != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Nextwave);
-      }
-      size += events_.CalculateSize(_repeated_events_codec);
       return size;
     }
 
@@ -8760,10 +8717,6 @@ namespace Pb {
       if (other.Time != 0) {
         Time = other.Time;
       }
-      if (other.Nextwave != 0) {
-        Nextwave = other.Nextwave;
-      }
-      events_.Add(other.events_);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8776,14 +8729,6 @@ namespace Pb {
             break;
           case 8: {
             Time = input.ReadInt32();
-            break;
-          }
-          case 16: {
-            Nextwave = input.ReadInt32();
-            break;
-          }
-          case 26: {
-            events_.AddEntriesFrom(input, _repeated_events_codec);
             break;
           }
         }
