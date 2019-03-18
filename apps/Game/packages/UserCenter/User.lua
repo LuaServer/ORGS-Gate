@@ -10,6 +10,7 @@ local Talents = Data.Talents
 local Achvs = Data.Achvs
 local ADs = Data.ADs
 local Record = Data.Record
+local Signin = Data.Signin
 
 local ngx_now = ngx.now
 
@@ -79,6 +80,12 @@ function User:loadUser(db, instance, rid, lastTime, loginTime)
     local ads_data = self._ADs:Initialize(db, rid, lastTime, loginTime)
     if ads_data then
         instance:sendPack(self.id, "ADList", {items = ads_data})
+    end
+    
+    self._Signin = Signin:new()
+    local signin_data = self._Signin:Initialize(db, lastTime, loginTime, rid)
+    if signin_data then
+        instance:sendPack(self.id, "SigninRecord", signin_data)
     end
 end
 
