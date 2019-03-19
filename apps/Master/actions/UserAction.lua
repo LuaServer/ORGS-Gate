@@ -163,8 +163,4 @@ function UserAction:verifyAction(args, redis)
     return nil
 end
 
--- function UserAction:testAction()
---     return dbConfig.get("cfg_bind", 10010)
--- end
-
 return UserAction
