@@ -102,19 +102,19 @@ namespace Pb {
             "ASgFEgsKA3RpZBgEIAEoBRIcCghwb3NpdGlvbhgFIAEoCzIKLnBiLlZlY3Rv",
             "chIcCghyb3RhdGlvbhgGIAEoCzIKLnBiLlZlY3RvchIOCgZyb3V0ZXIYByAB",
             "KAkSEwoLcm91dGVySW5kZXgYCCABKAUSDwoHc3Bhd25lchgJIAEoCSIpCgxT",
-            "cGF3bmVyRXZlbnQSCgoCaWQYASABKAUSDQoFY291bnQYAiABKAUi4wIKCUJ1",
+            "cGF3bmVyRXZlbnQSCgoCaWQYASABKAUSDQoFY291bnQYAiABKAUi4AIKCUJ1",
             "aWxkRGF0YRILCgNjaWQYASABKAUSJgoFYnR5cGUYAiABKA4yFy5wYi5CdWls",
-            "ZERhdGEuQnVpbGRUeXBlEg4KBmhlYWx0aBgDIAEoBRITCgt1cGdyYWRlVGlt",
-            "ZRgEIAEoBRISCgpyZXBhaXJUaW1lGAUgASgFEiUKCmNvbXBvc2l0ZXMYBiAD",
-            "KAsyES5wYi5Db21wb3NpdGVJdGVtEhsKBXByb3BzGAcgAygLMgwucGIuSXRl",
-            "bURhdGESHQoHd2VhcG9ucxgIIAMoCzIMLnBiLkl0ZW1EYXRhIoQBCglCdWls",
-            "ZFR5cGUSCAoETm9uZRAAEgcKA0JlZBABEgoKBkR5bmFtbxACEg0KCVdvcmtC",
-            "ZW5jaBADEgsKB0tpdGNoZW4QBBIOCgpMYWJvcmF0b3J5EAUSEQoNTWVkaWNp",
-            "bmVDaGVzdBAGEg0KCVdhcmVIb3VzZRAHEgoKBkNvcHRlchAIIhwKDENhbGVu",
-            "ZGFyRGF0YRIMCgR0aW1lGAEgASgFIisKDENNaXNzaW9uSXRlbRIKCgJpZBgB",
-            "IAEoBRIPCgdwcm9jZXNzGAIgASgFIk8KDENNaXNzaW9uRGF0YRIKCgJpZBgB",
-            "IAEoBRIeCgRsaXN0GAIgAygLMhAucGIuQ01pc3Npb25JdGVtEhMKC3JlZnJl",
-            "c2hUaW1lGAMgASgFYgZwcm90bzM="));
+            "ZERhdGEuQnVpbGRUeXBlEg4KBmhlYWx0aBgDIAEoBRIPCgd0aW1lRW5kGAQg",
+            "ASgFEhMKC2J1aWxkU3RhdHVzGAUgASgFEiUKCmNvbXBvc2l0ZXMYBiADKAsy",
+            "ES5wYi5Db21wb3NpdGVJdGVtEhsKBXByb3BzGAcgAygLMgwucGIuSXRlbURh",
+            "dGESHQoHd2VhcG9ucxgIIAMoCzIMLnBiLkl0ZW1EYXRhIoQBCglCdWlsZFR5",
+            "cGUSCAoETm9uZRAAEgcKA0JlZBABEgoKBkR5bmFtbxACEg0KCVdvcmtCZW5j",
+            "aBADEgsKB0tpdGNoZW4QBBIOCgpMYWJvcmF0b3J5EAUSEQoNTWVkaWNpbmVD",
+            "aGVzdBAGEg0KCVdhcmVIb3VzZRAHEgoKBkNvcHRlchAIIhwKDENhbGVuZGFy",
+            "RGF0YRIMCgR0aW1lGAEgASgFIisKDENNaXNzaW9uSXRlbRIKCgJpZBgBIAEo",
+            "BRIPCgdwcm9jZXNzGAIgASgFIk8KDENNaXNzaW9uRGF0YRIKCgJpZBgBIAEo",
+            "BRIeCgRsaXN0GAIgAygLMhAucGIuQ01pc3Npb25JdGVtEhMKC3JlZnJlc2hU",
+            "aW1lGAMgASgFYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -164,7 +164,7 @@ namespace Pb {
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.PickupData), global::Pb.PickupData.Parser, new[]{ "Idstr", "Timing" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.EnemyData), global::Pb.EnemyData.Parser, new[]{ "Id", "Cid", "Health", "Tid", "Position", "Rotation", "Router", "RouterIndex", "Spawner" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.SpawnerEvent), global::Pb.SpawnerEvent.Parser, new[]{ "Id", "Count" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.BuildData), global::Pb.BuildData.Parser, new[]{ "Cid", "Btype", "Health", "UpgradeTime", "RepairTime", "Composites", "Props", "Weapons" }, null, new[]{ typeof(global::Pb.BuildData.Types.BuildType) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.BuildData), global::Pb.BuildData.Parser, new[]{ "Cid", "Btype", "Health", "TimeEnd", "BuildStatus", "Composites", "Props", "Weapons" }, null, new[]{ typeof(global::Pb.BuildData.Types.BuildType) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.CalendarData), global::Pb.CalendarData.Parser, new[]{ "Time" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.CMissionItem), global::Pb.CMissionItem.Parser, new[]{ "Id", "Process" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.CMissionData), global::Pb.CMissionData.Parser, new[]{ "Id", "List", "RefreshTime" }, null, null, null)
@@ -8303,8 +8303,8 @@ namespace Pb {
       cid_ = other.cid_;
       btype_ = other.btype_;
       health_ = other.health_;
-      upgradeTime_ = other.upgradeTime_;
-      repairTime_ = other.repairTime_;
+      timeEnd_ = other.timeEnd_;
+      buildStatus_ = other.buildStatus_;
       composites_ = other.composites_.Clone();
       props_ = other.props_.Clone();
       weapons_ = other.weapons_.Clone();
@@ -8348,25 +8348,25 @@ namespace Pb {
       }
     }
 
-    /// <summary>Field number for the "upgradeTime" field.</summary>
-    public const int UpgradeTimeFieldNumber = 4;
-    private int upgradeTime_;
+    /// <summary>Field number for the "timeEnd" field.</summary>
+    public const int TimeEndFieldNumber = 4;
+    private int timeEnd_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int UpgradeTime {
-      get { return upgradeTime_; }
+    public int TimeEnd {
+      get { return timeEnd_; }
       set {
-        upgradeTime_ = value;
+        timeEnd_ = value;
       }
     }
 
-    /// <summary>Field number for the "repairTime" field.</summary>
-    public const int RepairTimeFieldNumber = 5;
-    private int repairTime_;
+    /// <summary>Field number for the "buildStatus" field.</summary>
+    public const int BuildStatusFieldNumber = 5;
+    private int buildStatus_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int RepairTime {
-      get { return repairTime_; }
+    public int BuildStatus {
+      get { return buildStatus_; }
       set {
-        repairTime_ = value;
+        buildStatus_ = value;
       }
     }
 
@@ -8422,8 +8422,8 @@ namespace Pb {
       if (Cid != other.Cid) return false;
       if (Btype != other.Btype) return false;
       if (Health != other.Health) return false;
-      if (UpgradeTime != other.UpgradeTime) return false;
-      if (RepairTime != other.RepairTime) return false;
+      if (TimeEnd != other.TimeEnd) return false;
+      if (BuildStatus != other.BuildStatus) return false;
       if(!composites_.Equals(other.composites_)) return false;
       if(!props_.Equals(other.props_)) return false;
       if(!weapons_.Equals(other.weapons_)) return false;
@@ -8436,8 +8436,8 @@ namespace Pb {
       if (Cid != 0) hash ^= Cid.GetHashCode();
       if (Btype != 0) hash ^= Btype.GetHashCode();
       if (Health != 0) hash ^= Health.GetHashCode();
-      if (UpgradeTime != 0) hash ^= UpgradeTime.GetHashCode();
-      if (RepairTime != 0) hash ^= RepairTime.GetHashCode();
+      if (TimeEnd != 0) hash ^= TimeEnd.GetHashCode();
+      if (BuildStatus != 0) hash ^= BuildStatus.GetHashCode();
       hash ^= composites_.GetHashCode();
       hash ^= props_.GetHashCode();
       hash ^= weapons_.GetHashCode();
@@ -8463,13 +8463,13 @@ namespace Pb {
         output.WriteRawTag(24);
         output.WriteInt32(Health);
       }
-      if (UpgradeTime != 0) {
+      if (TimeEnd != 0) {
         output.WriteRawTag(32);
-        output.WriteInt32(UpgradeTime);
+        output.WriteInt32(TimeEnd);
       }
-      if (RepairTime != 0) {
+      if (BuildStatus != 0) {
         output.WriteRawTag(40);
-        output.WriteInt32(RepairTime);
+        output.WriteInt32(BuildStatus);
       }
       composites_.WriteTo(output, _repeated_composites_codec);
       props_.WriteTo(output, _repeated_props_codec);
@@ -8488,11 +8488,11 @@ namespace Pb {
       if (Health != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Health);
       }
-      if (UpgradeTime != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(UpgradeTime);
+      if (TimeEnd != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(TimeEnd);
       }
-      if (RepairTime != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(RepairTime);
+      if (BuildStatus != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(BuildStatus);
       }
       size += composites_.CalculateSize(_repeated_composites_codec);
       size += props_.CalculateSize(_repeated_props_codec);
@@ -8514,11 +8514,11 @@ namespace Pb {
       if (other.Health != 0) {
         Health = other.Health;
       }
-      if (other.UpgradeTime != 0) {
-        UpgradeTime = other.UpgradeTime;
+      if (other.TimeEnd != 0) {
+        TimeEnd = other.TimeEnd;
       }
-      if (other.RepairTime != 0) {
-        RepairTime = other.RepairTime;
+      if (other.BuildStatus != 0) {
+        BuildStatus = other.BuildStatus;
       }
       composites_.Add(other.composites_);
       props_.Add(other.props_);
@@ -8546,11 +8546,11 @@ namespace Pb {
             break;
           }
           case 32: {
-            UpgradeTime = input.ReadInt32();
+            TimeEnd = input.ReadInt32();
             break;
           }
           case 40: {
-            RepairTime = input.ReadInt32();
+            BuildStatus = input.ReadInt32();
             break;
           }
           case 50: {

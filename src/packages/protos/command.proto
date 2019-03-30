@@ -411,8 +411,8 @@ message BuildData{
 	int32 cid = 1;
 	BuildType btype = 2;
 	int32 health = 3;
-	int32 upgradeTime = 4;
-	int32 repairTime = 5;
+	int32 timeEnd = 4;
+	int32 buildStatus = 5;
 	repeated CompositeItem composites = 6;
 	repeated ItemData props = 7; //仓库中才使用
 	repeated ItemData weapons = 8; //仓库中才使用
