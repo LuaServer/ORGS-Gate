@@ -154,17 +154,11 @@ message Props{
 }
 
 message Chapter{
-	enum Status{
-		Opened = 0; //此状态可以直接进入
-		//大于0的表示已经通过过的星级
-	}
 	int32 id = 1;
 	int32 rid = 2;
-	int32 cid = 3;
-	int32 status = 4;
-	bytes record1 = 5;
-	bytes record2 = 6;
-	bytes record3 = 7;
+	int32 type = 3;
+	int32 count = 4;
+	int32 totalCount = 5;
 }
 
 message Chapters{

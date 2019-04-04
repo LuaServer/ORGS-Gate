@@ -2,25 +2,21 @@
 local Struct = {
     id = 0,
     rid = 0,
-    cid = 0,
-    status = 0, --章节状态， 0未解锁，1已经解锁，2已经完成
-    record1 = "",
-    record2 = "",
-    record3 = "",
+    type = 0,
+    count = 0, --完成次数
+    totalCount = 0, --总次数
 }
 
 local Define = {
     id = "int NOT NULL AUTO_INCREMENT PRIMARY KEY",
     rid = "int NOT NULL",
-    cid = "int NOT NULL",
-    status = "int NOT NULL",
-    record1 = "longblob NOT NULL",
-    record2 = "longblob NOT NULL",
-    record3 = "longblob NOT NULL",
+    type = "int NOT NULL",
+    count = "int NOT NULL",
+    totalCount = "int NOT NULL",
 }
 
 local Indexes = {
-    "UNIQUE KEY `crid` (`cid`, `rid`)  USING HASH",
+    "UNIQUE KEY `crid` (`type`, `rid`)  USING HASH",
 }
 
 return {

@@ -8,78 +8,50 @@ function Chapters:createItem()
     return Chapter:new()
 end
 
-function Chapters:Initialize(db, rid)
-    local cfgs = dbConfig.getAll("cfg_chapter", {preID = 0, price = 0})
-    local template = self:getTemplate()
-    --插入所有需要插入的成就
-    for _, cfg in ipairs(cfgs) do
-        template:insertQuery(db, {rid = rid, cid = cfg.id, record1 = "", record2 = "", record3 = ""})
+function Chapters:Initialize(db, rid, lastTime, loginTime)
+    if not db or not lastTime or not loginTime or not rid then
+        return nil, "NoParam"
+    end
+    
+    local loginDate = os.date("*t", loginTime)
+    local lastDate = os.date("*t", lastTime)
+    
+    if loginDate.year ~= lastDate.year or loginDate.yday ~= lastDate.yday then
+        local template = self:getTemplate()
+        template:updateQuery(db, {rid = rid}, {count = 0})
     end
     return self:load(db, {
         rid = rid,
     })
 end
 
-function Chapters:AddChapter(db, rid, preID)
-    local cfgs = dbConfig.getAll("cfg_chapter", {preID = preID, price = 0})
-    local template = self:getTemplate()
-    --插入所有需要插入的成就
-    local datas = {}
-    for _, cfg in ipairs(cfgs) do
-        --检查是否已经拥有
-        local chapter = self:getByCID(cfg.id)
-        if chapter == nil then
-            template:insertQuery(db, {rid = rid, cid = cfg.id, record1 = "", record2 = "", record3 = ""})
-            local result = self:load(db, {
-                rid = rid,
-                cid = cfg.id,
-            })
-            if result and #result > 0 then
-                table.insert(datas, result[1])
-            end
+function Chapters:Finish(db, rid, chapter_id, role_level, _star)
+    local chapter_cfg = dbConfig.get("cfg_chapter", chapter_id)
+    if chapter_cfg == nil then
+        return nil, "NoParam"
+    end
+    
+    local clevel_cfgs = dbConfig.getAll("cfg_chapter_level", {
+        level = role_level,
+        type = chapter_cfg.type,
+    })
+    if clevel_cfgs == nil or #clevel_cfgs == 0 then
+        return nil, "NoParam"
+    end
+    
+    local item = self:getByCID(chapter_cfg.type)
+    if item == nil then
+        local template = self:getTemplate()
+        local result = template:insertQuery(db, {rid = rid, type = chapter_cfg.type, count = 1, totalCount = 1})
+        if result and result.insert_id then
+            return self:load(db, {id = result.insert_id}), nil, clevel_cfgs[1]
         end
-    end
-    return datas
-end
-
-function Chapters:Save(id, seq, record)
-    if not id or not seq or not record then
-        return nil, "NoParam"
-    end
-    
-    local chapter = self:getByCID(id)
-    if not chapter then
-        return nil, "NoAccept"
-    end
-    
-    if 1 == seq then
-        chapter:set("record1", record)
-    elseif 2 == seq then
-        chapter:set("record2", record)
     else
-        chapter:set("record3", record)
+        item:add("count", 1)
+        item:add("totalCount", 1)
+        return {item:get()}, nil, clevel_cfgs[1]
     end
-    return chapter:get()
-end
-
-function Chapters:ChangeStatus(id, status)
-    if not id or not status then
-        return nil, "NoParam"
-    end
-    local chapter = self:getByCID(id)
-    if not chapter then
-        return nil, "NoAccept"
-    end
-    local chapter_data = chapter:get()
-    
-    --未超过旧的评价
-    if chapter_data.status >= status then
-        return nil, "NoAccept"
-    end
-    
-    chapter:set("status", status)
-    
-    return chapter:get(), nil, true
+    return nil, "NoParam"
 end
 
 return Chapters

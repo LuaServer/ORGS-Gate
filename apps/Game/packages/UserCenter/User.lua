@@ -39,7 +39,7 @@ function User:loadUser(db, instance, rid, lastTime, loginTime)
     
     --章节数据
     self._Chatpers = Chapters:new()
-    local chapters_data = self._Chatpers:Initialize(db, rid)
+    local chapters_data = self._Chatpers:Initialize(db, rid, lastTime, loginTime)
     if chapters_data then
         instance:sendPack(self.id, "Chapters", {items = chapters_data})
     end
@@ -431,6 +431,7 @@ function User:onFinishChapter(db, msg, instance, msgid)
     end
     
     local rid = self._Role:get("id")
+    local level = self._Role:get("level")
     
     if msg.star > 0 then
         self:onMissionEvent(db, {
@@ -442,38 +443,18 @@ function User:onFinishChapter(db, msg, instance, msgid)
         }, instance, msgid)
     end
     
-    local data, err, addNew = self._Chatpers:ChangeStatus(msg.cid, msg.star)
+    local data, err, level_cfg = self._Chatpers:Finish(db, rid, msg.cid, level, msg.star)
     if err then
         instance:sendError(self.id, err, msgid)
         return false
     end
     
-    instance:sendPack(self.id, "Chapters", {items = {data}}, msgid)
-    if addNew then
-        local chapters_data = self._Chatpers:AddChapter(db, rid, msg.cid)
-        if chapters_data and #chapters_data > 0 then
-            instance:sendPack(self.id, "Chapters", {items = chapters_data}, msgid)
-        end
+    --回传章节数据
+    instance:sendPack(self.id, "Chapters", {items = data}, msgid)
+    if level_cfg then
+        --获取奖励
     end
 end
-
---保存存档
--- function User:onMapRecordSave(db, msg, instance, msgid)
---     if not db or not msg or not instance then
---         instance:sendError(self.id, "NoParam", msgid)
---         return false
---     end
---     if not self._Chatpers then
---         instance:sendError(self.id, "OperationNotPermit", msgid)
---         return false
---     end
---     local data, err = self._Chatpers:Save(msg.id, msg.seq, msg.record)
---     if err then
---         instance:sendError(self.id, err, msgid)
---         return false
---     end
---     instance:sendPack(self.id, "Chapters", {items = {data}}, msgid)
--- end
 
 --保存玩家数据
 function User:onRecordSave(db, msg, instance, msgid)
