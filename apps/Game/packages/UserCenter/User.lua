@@ -19,6 +19,9 @@ local Constants = gbc.Constants
 
 -- local dbConfig = cc.import("#dbConfig")
 
+local parse = cc.import("#parse")
+local ParseConfig = parse.ParseConfig
+
 local netpack = cc.import("#netpack")
 local net_encode = netpack.encode
 
@@ -222,6 +225,26 @@ function User:onCreateRole(db, msg, instance, msgid)
     role:set("loginTime", ngx_now())
 end
 
+function User:AddRewards(db, instance, msgid, rewards)
+    local rid = self._Role:get("id")
+    
+    local rewardList = ParseConfig.ParseRewards(rewards)
+    
+    --添加钻石或者科技点
+    self._Role:AddRewards(rewardList)
+    
+    local items, err = self._Props:AddRewards(db, rewardList, rid)
+    if err then
+        instance:sendError(self.id, err, msgid)
+    end
+    if items then
+        instance:sendPack(self.id, "Props", {items = items}, msgid)
+    end
+    
+    instance:sendPack(self.id, "Rewards", {items = rewardList}, msgid)
+    instance:sendPack(self.id, "Role", self._Role:get(), msgid)
+end
+
 ----
 --观看广告
 function User:onADShow(db, msg, instance, msgid)
@@ -244,18 +267,7 @@ function User:onADShow(db, msg, instance, msgid)
     end
     
     instance:sendPack(self.id, "ADList", {items = {ad_data}}, msgid)
-    
-    local items, err, rewards = self._Props:AddRewards(db, cfg.rewards, self._Role)
-    if err then
-        instance:sendError(self.id, err, msgid)
-    end
-    if items then
-        instance:sendPack(self.id, "Props", {items = items}, msgid)
-    end
-    if items then
-        instance:sendPack(self.id, "Rewards", {items = rewards}, msgid)
-    end
-    instance:sendPack(self.id, "Role", self._Role:get(), msgid)
+    self:AddRewards(db, instance, msgid, cfg.rewards)
 end
 
 --商店购买
@@ -278,20 +290,8 @@ function User:onShopBuy(db, msg, instance, msgid)
     end
     
     if cfg then
-        --增加任务奖励
-        local items, err, rewards = self._Props:AddRewards(db, cfg.items, self._Role)
-        if err then
-            instance:sendError(self.id, err, msgid)
-        end
-        if items then
-            instance:sendPack(self.id, "Props", {items = items}, msgid)
-        end
-        if items then
-            instance:sendPack(self.id, "Rewards", {items = rewards}, msgid)
-        end
-        --使用钻石
         self:useDiamond(db, cfg.price_diamond, instance, msgid)
-        instance:sendPack(self.id, "Role", self._Role:get(), msgid)
+        self:AddRewards(db, instance, msgid, cfg.items)
     end
     instance:sendPack(self.id, "ShopRecord", self._Shop:get(), msgid)
 end
@@ -314,16 +314,8 @@ function User:onFinishMission(db, msg, instance, msgid)
         return false
     end
     instance:sendPack(self.id, "MissionList", {items = {data}}, msgid)
-    if cfg and cfg.rewards and self._Props then
-        --增加任务奖励
-        local items, err, rewards = self._Props:AddRewards(db, cfg.rewards, self._Role)
-        if err then
-            instance:sendError(self.id, err, msgid)
-            return false
-        end
-        instance:sendPack(self.id, "Props", {items = items}, msgid)
-        instance:sendPack(self.id, "Role", self._Role:get(), msgid)
-        instance:sendPack(self.id, "Rewards", {items = rewards}, msgid)
+    if cfg then
+        self:AddRewards(db, instance, msgid, cfg.rewards)
     end
     
     --完成日常任务数
@@ -353,16 +345,9 @@ function User:onFinishAchv(db, msg, instance, msgid)
         return false
     end
     instance:sendPack(self.id, "AchvList", {items = {data}}, msgid)
-    if cfg and cfg.rewards and self._Props then
-        --增加任务奖励
-        local items, err, rewards = self._Props:AddRewards(db, cfg.rewards, self._Role)
-        if err then
-            instance:sendError(self.id, err, msgid)
-            return false
-        end
-        instance:sendPack(self.id, "Props", {items = items}, msgid)
-        instance:sendPack(self.id, "Role", self._Role:get(), msgid)
-        instance:sendPack(self.id, "Rewards", {items = rewards}, msgid)
+    if cfg then
+        self:AddRewards(db, instance, msgid, cfg.rewards)
+        
         local rid = self._Role:get("id")
         local newAchvs = self._Achvs:insertAchvs(db, rid, cfg.id)
         --新解锁的成就
@@ -430,8 +415,9 @@ function User:onFinishChapter(db, msg, instance, msgid)
         return false
     end
     
-    local rid = self._Role:get("id")
-    local level = self._Role:get("level")
+    local role = self._Role;
+    local rid = role:get("id")
+    local level = role:get("level")
     
     if msg.star > 0 then
         self:onMissionEvent(db, {
@@ -452,7 +438,9 @@ function User:onFinishChapter(db, msg, instance, msgid)
     --回传章节数据
     instance:sendPack(self.id, "Chapters", {items = data}, msgid)
     if level_cfg then
-        --获取奖励
+        --增加经验
+        role:AddExp(level_cfg.exp)
+        self:AddRewards(db, instance, msgid, level_cfg.rewards)
     end
 end
 

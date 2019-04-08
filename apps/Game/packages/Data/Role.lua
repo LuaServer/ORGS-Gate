@@ -3,7 +3,7 @@ local Role = cc.class("Role", Base)
 
 local Table = cc.import("#Table", ...)
 
---local dbConfig = cc.import("#dbConfig")
+local dbConfig = cc.import("#dbConfig")
 
 function Role:ctor()
     Role.super.ctor(self, Table.Role)
@@ -41,6 +41,34 @@ function Role:Create(db, pid, nickname, cid)
         return nil, "DBError"
     end
     return self:load(db, {id = result.insert_id})
+end
+
+function Role:AddExp(exp_add)
+    local level = self:get("level")
+    local exp = self:get("exp")
+    local cfg = dbConfig.get("cfg_levelup", level)
+    if cfg == nil then
+        self:add("exp", exp_add)
+    else
+        local need = cfg.exp - exp
+        if need > exp_add then
+            self:add("exp", exp_add)
+        else
+            self:add("level", 1)
+            self:set("exp", 0)
+            self:AddExp(exp_add - need)
+        end
+    end
+end
+
+function Role:AddRewards(items)
+    for _, item in ipairs(items) do
+        if 1 == item.tp then
+            self:add("diamond", item.count)
+        elseif 2 == item.tp then
+            self:add("techPoint", item.count)
+        end
+    end
 end
 
 return Role

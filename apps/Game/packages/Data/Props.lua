@@ -85,14 +85,8 @@ function Props:UseItems(items_str)
     return list
 end
 
-function Props:AddItem(db, item, role)
-    if 1 == item.tp then
-        --钻石
-        role:add("diamond", item.count)
-    elseif 2 == item.tp then
-        --科技点
-        role:add("techPoint", item.count)
-    else
+function Props:AddItem(db, item, rid)
+    if 3 == item.tp then
         local cid = item.id
         local count = item.count
         local prop = self:getByCID(cid)
@@ -104,8 +98,6 @@ function Props:AddItem(db, item, role)
             if cfg == nil then
                 return nil, "NoneConfigID"
             end
-            
-            local rid = role:get("id")
             prop = self:get()
             local result, err = prop:insertQuery(db, {
                 rid = rid,
@@ -130,19 +122,18 @@ function Props:AddItem(db, item, role)
     return nil, "OperationNotPermit"
 end
 
-function Props:AddRewards(db, items, role)
-    if not items or not role or not db then
+function Props:AddRewards(db, items, rid)
+    if not items or not rid or not db then
         return nil, "NoParam"
     end
     local itemlist = {}
-    local rewards = ParseConfig.ParseRewards(items)
-    for _, item in ipairs(rewards) do
-        local data, _err = self:AddItem(db, item, role)
+    for _, item in ipairs(items) do
+        local data, _err = self:AddItem(db, item, rid)
         if data then
             table.insert(itemlist, data)
         end
     end
-    return itemlist, nil, rewards
+    return itemlist, nil
 end
 
 return Props
