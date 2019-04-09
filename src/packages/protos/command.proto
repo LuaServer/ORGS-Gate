@@ -329,6 +329,7 @@ message PlayerRecord{
 	Vector Position = 5;
 	repeated ItemData equipedProps = 6;
 	repeated ItemData equipedWeapons = 7;
+	int32 energy = 8;
 }
 
 message HomeRecord{

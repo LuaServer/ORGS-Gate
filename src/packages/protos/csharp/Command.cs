@@ -81,39 +81,39 @@ namespace Pb {
             "IAEoBRIQCghidXlUaW1lcxgDIAEoBSIsCg1Db21wb3NpdGVJdGVtEgoKAmlk",
             "GAEgASgFEg8KB3RpbWVFbmQYAiABKAUiQwoISXRlbURhdGESCgoCaWQYASAB",
             "KAUSDQoFY291bnQYAiABKAUSCgoCaHAYAyABKAUSEAoIbG9jYXRpb24YBCAB",
-            "KAUi0wEKDFBsYXllclJlY29yZBIOCgZoZWFsdGgYASABKAUSDwoHc3RhbWlu",
+            "KAUi4wEKDFBsYXllclJlY29yZBIOCgZoZWFsdGgYASABKAUSDwoHc3RhbWlu",
             "YRgCIAEoBRIbCgVwcm9wcxgDIAMoCzIMLnBiLkl0ZW1EYXRhEh0KB3dlYXBv",
             "bnMYBCADKAsyDC5wYi5JdGVtRGF0YRIcCghQb3NpdGlvbhgFIAEoCzIKLnBi",
             "LlZlY3RvchIiCgxlcXVpcGVkUHJvcHMYBiADKAsyDC5wYi5JdGVtRGF0YRIk",
-            "Cg5lcXVpcGVkV2VhcG9ucxgHIAMoCzIMLnBiLkl0ZW1EYXRhIuwBCgpIb21l",
-            "UmVjb3JkEh0KBmJ1aWxkcxgCIAMoCzINLnBiLkJ1aWxkRGF0YRIMCgR0aW1l",
-            "GAMgASgDEg4KBmF1dG9pZBgEIAEoBRIiCghjYWxlbmRhchgFIAEoCzIQLnBi",
-            "LkNhbGVuZGFyRGF0YRIiCghtaXNzaW9ucxgGIAMoCzIQLnBiLkNNaXNzaW9u",
-            "RGF0YRIZCgRvcmVzGAcgAygLMgsucGIuT3JlRGF0YRIfCgdwaWNrdXBzGAgg",
-            "AygLMg4ucGIuUGlja3VwRGF0YRIdCgZlbmVteXMYCSADKAsyDS5wYi5FbmVt",
-            "eURhdGEiYwoKUmVjb3JkSXRlbRIjCgJ0cBgBIAEoDjIXLnBiLlJlY29yZEl0",
-            "ZW0uU2F2ZVR5cGUSDgoGcmVjb3JkGAIgASgMIiAKCFNhdmVUeXBlEgoKBlBs",
-            "YXllchAAEggKBEhvbWUQASIrCgpSZWNvcmRTYXZlEh0KBWl0ZW1zGAEgAygL",
-            "Mg4ucGIuUmVjb3JkSXRlbSI4CgdPcmVEYXRhEg0KBWlkc3RyGAEgASgJEg4K",
-            "BnRpbWluZxgCIAEoAhIOCgZoZWFsdGgYAyABKAUiKwoKUGlja3VwRGF0YRIN",
-            "CgVpZHN0chgBIAEoCRIOCgZ0aW1pbmcYAiABKAIiswEKCUVuZW15RGF0YRIK",
-            "CgJpZBgBIAEoBRILCgNjaWQYAiABKAUSDgoGaGVhbHRoGAMgASgFEgsKA3Rp",
-            "ZBgEIAEoBRIcCghwb3NpdGlvbhgFIAEoCzIKLnBiLlZlY3RvchIcCghyb3Rh",
-            "dGlvbhgGIAEoCzIKLnBiLlZlY3RvchIOCgZyb3V0ZXIYByABKAkSEwoLcm91",
-            "dGVySW5kZXgYCCABKAUSDwoHc3Bhd25lchgJIAEoCSIpCgxTcGF3bmVyRXZl",
-            "bnQSCgoCaWQYASABKAUSDQoFY291bnQYAiABKAUi4AIKCUJ1aWxkRGF0YRIL",
-            "CgNjaWQYASABKAUSJgoFYnR5cGUYAiABKA4yFy5wYi5CdWlsZERhdGEuQnVp",
-            "bGRUeXBlEg4KBmhlYWx0aBgDIAEoBRIPCgd0aW1lRW5kGAQgASgFEhMKC2J1",
-            "aWxkU3RhdHVzGAUgASgFEiUKCmNvbXBvc2l0ZXMYBiADKAsyES5wYi5Db21w",
-            "b3NpdGVJdGVtEhsKBXByb3BzGAcgAygLMgwucGIuSXRlbURhdGESHQoHd2Vh",
-            "cG9ucxgIIAMoCzIMLnBiLkl0ZW1EYXRhIoQBCglCdWlsZFR5cGUSCAoETm9u",
-            "ZRAAEgcKA0JlZBABEgoKBkR5bmFtbxACEg0KCVdvcmtCZW5jaBADEgsKB0tp",
-            "dGNoZW4QBBIOCgpMYWJvcmF0b3J5EAUSEQoNTWVkaWNpbmVDaGVzdBAGEg0K",
-            "CVdhcmVIb3VzZRAHEgoKBkNvcHRlchAIIhwKDENhbGVuZGFyRGF0YRIMCgR0",
-            "aW1lGAEgASgFIisKDENNaXNzaW9uSXRlbRIKCgJpZBgBIAEoBRIPCgdwcm9j",
-            "ZXNzGAIgASgFIk8KDENNaXNzaW9uRGF0YRIKCgJpZBgBIAEoBRIeCgRsaXN0",
-            "GAIgAygLMhAucGIuQ01pc3Npb25JdGVtEhMKC3JlZnJlc2hUaW1lGAMgASgF",
-            "YgZwcm90bzM="));
+            "Cg5lcXVpcGVkV2VhcG9ucxgHIAMoCzIMLnBiLkl0ZW1EYXRhEg4KBmVuZXJn",
+            "eRgIIAEoBSLsAQoKSG9tZVJlY29yZBIdCgZidWlsZHMYAiADKAsyDS5wYi5C",
+            "dWlsZERhdGESDAoEdGltZRgDIAEoAxIOCgZhdXRvaWQYBCABKAUSIgoIY2Fs",
+            "ZW5kYXIYBSABKAsyEC5wYi5DYWxlbmRhckRhdGESIgoIbWlzc2lvbnMYBiAD",
+            "KAsyEC5wYi5DTWlzc2lvbkRhdGESGQoEb3JlcxgHIAMoCzILLnBiLk9yZURh",
+            "dGESHwoHcGlja3VwcxgIIAMoCzIOLnBiLlBpY2t1cERhdGESHQoGZW5lbXlz",
+            "GAkgAygLMg0ucGIuRW5lbXlEYXRhImMKClJlY29yZEl0ZW0SIwoCdHAYASAB",
+            "KA4yFy5wYi5SZWNvcmRJdGVtLlNhdmVUeXBlEg4KBnJlY29yZBgCIAEoDCIg",
+            "CghTYXZlVHlwZRIKCgZQbGF5ZXIQABIICgRIb21lEAEiKwoKUmVjb3JkU2F2",
+            "ZRIdCgVpdGVtcxgBIAMoCzIOLnBiLlJlY29yZEl0ZW0iOAoHT3JlRGF0YRIN",
+            "CgVpZHN0chgBIAEoCRIOCgZ0aW1pbmcYAiABKAISDgoGaGVhbHRoGAMgASgF",
+            "IisKClBpY2t1cERhdGESDQoFaWRzdHIYASABKAkSDgoGdGltaW5nGAIgASgC",
+            "IrMBCglFbmVteURhdGESCgoCaWQYASABKAUSCwoDY2lkGAIgASgFEg4KBmhl",
+            "YWx0aBgDIAEoBRILCgN0aWQYBCABKAUSHAoIcG9zaXRpb24YBSABKAsyCi5w",
+            "Yi5WZWN0b3ISHAoIcm90YXRpb24YBiABKAsyCi5wYi5WZWN0b3ISDgoGcm91",
+            "dGVyGAcgASgJEhMKC3JvdXRlckluZGV4GAggASgFEg8KB3NwYXduZXIYCSAB",
+            "KAkiKQoMU3Bhd25lckV2ZW50EgoKAmlkGAEgASgFEg0KBWNvdW50GAIgASgF",
+            "IuACCglCdWlsZERhdGESCwoDY2lkGAEgASgFEiYKBWJ0eXBlGAIgASgOMhcu",
+            "cGIuQnVpbGREYXRhLkJ1aWxkVHlwZRIOCgZoZWFsdGgYAyABKAUSDwoHdGlt",
+            "ZUVuZBgEIAEoBRITCgtidWlsZFN0YXR1cxgFIAEoBRIlCgpjb21wb3NpdGVz",
+            "GAYgAygLMhEucGIuQ29tcG9zaXRlSXRlbRIbCgVwcm9wcxgHIAMoCzIMLnBi",
+            "Lkl0ZW1EYXRhEh0KB3dlYXBvbnMYCCADKAsyDC5wYi5JdGVtRGF0YSKEAQoJ",
+            "QnVpbGRUeXBlEggKBE5vbmUQABIHCgNCZWQQARIKCgZEeW5hbW8QAhINCglX",
+            "b3JrQmVuY2gQAxILCgdLaXRjaGVuEAQSDgoKTGFib3JhdG9yeRAFEhEKDU1l",
+            "ZGljaW5lQ2hlc3QQBhINCglXYXJlSG91c2UQBxIKCgZDb3B0ZXIQCCIcCgxD",
+            "YWxlbmRhckRhdGESDAoEdGltZRgBIAEoBSIrCgxDTWlzc2lvbkl0ZW0SCgoC",
+            "aWQYASABKAUSDwoHcHJvY2VzcxgCIAEoBSJPCgxDTWlzc2lvbkRhdGESCgoC",
+            "aWQYASABKAUSHgoEbGlzdBgCIAMoCzIQLnBiLkNNaXNzaW9uSXRlbRITCgty",
+            "ZWZyZXNoVGltZRgDIAEoBWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -155,7 +155,7 @@ namespace Pb {
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.ShopRecord), global::Pb.ShopRecord.Parser, new[]{ "Id", "Rid", "BuyTimes" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.CompositeItem), global::Pb.CompositeItem.Parser, new[]{ "Id", "TimeEnd" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.ItemData), global::Pb.ItemData.Parser, new[]{ "Id", "Count", "Hp", "Location" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.PlayerRecord), global::Pb.PlayerRecord.Parser, new[]{ "Health", "Stamina", "Props", "Weapons", "Position", "EquipedProps", "EquipedWeapons" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.PlayerRecord), global::Pb.PlayerRecord.Parser, new[]{ "Health", "Stamina", "Props", "Weapons", "Position", "EquipedProps", "EquipedWeapons", "Energy" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.HomeRecord), global::Pb.HomeRecord.Parser, new[]{ "Builds", "Time", "Autoid", "Calendar", "Missions", "Ores", "Pickups", "Enemys" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.RecordItem), global::Pb.RecordItem.Parser, new[]{ "Tp", "Record" }, null, new[]{ typeof(global::Pb.RecordItem.Types.SaveType) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.RecordSave), global::Pb.RecordSave.Parser, new[]{ "Items" }, null, null, null),
@@ -6544,6 +6544,7 @@ namespace Pb {
       Position = other.position_ != null ? other.Position.Clone() : null;
       equipedProps_ = other.equipedProps_.Clone();
       equipedWeapons_ = other.equipedWeapons_.Clone();
+      energy_ = other.energy_;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6624,6 +6625,17 @@ namespace Pb {
       get { return equipedWeapons_; }
     }
 
+    /// <summary>Field number for the "energy" field.</summary>
+    public const int EnergyFieldNumber = 8;
+    private int energy_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Energy {
+      get { return energy_; }
+      set {
+        energy_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as PlayerRecord);
@@ -6644,6 +6656,7 @@ namespace Pb {
       if (!object.Equals(Position, other.Position)) return false;
       if(!equipedProps_.Equals(other.equipedProps_)) return false;
       if(!equipedWeapons_.Equals(other.equipedWeapons_)) return false;
+      if (Energy != other.Energy) return false;
       return true;
     }
 
@@ -6657,6 +6670,7 @@ namespace Pb {
       if (position_ != null) hash ^= Position.GetHashCode();
       hash ^= equipedProps_.GetHashCode();
       hash ^= equipedWeapons_.GetHashCode();
+      if (Energy != 0) hash ^= Energy.GetHashCode();
       return hash;
     }
 
@@ -6683,6 +6697,10 @@ namespace Pb {
       }
       equipedProps_.WriteTo(output, _repeated_equipedProps_codec);
       equipedWeapons_.WriteTo(output, _repeated_equipedWeapons_codec);
+      if (Energy != 0) {
+        output.WriteRawTag(64);
+        output.WriteInt32(Energy);
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6701,6 +6719,9 @@ namespace Pb {
       }
       size += equipedProps_.CalculateSize(_repeated_equipedProps_codec);
       size += equipedWeapons_.CalculateSize(_repeated_equipedWeapons_codec);
+      if (Energy != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Energy);
+      }
       return size;
     }
 
@@ -6725,6 +6746,9 @@ namespace Pb {
       }
       equipedProps_.Add(other.equipedProps_);
       equipedWeapons_.Add(other.equipedWeapons_);
+      if (other.Energy != 0) {
+        Energy = other.Energy;
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6764,6 +6788,10 @@ namespace Pb {
           }
           case 58: {
             equipedWeapons_.AddEntriesFrom(input, _repeated_equipedWeapons_codec);
+            break;
+          }
+          case 64: {
+            Energy = input.ReadInt32();
             break;
           }
         }
