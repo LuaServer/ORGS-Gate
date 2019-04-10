@@ -47,6 +47,8 @@ local _M = {
 			FinishMission = 11,
 			FinishChapter = 12,
 			MakeEquip = 13,
+			NpcDialog = 14,
+			NPC = 15,
 		},
 	},
 	RecordItem={

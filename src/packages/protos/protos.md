@@ -201,6 +201,8 @@ message MissionEvent{
 		FinishMission = 11; //完成任务
 		FinishChapter = 12; //通过章节
 		MakeEquip = 13; //制作装备
+		NpcDialog = 14; //NPC对话
+		NpcRescue = 15; //NPC拯救
 	}
 
 	int32 action_id = 1;
