@@ -40,7 +40,7 @@ local json = cc.import("#json")
 
 local Session = cc.class("Session")
 
-local _DEFAULT_EXPIRED = 60 * 60 * 24 -- 5分钟
+local _DEFAULT_EXPIRED = 60 * 5 -- 5分钟
 local _DEFAULT_SID_KEY_PREFIX = "_SID_"
 local _DEFAULT_SECRET = "1b876ea6"
 
