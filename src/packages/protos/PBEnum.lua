@@ -49,6 +49,7 @@ local _M = {
 			MakeEquip = 13,
 			NpcDialog = 14,
 			NPC = 15,
+			NPC = 16,
 		},
 	},
 	RecordItem={

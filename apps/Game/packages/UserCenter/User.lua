@@ -112,11 +112,11 @@ function User:Login(db, instance)
         return false
     end
     self._Role = role
-    local diamond = role:get("diamond")
+    -- local diamond = role:get("diamond")
     
-    if diamond < 30000 then
-        role:add("diamond", 15000)
-    end
+    -- if diamond < 30000 then
+    --     role:add("diamond", 15000)
+    -- end
     
     self:loadUser(db, instance, role:get("id"), role:get("loginTime"), ngx_now())
     role:set("loginTime", ngx_now())

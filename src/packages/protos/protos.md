@@ -203,6 +203,7 @@ message MissionEvent{
 		MakeEquip = 13; //制作装备
 		NpcDialog = 14; //NPC对话
 		NpcRescue = 15; //NPC拯救
+		OpenDoor = 16; //打开门
 	}
 
 	int32 action_id = 1;

@@ -1,2 +1,2 @@
 #!/bin/bash
-ssh ubuntu@193.112.129.19 
+sshpass -p 'qcfs_20180628' ssh ubuntu@193.112.129.19
