@@ -170,6 +170,7 @@ message GameRecord{
 	int32 rid = 2;
 	bytes home = 3; //家的数据
 	bytes player = 4; //玩家数据
+	bytes missions = 5; //任务数据
 }
 
 //完成任务
@@ -193,7 +194,7 @@ message MissionEvent{
 		UseDiamond = 6; //使用钻石
 		UseTech = 7; //使用科技点
 		UseItem = 8; //使用道具
-		UpgradeTech = 9; //提升科技
+		Sleep = 9; //提升科技
 		UpgradeTalent = 10; //提升天赋
 		FinishMission = 11; //完成任务
 		FinishChapter = 12; //通过章节
@@ -335,22 +336,27 @@ message PlayerRecord{
 	int32 energy = 8;
 }
 
+//家的数据
 message HomeRecord{
-	//repeated TowerData towers = 1; // 塔数据
-	repeated BuildData builds = 2; //建筑数据
-	int64 time = 3; //时间
-	int32 autoid = 4; //分配的序号id
-	CalendarData calendar = 5; //日历信息
-	repeated CMissionData missions = 6; //任务列表
-	repeated OreData ores = 7; //矿
-	repeated PickupData pickups = 8; //拾取
-	repeated EnemyData enemys = 9; //敌人
+	repeated BuildData builds = 1; //建筑数据
+	int64 time = 2; //时间
+	CalendarData calendar = 3; //日历信息
+
+	//repeated OreData ores = 7; //矿
+	//repeated PickupData pickups = 8; //拾取
+	//repeated EnemyData enemys = 9; //敌人
+}
+
+//任务数据
+message MissionRecord{
+	repeated CMissionData missions = 1; //任务列表
 }
 
 message RecordItem{
 	enum SaveType{
 		Player = 0;
 		Home = 1;
+		Mission = 2;
 	}
 	SaveType tp = 1;
 	bytes record = 2;

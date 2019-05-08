@@ -5,8 +5,8 @@ local Signin = cc.class("Signin", Base)
 local Table = cc.import("#Table", ...)
 
 local json = cc.import("#json")
---local json_encode = json.encode
 local json_decode = json.decode
+local json_encode = json.encode
 
 function Signin:ctor()
     Signin.super.ctor(self, Table.Signin)
@@ -47,6 +47,25 @@ function Signin:GetProto()
         record = json_decode(data.record) or {},
     }
     return pb
+end
+
+function Signin:GetSignin(day)
+    local data = self:get()
+    if day > data.times or day <= 0 then
+        return nil, "NoParam"
+    end
+    
+    local record = json_decode(data.record) or {}
+    
+    for _, v in ipairs(record) do
+        if day == v then
+            return nil, "NoParam"
+        end
+    end
+    
+    table.insert(record, day)
+    self:set("record", json_encode(record))
+    return self:GetProto()
 end
 
 return Signin

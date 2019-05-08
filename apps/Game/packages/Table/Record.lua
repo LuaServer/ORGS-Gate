@@ -4,6 +4,7 @@ local Struct = {
     rid = 0,
     home = '',
     player = '',
+    missions = '',
 }
 
 local Define = {
@@ -11,6 +12,7 @@ local Define = {
     rid = "int NOT NULL",
     home = "longblob NOT NULL",
     player = "longblob NOT NULL",
+    missions = "longblob NOT NULL",
 }
 
 local Indexes = {

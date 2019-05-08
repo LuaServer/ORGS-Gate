@@ -42,7 +42,7 @@ local _M = {
 			UseDiamond = 6,
 			UseTech = 7,
 			UseItem = 8,
-			UpgradeTech = 9,
+			Sleep = 9,
 			UpgradeTalent = 10,
 			FinishMission = 11,
 			FinishChapter = 12,
@@ -56,6 +56,7 @@ local _M = {
 		SaveType={
 			e = 0,
 			Home = 1,
+			Mission = 2,
 		},
 	},
 	BuildData={

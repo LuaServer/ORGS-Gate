@@ -48,73 +48,72 @@ namespace Pb {
             "DQoFY291bnQYBCABKAUiIAoFUHJvcHMSFwoFaXRlbXMYASADKAsyCC5wYi5Q",
             "cm9wIlMKB0NoYXB0ZXISCgoCaWQYASABKAUSCwoDcmlkGAIgASgFEgwKBHR5",
             "cGUYAyABKAUSDQoFY291bnQYBCABKAUSEgoKdG90YWxDb3VudBgFIAEoBSIm",
-            "CghDaGFwdGVycxIaCgVpdGVtcxgBIAMoCzILLnBiLkNoYXB0ZXIiQwoKR2Ft",
+            "CghDaGFwdGVycxIaCgVpdGVtcxgBIAMoCzILLnBiLkNoYXB0ZXIiVQoKR2Ft",
             "ZVJlY29yZBIKCgJpZBgBIAEoBRILCgNyaWQYAiABKAUSDAoEaG9tZRgDIAEo",
-            "DBIOCgZwbGF5ZXIYBCABKAwiGwoNRmluaXNoTWlzc2lvbhIKCgJpZBgBIAEo",
-            "BSIYCgpGaW5pc2hBY2h2EgoKAmlkGAEgASgFIvkCCgxNaXNzaW9uRXZlbnQS",
-            "EQoJYWN0aW9uX2lkGAEgASgFEhQKDGFjdGlvbl9wbGFjZRgCIAEoBRIUCgxh",
-            "Y3Rpb25fY291bnQYAyABKAUSEwoLYWN0aW9uX3R5cGUYBCABKAUSFwoPYWN0",
-            "aW9uX292ZXJyaWRlGAUgASgIIvsBCgVNVHlwZRIICgROb25lEAASCAoES2ls",
-            "bBABEgsKB0NvbGxlY3QQAhIMCghNYWtlUHJvcBADEgkKBUJ1aWxkEAQSCQoF",
-            "QWxpdmUQBRIOCgpVc2VEaWFtb25kEAYSCwoHVXNlVGVjaBAHEgsKB1VzZUl0",
-            "ZW0QCBIPCgtVcGdyYWRlVGVjaBAJEhEKDVVwZ3JhZGVUYWxlbnQQChIRCg1G",
-            "aW5pc2hNaXNzaW9uEAsSEQoNRmluaXNoQ2hhcHRlchAMEg0KCU1ha2VFcXVp",
-            "cBANEg0KCU5wY0RpYWxvZxAOEg0KCU5wY1Jlc2N1ZRAPEgwKCE9wZW5Eb29y",
-            "EBAiUQoLTWlzc2lvbkl0ZW0SCgoCaWQYASABKAUSDwoHcHJvY2VzcxgCIAEo",
-            "BRILCgNjaWQYAyABKAUSCwoDcmlkGAQgASgFEgsKA2dvdBgFIAEoBSItCgtN",
-            "aXNzaW9uTGlzdBIeCgVpdGVtcxgBIAMoCzIPLnBiLk1pc3Npb25JdGVtIk4K",
-            "CEFjaHZJdGVtEgoKAmlkGAEgASgFEg8KB3Byb2Nlc3MYAiABKAUSCwoDY2lk",
-            "GAMgASgFEgsKA3JpZBgEIAEoBRILCgNnb3QYBSABKAUiJwoIQWNodkxpc3QS",
-            "GwoFaXRlbXMYASADKAsyDC5wYi5BY2h2SXRlbSI/CgNCb3gSCgoCaWQYASAB",
-            "KAUSCwoDcmlkGAIgASgFEgsKA2NpZBgDIAEoBRISCgp1bmxvY2tUaW1lGAQg",
-            "ASgFIh8KBUJveGVzEhYKBWl0ZW1zGAEgAygLMgcucGIuQm94Ii8KBlJld2Fy",
-            "ZBIKCgJ0cBgBIAEoBRIKCgJpZBgCIAEoBRINCgVjb3VudBgDIAEoBSIkCgdS",
-            "ZXdhcmRzEhkKBWl0ZW1zGAEgAygLMgoucGIuUmV3YXJkIj0KBlRhbGVudBIK",
-            "CgJpZBgBIAEoBRILCgNyaWQYAiABKAUSCwoDY2lkGAMgASgFEg0KBWxldmVs",
-            "GAQgASgFIiQKB1RhbGVudHMSGQoFaXRlbXMYASADKAsyCi5wYi5UYWxlbnQi",
-            "KgoMVGFsZW50VW5sb2NrEgsKA2NpZBgBIAEoBRINCgVsZXZlbBgCIAEoBSIx",
-            "CgxTaWduaW5SZWNvcmQSDQoFdGltZXMYASABKAUSEgoGcmVjb3JkGAIgAygF",
-            "QgIQASIYCglTaWduaW5HZXQSCwoDZGF5GAEgASgFIhUKB1Nob3BCdXkSCgoC",
-            "aWQYASABKAUiFAoGQURTaG93EgoKAmlkGAEgASgFIksKBkFESXRlbRIKCgJp",
-            "ZBgBIAEoBRILCgNyaWQYAiABKAUSCwoDY2lkGAMgASgFEgwKBHRpbWUYBCAB",
-            "KAUSDQoFY291bnQYBSABKAUiIwoGQURMaXN0EhkKBWl0ZW1zGAEgAygLMgou",
-            "cGIuQURJdGVtIjcKClNob3BSZWNvcmQSCgoCaWQYASABKAUSCwoDcmlkGAIg",
-            "ASgFEhAKCGJ1eVRpbWVzGAMgASgFIiwKDUNvbXBvc2l0ZUl0ZW0SCgoCaWQY",
-            "ASABKAUSDwoHdGltZUVuZBgCIAEoBSJDCghJdGVtRGF0YRIKCgJpZBgBIAEo",
-            "BRINCgVjb3VudBgCIAEoBRIKCgJocBgDIAEoBRIQCghsb2NhdGlvbhgEIAEo",
-            "BSLjAQoMUGxheWVyUmVjb3JkEg4KBmhlYWx0aBgBIAEoBRIPCgdzdGFtaW5h",
-            "GAIgASgFEhsKBXByb3BzGAMgAygLMgwucGIuSXRlbURhdGESHQoHd2VhcG9u",
-            "cxgEIAMoCzIMLnBiLkl0ZW1EYXRhEhwKCFBvc2l0aW9uGAUgASgLMgoucGIu",
-            "VmVjdG9yEiIKDGVxdWlwZWRQcm9wcxgGIAMoCzIMLnBiLkl0ZW1EYXRhEiQK",
-            "DmVxdWlwZWRXZWFwb25zGAcgAygLMgwucGIuSXRlbURhdGESDgoGZW5lcmd5",
-            "GAggASgFIuwBCgpIb21lUmVjb3JkEh0KBmJ1aWxkcxgCIAMoCzINLnBiLkJ1",
-            "aWxkRGF0YRIMCgR0aW1lGAMgASgDEg4KBmF1dG9pZBgEIAEoBRIiCghjYWxl",
-            "bmRhchgFIAEoCzIQLnBiLkNhbGVuZGFyRGF0YRIiCghtaXNzaW9ucxgGIAMo",
-            "CzIQLnBiLkNNaXNzaW9uRGF0YRIZCgRvcmVzGAcgAygLMgsucGIuT3JlRGF0",
-            "YRIfCgdwaWNrdXBzGAggAygLMg4ucGIuUGlja3VwRGF0YRIdCgZlbmVteXMY",
-            "CSADKAsyDS5wYi5FbmVteURhdGEiYwoKUmVjb3JkSXRlbRIjCgJ0cBgBIAEo",
-            "DjIXLnBiLlJlY29yZEl0ZW0uU2F2ZVR5cGUSDgoGcmVjb3JkGAIgASgMIiAK",
-            "CFNhdmVUeXBlEgoKBlBsYXllchAAEggKBEhvbWUQASIrCgpSZWNvcmRTYXZl",
-            "Eh0KBWl0ZW1zGAEgAygLMg4ucGIuUmVjb3JkSXRlbSI4CgdPcmVEYXRhEg0K",
-            "BWlkc3RyGAEgASgJEg4KBnRpbWluZxgCIAEoAhIOCgZoZWFsdGgYAyABKAUi",
-            "KwoKUGlja3VwRGF0YRINCgVpZHN0chgBIAEoCRIOCgZ0aW1pbmcYAiABKAIi",
-            "swEKCUVuZW15RGF0YRIKCgJpZBgBIAEoBRILCgNjaWQYAiABKAUSDgoGaGVh",
-            "bHRoGAMgASgFEgsKA3RpZBgEIAEoBRIcCghwb3NpdGlvbhgFIAEoCzIKLnBi",
-            "LlZlY3RvchIcCghyb3RhdGlvbhgGIAEoCzIKLnBiLlZlY3RvchIOCgZyb3V0",
-            "ZXIYByABKAkSEwoLcm91dGVySW5kZXgYCCABKAUSDwoHc3Bhd25lchgJIAEo",
-            "CSIpCgxTcGF3bmVyRXZlbnQSCgoCaWQYASABKAUSDQoFY291bnQYAiABKAUi",
-            "4AIKCUJ1aWxkRGF0YRILCgNjaWQYASABKAUSJgoFYnR5cGUYAiABKA4yFy5w",
-            "Yi5CdWlsZERhdGEuQnVpbGRUeXBlEg4KBmhlYWx0aBgDIAEoBRIPCgd0aW1l",
-            "RW5kGAQgASgFEhMKC2J1aWxkU3RhdHVzGAUgASgFEiUKCmNvbXBvc2l0ZXMY",
-            "BiADKAsyES5wYi5Db21wb3NpdGVJdGVtEhsKBXByb3BzGAcgAygLMgwucGIu",
-            "SXRlbURhdGESHQoHd2VhcG9ucxgIIAMoCzIMLnBiLkl0ZW1EYXRhIoQBCglC",
-            "dWlsZFR5cGUSCAoETm9uZRAAEgcKA0JlZBABEgoKBkR5bmFtbxACEg0KCVdv",
-            "cmtCZW5jaBADEgsKB0tpdGNoZW4QBBIOCgpMYWJvcmF0b3J5EAUSEQoNTWVk",
-            "aWNpbmVDaGVzdBAGEg0KCVdhcmVIb3VzZRAHEgoKBkNvcHRlchAIIhwKDENh",
-            "bGVuZGFyRGF0YRIMCgR0aW1lGAEgASgFIisKDENNaXNzaW9uSXRlbRIKCgJp",
-            "ZBgBIAEoBRIPCgdwcm9jZXNzGAIgASgFIk8KDENNaXNzaW9uRGF0YRIKCgJp",
-            "ZBgBIAEoBRIeCgRsaXN0GAIgAygLMhAucGIuQ01pc3Npb25JdGVtEhMKC3Jl",
-            "ZnJlc2hUaW1lGAMgASgFYgZwcm90bzM="));
+            "DBIOCgZwbGF5ZXIYBCABKAwSEAoIbWlzc2lvbnMYBSABKAwiGwoNRmluaXNo",
+            "TWlzc2lvbhIKCgJpZBgBIAEoBSIYCgpGaW5pc2hBY2h2EgoKAmlkGAEgASgF",
+            "IvMCCgxNaXNzaW9uRXZlbnQSEQoJYWN0aW9uX2lkGAEgASgFEhQKDGFjdGlv",
+            "bl9wbGFjZRgCIAEoBRIUCgxhY3Rpb25fY291bnQYAyABKAUSEwoLYWN0aW9u",
+            "X3R5cGUYBCABKAUSFwoPYWN0aW9uX292ZXJyaWRlGAUgASgIIvUBCgVNVHlw",
+            "ZRIICgROb25lEAASCAoES2lsbBABEgsKB0NvbGxlY3QQAhIMCghNYWtlUHJv",
+            "cBADEgkKBUJ1aWxkEAQSCQoFQWxpdmUQBRIOCgpVc2VEaWFtb25kEAYSCwoH",
+            "VXNlVGVjaBAHEgsKB1VzZUl0ZW0QCBIJCgVTbGVlcBAJEhEKDVVwZ3JhZGVU",
+            "YWxlbnQQChIRCg1GaW5pc2hNaXNzaW9uEAsSEQoNRmluaXNoQ2hhcHRlchAM",
+            "Eg0KCU1ha2VFcXVpcBANEg0KCU5wY0RpYWxvZxAOEg0KCU5wY1Jlc2N1ZRAP",
+            "EgwKCE9wZW5Eb29yEBAiUQoLTWlzc2lvbkl0ZW0SCgoCaWQYASABKAUSDwoH",
+            "cHJvY2VzcxgCIAEoBRILCgNjaWQYAyABKAUSCwoDcmlkGAQgASgFEgsKA2dv",
+            "dBgFIAEoBSItCgtNaXNzaW9uTGlzdBIeCgVpdGVtcxgBIAMoCzIPLnBiLk1p",
+            "c3Npb25JdGVtIk4KCEFjaHZJdGVtEgoKAmlkGAEgASgFEg8KB3Byb2Nlc3MY",
+            "AiABKAUSCwoDY2lkGAMgASgFEgsKA3JpZBgEIAEoBRILCgNnb3QYBSABKAUi",
+            "JwoIQWNodkxpc3QSGwoFaXRlbXMYASADKAsyDC5wYi5BY2h2SXRlbSI/CgNC",
+            "b3gSCgoCaWQYASABKAUSCwoDcmlkGAIgASgFEgsKA2NpZBgDIAEoBRISCgp1",
+            "bmxvY2tUaW1lGAQgASgFIh8KBUJveGVzEhYKBWl0ZW1zGAEgAygLMgcucGIu",
+            "Qm94Ii8KBlJld2FyZBIKCgJ0cBgBIAEoBRIKCgJpZBgCIAEoBRINCgVjb3Vu",
+            "dBgDIAEoBSIkCgdSZXdhcmRzEhkKBWl0ZW1zGAEgAygLMgoucGIuUmV3YXJk",
+            "Ij0KBlRhbGVudBIKCgJpZBgBIAEoBRILCgNyaWQYAiABKAUSCwoDY2lkGAMg",
+            "ASgFEg0KBWxldmVsGAQgASgFIiQKB1RhbGVudHMSGQoFaXRlbXMYASADKAsy",
+            "Ci5wYi5UYWxlbnQiKgoMVGFsZW50VW5sb2NrEgsKA2NpZBgBIAEoBRINCgVs",
+            "ZXZlbBgCIAEoBSIxCgxTaWduaW5SZWNvcmQSDQoFdGltZXMYASABKAUSEgoG",
+            "cmVjb3JkGAIgAygFQgIQASIYCglTaWduaW5HZXQSCwoDZGF5GAEgASgFIhUK",
+            "B1Nob3BCdXkSCgoCaWQYASABKAUiFAoGQURTaG93EgoKAmlkGAEgASgFIksK",
+            "BkFESXRlbRIKCgJpZBgBIAEoBRILCgNyaWQYAiABKAUSCwoDY2lkGAMgASgF",
+            "EgwKBHRpbWUYBCABKAUSDQoFY291bnQYBSABKAUiIwoGQURMaXN0EhkKBWl0",
+            "ZW1zGAEgAygLMgoucGIuQURJdGVtIjcKClNob3BSZWNvcmQSCgoCaWQYASAB",
+            "KAUSCwoDcmlkGAIgASgFEhAKCGJ1eVRpbWVzGAMgASgFIiwKDUNvbXBvc2l0",
+            "ZUl0ZW0SCgoCaWQYASABKAUSDwoHdGltZUVuZBgCIAEoBSJDCghJdGVtRGF0",
+            "YRIKCgJpZBgBIAEoBRINCgVjb3VudBgCIAEoBRIKCgJocBgDIAEoBRIQCghs",
+            "b2NhdGlvbhgEIAEoBSLjAQoMUGxheWVyUmVjb3JkEg4KBmhlYWx0aBgBIAEo",
+            "BRIPCgdzdGFtaW5hGAIgASgFEhsKBXByb3BzGAMgAygLMgwucGIuSXRlbURh",
+            "dGESHQoHd2VhcG9ucxgEIAMoCzIMLnBiLkl0ZW1EYXRhEhwKCFBvc2l0aW9u",
+            "GAUgASgLMgoucGIuVmVjdG9yEiIKDGVxdWlwZWRQcm9wcxgGIAMoCzIMLnBi",
+            "Lkl0ZW1EYXRhEiQKDmVxdWlwZWRXZWFwb25zGAcgAygLMgwucGIuSXRlbURh",
+            "dGESDgoGZW5lcmd5GAggASgFIl0KCkhvbWVSZWNvcmQSHQoGYnVpbGRzGAEg",
+            "AygLMg0ucGIuQnVpbGREYXRhEgwKBHRpbWUYAiABKAMSIgoIY2FsZW5kYXIY",
+            "AyABKAsyEC5wYi5DYWxlbmRhckRhdGEiMwoNTWlzc2lvblJlY29yZBIiCght",
+            "aXNzaW9ucxgBIAMoCzIQLnBiLkNNaXNzaW9uRGF0YSJwCgpSZWNvcmRJdGVt",
+            "EiMKAnRwGAEgASgOMhcucGIuUmVjb3JkSXRlbS5TYXZlVHlwZRIOCgZyZWNv",
+            "cmQYAiABKAwiLQoIU2F2ZVR5cGUSCgoGUGxheWVyEAASCAoESG9tZRABEgsK",
+            "B01pc3Npb24QAiIrCgpSZWNvcmRTYXZlEh0KBWl0ZW1zGAEgAygLMg4ucGIu",
+            "UmVjb3JkSXRlbSI4CgdPcmVEYXRhEg0KBWlkc3RyGAEgASgJEg4KBnRpbWlu",
+            "ZxgCIAEoAhIOCgZoZWFsdGgYAyABKAUiKwoKUGlja3VwRGF0YRINCgVpZHN0",
+            "chgBIAEoCRIOCgZ0aW1pbmcYAiABKAIiswEKCUVuZW15RGF0YRIKCgJpZBgB",
+            "IAEoBRILCgNjaWQYAiABKAUSDgoGaGVhbHRoGAMgASgFEgsKA3RpZBgEIAEo",
+            "BRIcCghwb3NpdGlvbhgFIAEoCzIKLnBiLlZlY3RvchIcCghyb3RhdGlvbhgG",
+            "IAEoCzIKLnBiLlZlY3RvchIOCgZyb3V0ZXIYByABKAkSEwoLcm91dGVySW5k",
+            "ZXgYCCABKAUSDwoHc3Bhd25lchgJIAEoCSIpCgxTcGF3bmVyRXZlbnQSCgoC",
+            "aWQYASABKAUSDQoFY291bnQYAiABKAUi4AIKCUJ1aWxkRGF0YRILCgNjaWQY",
+            "ASABKAUSJgoFYnR5cGUYAiABKA4yFy5wYi5CdWlsZERhdGEuQnVpbGRUeXBl",
+            "Eg4KBmhlYWx0aBgDIAEoBRIPCgd0aW1lRW5kGAQgASgFEhMKC2J1aWxkU3Rh",
+            "dHVzGAUgASgFEiUKCmNvbXBvc2l0ZXMYBiADKAsyES5wYi5Db21wb3NpdGVJ",
+            "dGVtEhsKBXByb3BzGAcgAygLMgwucGIuSXRlbURhdGESHQoHd2VhcG9ucxgI",
+            "IAMoCzIMLnBiLkl0ZW1EYXRhIoQBCglCdWlsZFR5cGUSCAoETm9uZRAAEgcK",
+            "A0JlZBABEgoKBkR5bmFtbxACEg0KCVdvcmtCZW5jaBADEgsKB0tpdGNoZW4Q",
+            "BBIOCgpMYWJvcmF0b3J5EAUSEQoNTWVkaWNpbmVDaGVzdBAGEg0KCVdhcmVI",
+            "b3VzZRAHEgoKBkNvcHRlchAIIhwKDENhbGVuZGFyRGF0YRIMCgR0aW1lGAEg",
+            "ASgFIisKDENNaXNzaW9uSXRlbRIKCgJpZBgBIAEoBRIPCgdwcm9jZXNzGAIg",
+            "ASgFIk8KDENNaXNzaW9uRGF0YRIKCgJpZBgBIAEoBRIeCgRsaXN0GAIgAygL",
+            "MhAucGIuQ01pc3Npb25JdGVtEhMKC3JlZnJlc2hUaW1lGAMgASgFYgZwcm90",
+            "bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -132,7 +131,7 @@ namespace Pb {
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.Props), global::Pb.Props.Parser, new[]{ "Items" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.Chapter), global::Pb.Chapter.Parser, new[]{ "Id", "Rid", "Type", "Count", "TotalCount" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.Chapters), global::Pb.Chapters.Parser, new[]{ "Items" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.GameRecord), global::Pb.GameRecord.Parser, new[]{ "Id", "Rid", "Home", "Player" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.GameRecord), global::Pb.GameRecord.Parser, new[]{ "Id", "Rid", "Home", "Player", "Missions" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.FinishMission), global::Pb.FinishMission.Parser, new[]{ "Id" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.FinishAchv), global::Pb.FinishAchv.Parser, new[]{ "Id" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.MissionEvent), global::Pb.MissionEvent.Parser, new[]{ "ActionId", "ActionPlace", "ActionCount", "ActionType", "ActionOverride" }, null, new[]{ typeof(global::Pb.MissionEvent.Types.MType) }, null),
@@ -157,7 +156,8 @@ namespace Pb {
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.CompositeItem), global::Pb.CompositeItem.Parser, new[]{ "Id", "TimeEnd" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.ItemData), global::Pb.ItemData.Parser, new[]{ "Id", "Count", "Hp", "Location" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.PlayerRecord), global::Pb.PlayerRecord.Parser, new[]{ "Health", "Stamina", "Props", "Weapons", "Position", "EquipedProps", "EquipedWeapons", "Energy" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.HomeRecord), global::Pb.HomeRecord.Parser, new[]{ "Builds", "Time", "Autoid", "Calendar", "Missions", "Ores", "Pickups", "Enemys" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.HomeRecord), global::Pb.HomeRecord.Parser, new[]{ "Builds", "Time", "Calendar" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.MissionRecord), global::Pb.MissionRecord.Parser, new[]{ "Missions" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.RecordItem), global::Pb.RecordItem.Parser, new[]{ "Tp", "Record" }, null, new[]{ typeof(global::Pb.RecordItem.Types.SaveType) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.RecordSave), global::Pb.RecordSave.Parser, new[]{ "Items" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.OreData), global::Pb.OreData.Parser, new[]{ "Idstr", "Timing", "Health" }, null, null, null),
@@ -2668,6 +2668,7 @@ namespace Pb {
       rid_ = other.rid_;
       home_ = other.home_;
       player_ = other.player_;
+      missions_ = other.missions_;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2725,6 +2726,20 @@ namespace Pb {
       }
     }
 
+    /// <summary>Field number for the "missions" field.</summary>
+    public const int MissionsFieldNumber = 5;
+    private pb::ByteString missions_ = pb::ByteString.Empty;
+    /// <summary>
+    /// 任务数据
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pb::ByteString Missions {
+      get { return missions_; }
+      set {
+        missions_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as GameRecord);
@@ -2742,6 +2757,7 @@ namespace Pb {
       if (Rid != other.Rid) return false;
       if (Home != other.Home) return false;
       if (Player != other.Player) return false;
+      if (Missions != other.Missions) return false;
       return true;
     }
 
@@ -2752,6 +2768,7 @@ namespace Pb {
       if (Rid != 0) hash ^= Rid.GetHashCode();
       if (Home.Length != 0) hash ^= Home.GetHashCode();
       if (Player.Length != 0) hash ^= Player.GetHashCode();
+      if (Missions.Length != 0) hash ^= Missions.GetHashCode();
       return hash;
     }
 
@@ -2778,6 +2795,10 @@ namespace Pb {
         output.WriteRawTag(34);
         output.WriteBytes(Player);
       }
+      if (Missions.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteBytes(Missions);
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2794,6 +2815,9 @@ namespace Pb {
       }
       if (Player.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeBytesSize(Player);
+      }
+      if (Missions.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(Missions);
       }
       return size;
     }
@@ -2814,6 +2838,9 @@ namespace Pb {
       }
       if (other.Player.Length != 0) {
         Player = other.Player;
+      }
+      if (other.Missions.Length != 0) {
+        Missions = other.Missions;
       }
     }
 
@@ -2839,6 +2866,10 @@ namespace Pb {
           }
           case 34: {
             Player = input.ReadBytes();
+            break;
+          }
+          case 42: {
+            Missions = input.ReadBytes();
             break;
           }
         }
@@ -3361,7 +3392,7 @@ namespace Pb {
         /// <summary>
         /// 提升科技
         /// </summary>
-        [pbr::OriginalName("UpgradeTech")] UpgradeTech = 9,
+        [pbr::OriginalName("Sleep")] Sleep = 9,
         /// <summary>
         /// 提升天赋
         /// </summary>
@@ -6813,6 +6844,9 @@ namespace Pb {
 
   }
 
+  /// <summary>
+  /// 家的数据
+  /// </summary>
   public sealed partial class HomeRecord : pb::IMessage<HomeRecord> {
     private static readonly pb::MessageParser<HomeRecord> _parser = new pb::MessageParser<HomeRecord>(() => new HomeRecord());
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6839,12 +6873,7 @@ namespace Pb {
     public HomeRecord(HomeRecord other) : this() {
       builds_ = other.builds_.Clone();
       time_ = other.time_;
-      autoid_ = other.autoid_;
       Calendar = other.calendar_ != null ? other.Calendar.Clone() : null;
-      missions_ = other.missions_.Clone();
-      ores_ = other.ores_.Clone();
-      pickups_ = other.pickups_.Clone();
-      enemys_ = other.enemys_.Clone();
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6853,12 +6882,12 @@ namespace Pb {
     }
 
     /// <summary>Field number for the "builds" field.</summary>
-    public const int BuildsFieldNumber = 2;
+    public const int BuildsFieldNumber = 1;
     private static readonly pb::FieldCodec<global::Pb.BuildData> _repeated_builds_codec
-        = pb::FieldCodec.ForMessage(18, global::Pb.BuildData.Parser);
+        = pb::FieldCodec.ForMessage(10, global::Pb.BuildData.Parser);
     private readonly pbc::RepeatedField<global::Pb.BuildData> builds_ = new pbc::RepeatedField<global::Pb.BuildData>();
     /// <summary>
-    /// repeated TowerData towers = 1; // 塔数据
+    /// 建筑数据
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::Pb.BuildData> Builds {
@@ -6866,7 +6895,7 @@ namespace Pb {
     }
 
     /// <summary>Field number for the "time" field.</summary>
-    public const int TimeFieldNumber = 3;
+    public const int TimeFieldNumber = 2;
     private long time_;
     /// <summary>
     /// 时间
@@ -6879,22 +6908,8 @@ namespace Pb {
       }
     }
 
-    /// <summary>Field number for the "autoid" field.</summary>
-    public const int AutoidFieldNumber = 4;
-    private int autoid_;
-    /// <summary>
-    /// 分配的序号id
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Autoid {
-      get { return autoid_; }
-      set {
-        autoid_ = value;
-      }
-    }
-
     /// <summary>Field number for the "calendar" field.</summary>
-    public const int CalendarFieldNumber = 5;
+    public const int CalendarFieldNumber = 3;
     private global::Pb.CalendarData calendar_;
     /// <summary>
     /// 日历信息
@@ -6905,58 +6920,6 @@ namespace Pb {
       set {
         calendar_ = value;
       }
-    }
-
-    /// <summary>Field number for the "missions" field.</summary>
-    public const int MissionsFieldNumber = 6;
-    private static readonly pb::FieldCodec<global::Pb.CMissionData> _repeated_missions_codec
-        = pb::FieldCodec.ForMessage(50, global::Pb.CMissionData.Parser);
-    private readonly pbc::RepeatedField<global::Pb.CMissionData> missions_ = new pbc::RepeatedField<global::Pb.CMissionData>();
-    /// <summary>
-    /// 任务列表
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Pb.CMissionData> Missions {
-      get { return missions_; }
-    }
-
-    /// <summary>Field number for the "ores" field.</summary>
-    public const int OresFieldNumber = 7;
-    private static readonly pb::FieldCodec<global::Pb.OreData> _repeated_ores_codec
-        = pb::FieldCodec.ForMessage(58, global::Pb.OreData.Parser);
-    private readonly pbc::RepeatedField<global::Pb.OreData> ores_ = new pbc::RepeatedField<global::Pb.OreData>();
-    /// <summary>
-    /// 矿
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Pb.OreData> Ores {
-      get { return ores_; }
-    }
-
-    /// <summary>Field number for the "pickups" field.</summary>
-    public const int PickupsFieldNumber = 8;
-    private static readonly pb::FieldCodec<global::Pb.PickupData> _repeated_pickups_codec
-        = pb::FieldCodec.ForMessage(66, global::Pb.PickupData.Parser);
-    private readonly pbc::RepeatedField<global::Pb.PickupData> pickups_ = new pbc::RepeatedField<global::Pb.PickupData>();
-    /// <summary>
-    /// 拾取
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Pb.PickupData> Pickups {
-      get { return pickups_; }
-    }
-
-    /// <summary>Field number for the "enemys" field.</summary>
-    public const int EnemysFieldNumber = 9;
-    private static readonly pb::FieldCodec<global::Pb.EnemyData> _repeated_enemys_codec
-        = pb::FieldCodec.ForMessage(74, global::Pb.EnemyData.Parser);
-    private readonly pbc::RepeatedField<global::Pb.EnemyData> enemys_ = new pbc::RepeatedField<global::Pb.EnemyData>();
-    /// <summary>
-    /// 敌人
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Pb.EnemyData> Enemys {
-      get { return enemys_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6974,12 +6937,7 @@ namespace Pb {
       }
       if(!builds_.Equals(other.builds_)) return false;
       if (Time != other.Time) return false;
-      if (Autoid != other.Autoid) return false;
       if (!object.Equals(Calendar, other.Calendar)) return false;
-      if(!missions_.Equals(other.missions_)) return false;
-      if(!ores_.Equals(other.ores_)) return false;
-      if(!pickups_.Equals(other.pickups_)) return false;
-      if(!enemys_.Equals(other.enemys_)) return false;
       return true;
     }
 
@@ -6988,12 +6946,7 @@ namespace Pb {
       int hash = 1;
       hash ^= builds_.GetHashCode();
       if (Time != 0L) hash ^= Time.GetHashCode();
-      if (Autoid != 0) hash ^= Autoid.GetHashCode();
       if (calendar_ != null) hash ^= Calendar.GetHashCode();
-      hash ^= missions_.GetHashCode();
-      hash ^= ores_.GetHashCode();
-      hash ^= pickups_.GetHashCode();
-      hash ^= enemys_.GetHashCode();
       return hash;
     }
 
@@ -7006,21 +6959,13 @@ namespace Pb {
     public void WriteTo(pb::CodedOutputStream output) {
       builds_.WriteTo(output, _repeated_builds_codec);
       if (Time != 0L) {
-        output.WriteRawTag(24);
+        output.WriteRawTag(16);
         output.WriteInt64(Time);
       }
-      if (Autoid != 0) {
-        output.WriteRawTag(32);
-        output.WriteInt32(Autoid);
-      }
       if (calendar_ != null) {
-        output.WriteRawTag(42);
+        output.WriteRawTag(26);
         output.WriteMessage(Calendar);
       }
-      missions_.WriteTo(output, _repeated_missions_codec);
-      ores_.WriteTo(output, _repeated_ores_codec);
-      pickups_.WriteTo(output, _repeated_pickups_codec);
-      enemys_.WriteTo(output, _repeated_enemys_codec);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7030,16 +6975,9 @@ namespace Pb {
       if (Time != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(Time);
       }
-      if (Autoid != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Autoid);
-      }
       if (calendar_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Calendar);
       }
-      size += missions_.CalculateSize(_repeated_missions_codec);
-      size += ores_.CalculateSize(_repeated_ores_codec);
-      size += pickups_.CalculateSize(_repeated_pickups_codec);
-      size += enemys_.CalculateSize(_repeated_enemys_codec);
       return size;
     }
 
@@ -7052,19 +6990,12 @@ namespace Pb {
       if (other.Time != 0L) {
         Time = other.Time;
       }
-      if (other.Autoid != 0) {
-        Autoid = other.Autoid;
-      }
       if (other.calendar_ != null) {
         if (calendar_ == null) {
           calendar_ = new global::Pb.CalendarData();
         }
         Calendar.MergeFrom(other.Calendar);
       }
-      missions_.Add(other.missions_);
-      ores_.Add(other.ores_);
-      pickups_.Add(other.pickups_);
-      enemys_.Add(other.enemys_);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7075,39 +7006,134 @@ namespace Pb {
           default:
             input.SkipLastField();
             break;
-          case 18: {
+          case 10: {
             builds_.AddEntriesFrom(input, _repeated_builds_codec);
             break;
           }
-          case 24: {
+          case 16: {
             Time = input.ReadInt64();
             break;
           }
-          case 32: {
-            Autoid = input.ReadInt32();
-            break;
-          }
-          case 42: {
+          case 26: {
             if (calendar_ == null) {
               calendar_ = new global::Pb.CalendarData();
             }
             input.ReadMessage(calendar_);
             break;
           }
-          case 50: {
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  /// 任务数据
+  /// </summary>
+  public sealed partial class MissionRecord : pb::IMessage<MissionRecord> {
+    private static readonly pb::MessageParser<MissionRecord> _parser = new pb::MessageParser<MissionRecord>(() => new MissionRecord());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<MissionRecord> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[40]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MissionRecord() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MissionRecord(MissionRecord other) : this() {
+      missions_ = other.missions_.Clone();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public MissionRecord Clone() {
+      return new MissionRecord(this);
+    }
+
+    /// <summary>Field number for the "missions" field.</summary>
+    public const int MissionsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Pb.CMissionData> _repeated_missions_codec
+        = pb::FieldCodec.ForMessage(10, global::Pb.CMissionData.Parser);
+    private readonly pbc::RepeatedField<global::Pb.CMissionData> missions_ = new pbc::RepeatedField<global::Pb.CMissionData>();
+    /// <summary>
+    /// 任务列表
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Pb.CMissionData> Missions {
+      get { return missions_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as MissionRecord);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(MissionRecord other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!missions_.Equals(other.missions_)) return false;
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= missions_.GetHashCode();
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      missions_.WriteTo(output, _repeated_missions_codec);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      size += missions_.CalculateSize(_repeated_missions_codec);
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(MissionRecord other) {
+      if (other == null) {
+        return;
+      }
+      missions_.Add(other.missions_);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 10: {
             missions_.AddEntriesFrom(input, _repeated_missions_codec);
-            break;
-          }
-          case 58: {
-            ores_.AddEntriesFrom(input, _repeated_ores_codec);
-            break;
-          }
-          case 66: {
-            pickups_.AddEntriesFrom(input, _repeated_pickups_codec);
-            break;
-          }
-          case 74: {
-            enemys_.AddEntriesFrom(input, _repeated_enemys_codec);
             break;
           }
         }
@@ -7123,7 +7149,7 @@ namespace Pb {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[40]; }
+      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[41]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7266,6 +7292,7 @@ namespace Pb {
       public enum SaveType {
         [pbr::OriginalName("Player")] Player = 0,
         [pbr::OriginalName("Home")] Home = 1,
+        [pbr::OriginalName("Mission")] Mission = 2,
       }
 
     }
@@ -7280,7 +7307,7 @@ namespace Pb {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[41]; }
+      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[42]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7392,7 +7419,7 @@ namespace Pb {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[42]; }
+      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[43]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7568,7 +7595,7 @@ namespace Pb {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[43]; }
+      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[44]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7716,7 +7743,7 @@ namespace Pb {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[44]; }
+      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[45]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8099,7 +8126,7 @@ namespace Pb {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[45]; }
+      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[46]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8253,7 +8280,7 @@ namespace Pb {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[46]; }
+      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[47]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8594,7 +8621,7 @@ namespace Pb {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[47]; }
+      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[48]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8717,7 +8744,7 @@ namespace Pb {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[48]; }
+      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[49]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8865,7 +8892,7 @@ namespace Pb {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[49]; }
+      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[50]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

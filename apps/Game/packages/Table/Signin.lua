@@ -10,7 +10,7 @@ local Define = {
     id = "int NOT NULL AUTO_INCREMENT PRIMARY KEY",
     rid = "int NOT NULL",
     times = "int NOT NULL",
-    record = "varchar(1024) NOT NULL",
+    record = "varchar(10240) NOT NULL",
 }
 
 local Indexes = {

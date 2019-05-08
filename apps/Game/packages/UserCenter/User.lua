@@ -17,7 +17,7 @@ local ngx_now = ngx.now
 local gbc = cc.import("#gbc")
 local Constants = gbc.Constants
 
--- local dbConfig = cc.import("#dbConfig")
+local dbConfig = cc.import("#dbConfig")
 
 local parse = cc.import("#parse")
 local ParseConfig = parse.ParseConfig
@@ -152,6 +152,7 @@ function User:Save(db)
         self._Talents:save(db)
         self._Shop:save(db)
         self._ADs:save(db)
+        self._Signin:save(db)
     end
 end
 
@@ -402,6 +403,15 @@ function User:onTalentUnlock(db, msg, instance, msgid)
         local list = self._Props:UseItems(cfg.props)
         instance:sendPack(self.id, "Props", {items = list}, msgid)
     end
+    
+    --提升天赋等级任务
+    self:onMissionEvent(db, {
+        action_id = msg.cid,
+        action_place = 0,
+        action_count = 1,
+        action_type = 10,
+        action_override = false,
+    }, instance, msgid)
 end
 
 --完成章节
@@ -461,12 +471,39 @@ function User:onRecordSave(db, msg, instance, msgid)
             self._Record:set("home", item.record)
         elseif item.tp == "Player" then
             self._Record:set("player", item.record)
+        elseif item.tp == "Mission" then
+            self._Record:set("missions", item.record)
         end
     end
     local record_data = self._Record:get()
     if record_data then
         instance:sendPack(self.id, "GameRecord", record_data)
     end
+end
+
+--获取签到
+function User:onSigninGet(db, msg, instance, msgid)
+    if not db or not msg then
+        instance:sendError(self.id, "NoParam", msgid)
+        return false
+    end
+    if not self._Signin then
+        instance:sendError(self.id, "OperationNotPermit", msgid)
+        return false
+    end
+    local signin_data, err = self._Signin:GetSignin(msg.day)
+    if not signin_data then
+        instance:sendError(self.id, err, msgid)
+        return false
+    end
+    --返回签到数据结果
+    instance:sendPack(self.id, "SigninRecord", signin_data)
+    local sign_cfg = dbConfig.get("cfg_signin", msg.day)
+    if sign_cfg == nil then
+        instance:sendError(self.id, "NoneConfig", msgid)
+        return false
+    end
+    self:AddRewards(db, instance, msgid, sign_cfg.items)
 end
 
 return User
