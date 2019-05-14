@@ -85,7 +85,7 @@ function UserAction:signinAction(args, redis)
         logintime = tonumber(logintime)
         local timegap = math.abs(logintime - ngx.now())
         --cc.printf(timegap)
-        if timegap > 600 then
+        if timegap > 6000 then
             return "logintime is not correct"
         end
         local checkKey = logintime.."-"..user.password
