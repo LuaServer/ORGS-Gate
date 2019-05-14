@@ -46,74 +46,75 @@ namespace Pb {
             "VGltZRgIIAEoBRISCgpjcmVhdGVUaW1lGAkgASgFEgsKA2V4cBgKIAEoBSI7",
             "CgRQcm9wEgoKAmlkGAEgASgFEgsKA3JpZBgCIAEoBRILCgNjaWQYAyABKAUS",
             "DQoFY291bnQYBCABKAUiIAoFUHJvcHMSFwoFaXRlbXMYASADKAsyCC5wYi5Q",
-            "cm9wIlMKB0NoYXB0ZXISCgoCaWQYASABKAUSCwoDcmlkGAIgASgFEgwKBHR5",
-            "cGUYAyABKAUSDQoFY291bnQYBCABKAUSEgoKdG90YWxDb3VudBgFIAEoBSIm",
-            "CghDaGFwdGVycxIaCgVpdGVtcxgBIAMoCzILLnBiLkNoYXB0ZXIiVQoKR2Ft",
-            "ZVJlY29yZBIKCgJpZBgBIAEoBRILCgNyaWQYAiABKAUSDAoEaG9tZRgDIAEo",
-            "DBIOCgZwbGF5ZXIYBCABKAwSEAoIbWlzc2lvbnMYBSABKAwiGwoNRmluaXNo",
-            "TWlzc2lvbhIKCgJpZBgBIAEoBSIYCgpGaW5pc2hBY2h2EgoKAmlkGAEgASgF",
-            "IvMCCgxNaXNzaW9uRXZlbnQSEQoJYWN0aW9uX2lkGAEgASgFEhQKDGFjdGlv",
-            "bl9wbGFjZRgCIAEoBRIUCgxhY3Rpb25fY291bnQYAyABKAUSEwoLYWN0aW9u",
-            "X3R5cGUYBCABKAUSFwoPYWN0aW9uX292ZXJyaWRlGAUgASgIIvUBCgVNVHlw",
-            "ZRIICgROb25lEAASCAoES2lsbBABEgsKB0NvbGxlY3QQAhIMCghNYWtlUHJv",
-            "cBADEgkKBUJ1aWxkEAQSCQoFQWxpdmUQBRIOCgpVc2VEaWFtb25kEAYSCwoH",
-            "VXNlVGVjaBAHEgsKB1VzZUl0ZW0QCBIJCgVTbGVlcBAJEhEKDVVwZ3JhZGVU",
-            "YWxlbnQQChIRCg1GaW5pc2hNaXNzaW9uEAsSEQoNRmluaXNoQ2hhcHRlchAM",
-            "Eg0KCU1ha2VFcXVpcBANEg0KCU5wY0RpYWxvZxAOEg0KCU5wY1Jlc2N1ZRAP",
-            "EgwKCE9wZW5Eb29yEBAiUQoLTWlzc2lvbkl0ZW0SCgoCaWQYASABKAUSDwoH",
-            "cHJvY2VzcxgCIAEoBRILCgNjaWQYAyABKAUSCwoDcmlkGAQgASgFEgsKA2dv",
-            "dBgFIAEoBSItCgtNaXNzaW9uTGlzdBIeCgVpdGVtcxgBIAMoCzIPLnBiLk1p",
-            "c3Npb25JdGVtIk4KCEFjaHZJdGVtEgoKAmlkGAEgASgFEg8KB3Byb2Nlc3MY",
-            "AiABKAUSCwoDY2lkGAMgASgFEgsKA3JpZBgEIAEoBRILCgNnb3QYBSABKAUi",
-            "JwoIQWNodkxpc3QSGwoFaXRlbXMYASADKAsyDC5wYi5BY2h2SXRlbSI/CgNC",
-            "b3gSCgoCaWQYASABKAUSCwoDcmlkGAIgASgFEgsKA2NpZBgDIAEoBRISCgp1",
-            "bmxvY2tUaW1lGAQgASgFIh8KBUJveGVzEhYKBWl0ZW1zGAEgAygLMgcucGIu",
-            "Qm94Ii8KBlJld2FyZBIKCgJ0cBgBIAEoBRIKCgJpZBgCIAEoBRINCgVjb3Vu",
-            "dBgDIAEoBSIkCgdSZXdhcmRzEhkKBWl0ZW1zGAEgAygLMgoucGIuUmV3YXJk",
-            "Ij0KBlRhbGVudBIKCgJpZBgBIAEoBRILCgNyaWQYAiABKAUSCwoDY2lkGAMg",
-            "ASgFEg0KBWxldmVsGAQgASgFIiQKB1RhbGVudHMSGQoFaXRlbXMYASADKAsy",
-            "Ci5wYi5UYWxlbnQiKgoMVGFsZW50VW5sb2NrEgsKA2NpZBgBIAEoBRINCgVs",
-            "ZXZlbBgCIAEoBSIxCgxTaWduaW5SZWNvcmQSDQoFdGltZXMYASABKAUSEgoG",
-            "cmVjb3JkGAIgAygFQgIQASIYCglTaWduaW5HZXQSCwoDZGF5GAEgASgFIhUK",
-            "B1Nob3BCdXkSCgoCaWQYASABKAUiFAoGQURTaG93EgoKAmlkGAEgASgFIksK",
-            "BkFESXRlbRIKCgJpZBgBIAEoBRILCgNyaWQYAiABKAUSCwoDY2lkGAMgASgF",
-            "EgwKBHRpbWUYBCABKAUSDQoFY291bnQYBSABKAUiIwoGQURMaXN0EhkKBWl0",
-            "ZW1zGAEgAygLMgoucGIuQURJdGVtIjcKClNob3BSZWNvcmQSCgoCaWQYASAB",
-            "KAUSCwoDcmlkGAIgASgFEhAKCGJ1eVRpbWVzGAMgASgFIiwKDUNvbXBvc2l0",
-            "ZUl0ZW0SCgoCaWQYASABKAUSDwoHdGltZUVuZBgCIAEoBSJDCghJdGVtRGF0",
-            "YRIKCgJpZBgBIAEoBRINCgVjb3VudBgCIAEoBRIKCgJocBgDIAEoBRIQCghs",
-            "b2NhdGlvbhgEIAEoBSLjAQoMUGxheWVyUmVjb3JkEg4KBmhlYWx0aBgBIAEo",
-            "BRIPCgdzdGFtaW5hGAIgASgFEhsKBXByb3BzGAMgAygLMgwucGIuSXRlbURh",
-            "dGESHQoHd2VhcG9ucxgEIAMoCzIMLnBiLkl0ZW1EYXRhEhwKCFBvc2l0aW9u",
-            "GAUgASgLMgoucGIuVmVjdG9yEiIKDGVxdWlwZWRQcm9wcxgGIAMoCzIMLnBi",
-            "Lkl0ZW1EYXRhEiQKDmVxdWlwZWRXZWFwb25zGAcgAygLMgwucGIuSXRlbURh",
-            "dGESDgoGZW5lcmd5GAggASgFIl0KCkhvbWVSZWNvcmQSHQoGYnVpbGRzGAEg",
-            "AygLMg0ucGIuQnVpbGREYXRhEgwKBHRpbWUYAiABKAMSIgoIY2FsZW5kYXIY",
-            "AyABKAsyEC5wYi5DYWxlbmRhckRhdGEiMwoNTWlzc2lvblJlY29yZBIiCght",
-            "aXNzaW9ucxgBIAMoCzIQLnBiLkNNaXNzaW9uRGF0YSJwCgpSZWNvcmRJdGVt",
-            "EiMKAnRwGAEgASgOMhcucGIuUmVjb3JkSXRlbS5TYXZlVHlwZRIOCgZyZWNv",
-            "cmQYAiABKAwiLQoIU2F2ZVR5cGUSCgoGUGxheWVyEAASCAoESG9tZRABEgsK",
-            "B01pc3Npb24QAiIrCgpSZWNvcmRTYXZlEh0KBWl0ZW1zGAEgAygLMg4ucGIu",
-            "UmVjb3JkSXRlbSI4CgdPcmVEYXRhEg0KBWlkc3RyGAEgASgJEg4KBnRpbWlu",
-            "ZxgCIAEoAhIOCgZoZWFsdGgYAyABKAUiKwoKUGlja3VwRGF0YRINCgVpZHN0",
-            "chgBIAEoCRIOCgZ0aW1pbmcYAiABKAIiswEKCUVuZW15RGF0YRIKCgJpZBgB",
-            "IAEoBRILCgNjaWQYAiABKAUSDgoGaGVhbHRoGAMgASgFEgsKA3RpZBgEIAEo",
-            "BRIcCghwb3NpdGlvbhgFIAEoCzIKLnBiLlZlY3RvchIcCghyb3RhdGlvbhgG",
-            "IAEoCzIKLnBiLlZlY3RvchIOCgZyb3V0ZXIYByABKAkSEwoLcm91dGVySW5k",
-            "ZXgYCCABKAUSDwoHc3Bhd25lchgJIAEoCSIpCgxTcGF3bmVyRXZlbnQSCgoC",
-            "aWQYASABKAUSDQoFY291bnQYAiABKAUi4AIKCUJ1aWxkRGF0YRILCgNjaWQY",
-            "ASABKAUSJgoFYnR5cGUYAiABKA4yFy5wYi5CdWlsZERhdGEuQnVpbGRUeXBl",
-            "Eg4KBmhlYWx0aBgDIAEoBRIPCgd0aW1lRW5kGAQgASgFEhMKC2J1aWxkU3Rh",
-            "dHVzGAUgASgFEiUKCmNvbXBvc2l0ZXMYBiADKAsyES5wYi5Db21wb3NpdGVJ",
-            "dGVtEhsKBXByb3BzGAcgAygLMgwucGIuSXRlbURhdGESHQoHd2VhcG9ucxgI",
-            "IAMoCzIMLnBiLkl0ZW1EYXRhIoQBCglCdWlsZFR5cGUSCAoETm9uZRAAEgcK",
-            "A0JlZBABEgoKBkR5bmFtbxACEg0KCVdvcmtCZW5jaBADEgsKB0tpdGNoZW4Q",
-            "BBIOCgpMYWJvcmF0b3J5EAUSEQoNTWVkaWNpbmVDaGVzdBAGEg0KCVdhcmVI",
-            "b3VzZRAHEgoKBkNvcHRlchAIIhwKDENhbGVuZGFyRGF0YRIMCgR0aW1lGAEg",
-            "ASgFIisKDENNaXNzaW9uSXRlbRIKCgJpZBgBIAEoBRIPCgdwcm9jZXNzGAIg",
-            "ASgFIk8KDENNaXNzaW9uRGF0YRIKCgJpZBgBIAEoBRIeCgRsaXN0GAIgAygL",
-            "MhAucGIuQ01pc3Npb25JdGVtEhMKC3JlZnJlc2hUaW1lGAMgASgFYgZwcm90",
-            "bzM="));
+            "cm9wIngKB0NoYXB0ZXISCgoCaWQYASABKAUSCwoDcmlkGAIgASgFEgwKBHR5",
+            "cGUYAyABKAUSDQoFY291bnQYBCABKAUSEgoKdG90YWxDb3VudBgFIAEoBRIQ",
+            "CghleHRDb3VudBgGIAEoBRIRCgllbnRlclRpbWUYByABKAUiJgoIQ2hhcHRl",
+            "cnMSGgoFaXRlbXMYASADKAsyCy5wYi5DaGFwdGVyIlUKCkdhbWVSZWNvcmQS",
+            "CgoCaWQYASABKAUSCwoDcmlkGAIgASgFEgwKBGhvbWUYAyABKAwSDgoGcGxh",
+            "eWVyGAQgASgMEhAKCG1pc3Npb25zGAUgASgMIhsKDUZpbmlzaE1pc3Npb24S",
+            "CgoCaWQYASABKAUiGAoKRmluaXNoQWNodhIKCgJpZBgBIAEoBSKAAwoMTWlz",
+            "c2lvbkV2ZW50EhEKCWFjdGlvbl9pZBgBIAEoBRIUCgxhY3Rpb25fcGxhY2UY",
+            "AiABKAUSFAoMYWN0aW9uX2NvdW50GAMgASgFEhMKC2FjdGlvbl90eXBlGAQg",
+            "ASgFEhcKD2FjdGlvbl9vdmVycmlkZRgFIAEoCCKCAgoFTVR5cGUSCAoETm9u",
+            "ZRAAEggKBEtpbGwQARILCgdDb2xsZWN0EAISDAoITWFrZVByb3AQAxIJCgVC",
+            "dWlsZBAEEgkKBUFsaXZlEAUSDgoKVXNlRGlhbW9uZBAGEgsKB1VzZVRlY2gQ",
+            "BxILCgdVc2VJdGVtEAgSCQoFU2xlZXAQCRIRCg1VcGdyYWRlVGFsZW50EAoS",
+            "EQoNRmluaXNoTWlzc2lvbhALEhEKDUZpbmlzaENoYXB0ZXIQDBINCglNYWtl",
+            "RXF1aXAQDRINCglOcGNEaWFsb2cQDhINCglOcGNSZXNjdWUQDxIMCghPcGVu",
+            "RG9vchAQEgsKB0xldmVsVXAQESJRCgtNaXNzaW9uSXRlbRIKCgJpZBgBIAEo",
+            "BRIPCgdwcm9jZXNzGAIgASgFEgsKA2NpZBgDIAEoBRILCgNyaWQYBCABKAUS",
+            "CwoDZ290GAUgASgFIi0KC01pc3Npb25MaXN0Eh4KBWl0ZW1zGAEgAygLMg8u",
+            "cGIuTWlzc2lvbkl0ZW0iTgoIQWNodkl0ZW0SCgoCaWQYASABKAUSDwoHcHJv",
+            "Y2VzcxgCIAEoBRILCgNjaWQYAyABKAUSCwoDcmlkGAQgASgFEgsKA2dvdBgF",
+            "IAEoBSInCghBY2h2TGlzdBIbCgVpdGVtcxgBIAMoCzIMLnBiLkFjaHZJdGVt",
+            "Ij8KA0JveBIKCgJpZBgBIAEoBRILCgNyaWQYAiABKAUSCwoDY2lkGAMgASgF",
+            "EhIKCnVubG9ja1RpbWUYBCABKAUiHwoFQm94ZXMSFgoFaXRlbXMYASADKAsy",
+            "By5wYi5Cb3giLwoGUmV3YXJkEgoKAnRwGAEgASgFEgoKAmlkGAIgASgFEg0K",
+            "BWNvdW50GAMgASgFIiQKB1Jld2FyZHMSGQoFaXRlbXMYASADKAsyCi5wYi5S",
+            "ZXdhcmQiPQoGVGFsZW50EgoKAmlkGAEgASgFEgsKA3JpZBgCIAEoBRILCgNj",
+            "aWQYAyABKAUSDQoFbGV2ZWwYBCABKAUiJAoHVGFsZW50cxIZCgVpdGVtcxgB",
+            "IAMoCzIKLnBiLlRhbGVudCIqCgxUYWxlbnRVbmxvY2sSCwoDY2lkGAEgASgF",
+            "Eg0KBWxldmVsGAIgASgFIjEKDFNpZ25pblJlY29yZBINCgV0aW1lcxgBIAEo",
+            "BRISCgZyZWNvcmQYAiADKAVCAhABIhgKCVNpZ25pbkdldBILCgNkYXkYASAB",
+            "KAUiFQoHU2hvcEJ1eRIKCgJpZBgBIAEoBSIUCgZBRFNob3cSCgoCaWQYASAB",
+            "KAUiSwoGQURJdGVtEgoKAmlkGAEgASgFEgsKA3JpZBgCIAEoBRILCgNjaWQY",
+            "AyABKAUSDAoEdGltZRgEIAEoBRINCgVjb3VudBgFIAEoBSIjCgZBRExpc3QS",
+            "GQoFaXRlbXMYASADKAsyCi5wYi5BREl0ZW0iNwoKU2hvcFJlY29yZBIKCgJp",
+            "ZBgBIAEoBRILCgNyaWQYAiABKAUSEAoIYnV5VGltZXMYAyABKAUiLAoNQ29t",
+            "cG9zaXRlSXRlbRIKCgJpZBgBIAEoBRIPCgd0aW1lRW5kGAIgASgFIkMKCEl0",
+            "ZW1EYXRhEgoKAmlkGAEgASgFEg0KBWNvdW50GAIgASgFEgoKAmhwGAMgASgF",
+            "EhAKCGxvY2F0aW9uGAQgASgFIuMBCgxQbGF5ZXJSZWNvcmQSDgoGaGVhbHRo",
+            "GAEgASgFEg8KB3N0YW1pbmEYAiABKAUSGwoFcHJvcHMYAyADKAsyDC5wYi5J",
+            "dGVtRGF0YRIdCgd3ZWFwb25zGAQgAygLMgwucGIuSXRlbURhdGESHAoIUG9z",
+            "aXRpb24YBSABKAsyCi5wYi5WZWN0b3ISIgoMZXF1aXBlZFByb3BzGAYgAygL",
+            "MgwucGIuSXRlbURhdGESJAoOZXF1aXBlZFdlYXBvbnMYByADKAsyDC5wYi5J",
+            "dGVtRGF0YRIOCgZlbmVyZ3kYCCABKAUiXQoKSG9tZVJlY29yZBIdCgZidWls",
+            "ZHMYASADKAsyDS5wYi5CdWlsZERhdGESDAoEdGltZRgCIAEoAxIiCghjYWxl",
+            "bmRhchgDIAEoCzIQLnBiLkNhbGVuZGFyRGF0YSJICg1NaXNzaW9uUmVjb3Jk",
+            "EiIKCG1pc3Npb25zGAEgAygLMhAucGIuQ01pc3Npb25EYXRhEhMKC2xhc3RN",
+            "aXNzaW9uGAIgASgFInAKClJlY29yZEl0ZW0SIwoCdHAYASABKA4yFy5wYi5S",
+            "ZWNvcmRJdGVtLlNhdmVUeXBlEg4KBnJlY29yZBgCIAEoDCItCghTYXZlVHlw",
+            "ZRIKCgZQbGF5ZXIQABIICgRIb21lEAESCwoHTWlzc2lvbhACIisKClJlY29y",
+            "ZFNhdmUSHQoFaXRlbXMYASADKAsyDi5wYi5SZWNvcmRJdGVtIjgKB09yZURh",
+            "dGESDQoFaWRzdHIYASABKAkSDgoGdGltaW5nGAIgASgCEg4KBmhlYWx0aBgD",
+            "IAEoBSIrCgpQaWNrdXBEYXRhEg0KBWlkc3RyGAEgASgJEg4KBnRpbWluZxgC",
+            "IAEoAiKzAQoJRW5lbXlEYXRhEgoKAmlkGAEgASgFEgsKA2NpZBgCIAEoBRIO",
+            "CgZoZWFsdGgYAyABKAUSCwoDdGlkGAQgASgFEhwKCHBvc2l0aW9uGAUgASgL",
+            "MgoucGIuVmVjdG9yEhwKCHJvdGF0aW9uGAYgASgLMgoucGIuVmVjdG9yEg4K",
+            "BnJvdXRlchgHIAEoCRITCgtyb3V0ZXJJbmRleBgIIAEoBRIPCgdzcGF3bmVy",
+            "GAkgASgJIikKDFNwYXduZXJFdmVudBIKCgJpZBgBIAEoBRINCgVjb3VudBgC",
+            "IAEoBSLgAgoJQnVpbGREYXRhEgsKA2NpZBgBIAEoBRImCgVidHlwZRgCIAEo",
+            "DjIXLnBiLkJ1aWxkRGF0YS5CdWlsZFR5cGUSDgoGaGVhbHRoGAMgASgFEg8K",
+            "B3RpbWVFbmQYBCABKAUSEwoLYnVpbGRTdGF0dXMYBSABKAUSJQoKY29tcG9z",
+            "aXRlcxgGIAMoCzIRLnBiLkNvbXBvc2l0ZUl0ZW0SGwoFcHJvcHMYByADKAsy",
+            "DC5wYi5JdGVtRGF0YRIdCgd3ZWFwb25zGAggAygLMgwucGIuSXRlbURhdGEi",
+            "hAEKCUJ1aWxkVHlwZRIICgROb25lEAASBwoDQmVkEAESCgoGRHluYW1vEAIS",
+            "DQoJV29ya0JlbmNoEAMSCwoHS2l0Y2hlbhAEEg4KCkxhYm9yYXRvcnkQBRIR",
+            "Cg1NZWRpY2luZUNoZXN0EAYSDQoJV2FyZUhvdXNlEAcSCgoGQ29wdGVyEAgi",
+            "HAoMQ2FsZW5kYXJEYXRhEgwKBHRpbWUYASABKAUiKwoMQ01pc3Npb25JdGVt",
+            "EgoKAmlkGAEgASgFEg8KB3Byb2Nlc3MYAiABKAUiOgoMQ01pc3Npb25EYXRh",
+            "EgoKAmlkGAEgASgFEh4KBGxpc3QYAiADKAsyEC5wYi5DTWlzc2lvbkl0ZW1i",
+            "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -129,7 +130,7 @@ namespace Pb {
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.Role), global::Pb.Role.Parser, new[]{ "Id", "Pid", "Cid", "Nickname", "Level", "TechPoint", "Diamond", "LoginTime", "CreateTime", "Exp" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.Prop), global::Pb.Prop.Parser, new[]{ "Id", "Rid", "Cid", "Count" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.Props), global::Pb.Props.Parser, new[]{ "Items" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.Chapter), global::Pb.Chapter.Parser, new[]{ "Id", "Rid", "Type", "Count", "TotalCount" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.Chapter), global::Pb.Chapter.Parser, new[]{ "Id", "Rid", "Type", "Count", "TotalCount", "ExtCount", "EnterTime" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.Chapters), global::Pb.Chapters.Parser, new[]{ "Items" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.GameRecord), global::Pb.GameRecord.Parser, new[]{ "Id", "Rid", "Home", "Player", "Missions" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.FinishMission), global::Pb.FinishMission.Parser, new[]{ "Id" }, null, null, null),
@@ -157,7 +158,7 @@ namespace Pb {
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.ItemData), global::Pb.ItemData.Parser, new[]{ "Id", "Count", "Hp", "Location" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.PlayerRecord), global::Pb.PlayerRecord.Parser, new[]{ "Health", "Stamina", "Props", "Weapons", "Position", "EquipedProps", "EquipedWeapons", "Energy" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.HomeRecord), global::Pb.HomeRecord.Parser, new[]{ "Builds", "Time", "Calendar" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.MissionRecord), global::Pb.MissionRecord.Parser, new[]{ "Missions" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.MissionRecord), global::Pb.MissionRecord.Parser, new[]{ "Missions", "LastMission" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.RecordItem), global::Pb.RecordItem.Parser, new[]{ "Tp", "Record" }, null, new[]{ typeof(global::Pb.RecordItem.Types.SaveType) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.RecordSave), global::Pb.RecordSave.Parser, new[]{ "Items" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.OreData), global::Pb.OreData.Parser, new[]{ "Idstr", "Timing", "Health" }, null, null, null),
@@ -167,7 +168,7 @@ namespace Pb {
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.BuildData), global::Pb.BuildData.Parser, new[]{ "Cid", "Btype", "Health", "TimeEnd", "BuildStatus", "Composites", "Props", "Weapons" }, null, new[]{ typeof(global::Pb.BuildData.Types.BuildType) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.CalendarData), global::Pb.CalendarData.Parser, new[]{ "Time" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.CMissionItem), global::Pb.CMissionItem.Parser, new[]{ "Id", "Process" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.CMissionData), global::Pb.CMissionData.Parser, new[]{ "Id", "List", "RefreshTime" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.CMissionData), global::Pb.CMissionData.Parser, new[]{ "Id", "List" }, null, null, null)
           }));
     }
     #endregion
@@ -2331,6 +2332,8 @@ namespace Pb {
       type_ = other.type_;
       count_ = other.count_;
       totalCount_ = other.totalCount_;
+      extCount_ = other.extCount_;
+      enterTime_ = other.enterTime_;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2363,6 +2366,9 @@ namespace Pb {
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 3;
     private int type_;
+    /// <summary>
+    /// 挑战类型
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Type {
       get { return type_; }
@@ -2374,6 +2380,9 @@ namespace Pb {
     /// <summary>Field number for the "count" field.</summary>
     public const int CountFieldNumber = 4;
     private int count_;
+    /// <summary>
+    /// 今日挑战次数
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Count {
       get { return count_; }
@@ -2385,11 +2394,42 @@ namespace Pb {
     /// <summary>Field number for the "totalCount" field.</summary>
     public const int TotalCountFieldNumber = 5;
     private int totalCount_;
+    /// <summary>
+    /// 总计挑战次数
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int TotalCount {
       get { return totalCount_; }
       set {
         totalCount_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "extCount" field.</summary>
+    public const int ExtCountFieldNumber = 6;
+    private int extCount_;
+    /// <summary>
+    /// 额外增加次数
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int ExtCount {
+      get { return extCount_; }
+      set {
+        extCount_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "enterTime" field.</summary>
+    public const int EnterTimeFieldNumber = 7;
+    private int enterTime_;
+    /// <summary>
+    /// 上次挑战时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int EnterTime {
+      get { return enterTime_; }
+      set {
+        enterTime_ = value;
       }
     }
 
@@ -2411,6 +2451,8 @@ namespace Pb {
       if (Type != other.Type) return false;
       if (Count != other.Count) return false;
       if (TotalCount != other.TotalCount) return false;
+      if (ExtCount != other.ExtCount) return false;
+      if (EnterTime != other.EnterTime) return false;
       return true;
     }
 
@@ -2422,6 +2464,8 @@ namespace Pb {
       if (Type != 0) hash ^= Type.GetHashCode();
       if (Count != 0) hash ^= Count.GetHashCode();
       if (TotalCount != 0) hash ^= TotalCount.GetHashCode();
+      if (ExtCount != 0) hash ^= ExtCount.GetHashCode();
+      if (EnterTime != 0) hash ^= EnterTime.GetHashCode();
       return hash;
     }
 
@@ -2452,6 +2496,14 @@ namespace Pb {
         output.WriteRawTag(40);
         output.WriteInt32(TotalCount);
       }
+      if (ExtCount != 0) {
+        output.WriteRawTag(48);
+        output.WriteInt32(ExtCount);
+      }
+      if (EnterTime != 0) {
+        output.WriteRawTag(56);
+        output.WriteInt32(EnterTime);
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2471,6 +2523,12 @@ namespace Pb {
       }
       if (TotalCount != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(TotalCount);
+      }
+      if (ExtCount != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ExtCount);
+      }
+      if (EnterTime != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(EnterTime);
       }
       return size;
     }
@@ -2494,6 +2552,12 @@ namespace Pb {
       }
       if (other.TotalCount != 0) {
         TotalCount = other.TotalCount;
+      }
+      if (other.ExtCount != 0) {
+        ExtCount = other.ExtCount;
+      }
+      if (other.EnterTime != 0) {
+        EnterTime = other.EnterTime;
       }
     }
 
@@ -2523,6 +2587,14 @@ namespace Pb {
           }
           case 40: {
             TotalCount = input.ReadInt32();
+            break;
+          }
+          case 48: {
+            ExtCount = input.ReadInt32();
+            break;
+          }
+          case 56: {
+            EnterTime = input.ReadInt32();
             break;
           }
         }
@@ -3421,6 +3493,10 @@ namespace Pb {
         /// 打开门
         /// </summary>
         [pbr::OriginalName("OpenDoor")] OpenDoor = 16,
+        /// <summary>
+        /// 升级
+        /// </summary>
+        [pbr::OriginalName("LevelUp")] LevelUp = 17,
       }
 
     }
@@ -7055,6 +7131,7 @@ namespace Pb {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public MissionRecord(MissionRecord other) : this() {
       missions_ = other.missions_.Clone();
+      lastMission_ = other.lastMission_;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7075,6 +7152,20 @@ namespace Pb {
       get { return missions_; }
     }
 
+    /// <summary>Field number for the "lastMission" field.</summary>
+    public const int LastMissionFieldNumber = 2;
+    private int lastMission_;
+    /// <summary>
+    /// 最后一个日常主线任务
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int LastMission {
+      get { return lastMission_; }
+      set {
+        lastMission_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as MissionRecord);
@@ -7089,6 +7180,7 @@ namespace Pb {
         return true;
       }
       if(!missions_.Equals(other.missions_)) return false;
+      if (LastMission != other.LastMission) return false;
       return true;
     }
 
@@ -7096,6 +7188,7 @@ namespace Pb {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= missions_.GetHashCode();
+      if (LastMission != 0) hash ^= LastMission.GetHashCode();
       return hash;
     }
 
@@ -7107,12 +7200,19 @@ namespace Pb {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
       missions_.WriteTo(output, _repeated_missions_codec);
+      if (LastMission != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(LastMission);
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
       size += missions_.CalculateSize(_repeated_missions_codec);
+      if (LastMission != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(LastMission);
+      }
       return size;
     }
 
@@ -7122,6 +7222,9 @@ namespace Pb {
         return;
       }
       missions_.Add(other.missions_);
+      if (other.LastMission != 0) {
+        LastMission = other.LastMission;
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7134,6 +7237,10 @@ namespace Pb {
             break;
           case 10: {
             missions_.AddEntriesFrom(input, _repeated_missions_codec);
+            break;
+          }
+          case 16: {
+            LastMission = input.ReadInt32();
             break;
           }
         }
@@ -8911,7 +9018,6 @@ namespace Pb {
     public CMissionData(CMissionData other) : this() {
       id_ = other.id_;
       list_ = other.list_.Clone();
-      refreshTime_ = other.refreshTime_;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8940,17 +9046,6 @@ namespace Pb {
       get { return list_; }
     }
 
-    /// <summary>Field number for the "refreshTime" field.</summary>
-    public const int RefreshTimeFieldNumber = 3;
-    private int refreshTime_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int RefreshTime {
-      get { return refreshTime_; }
-      set {
-        refreshTime_ = value;
-      }
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as CMissionData);
@@ -8966,7 +9061,6 @@ namespace Pb {
       }
       if (Id != other.Id) return false;
       if(!list_.Equals(other.list_)) return false;
-      if (RefreshTime != other.RefreshTime) return false;
       return true;
     }
 
@@ -8975,7 +9069,6 @@ namespace Pb {
       int hash = 1;
       if (Id != 0) hash ^= Id.GetHashCode();
       hash ^= list_.GetHashCode();
-      if (RefreshTime != 0) hash ^= RefreshTime.GetHashCode();
       return hash;
     }
 
@@ -8991,10 +9084,6 @@ namespace Pb {
         output.WriteInt32(Id);
       }
       list_.WriteTo(output, _repeated_list_codec);
-      if (RefreshTime != 0) {
-        output.WriteRawTag(24);
-        output.WriteInt32(RefreshTime);
-      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9004,9 +9093,6 @@ namespace Pb {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Id);
       }
       size += list_.CalculateSize(_repeated_list_codec);
-      if (RefreshTime != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(RefreshTime);
-      }
       return size;
     }
 
@@ -9019,9 +9105,6 @@ namespace Pb {
         Id = other.Id;
       }
       list_.Add(other.list_);
-      if (other.RefreshTime != 0) {
-        RefreshTime = other.RefreshTime;
-      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9038,10 +9121,6 @@ namespace Pb {
           }
           case 18: {
             list_.AddEntriesFrom(input, _repeated_list_codec);
-            break;
-          }
-          case 24: {
-            RefreshTime = input.ReadInt32();
             break;
           }
         }

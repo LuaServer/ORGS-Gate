@@ -4,6 +4,8 @@ local Chapters = cc.class("Chapters", BaseList)
 local Chapter = cc.import(".Chapter")
 local dbConfig = cc.import("#dbConfig")
 
+local ngx_now = ngx.now
+
 function Chapters:createItem()
     return Chapter:new()
 end
@@ -18,7 +20,7 @@ function Chapters:Initialize(db, rid, lastTime, loginTime)
     
     if loginDate.year ~= lastDate.year or loginDate.yday ~= lastDate.yday then
         local template = self:getTemplate()
-        template:updateQuery(db, {rid = rid}, {count = 0})
+        template:updateQuery(db, {rid = rid}, {count = 0, extCount = 0})
     end
     return self:load(db, {
         rid = rid,
@@ -42,13 +44,14 @@ function Chapters:Finish(db, rid, chapter_id, role_level, _star)
     local item = self:getByCID(chapter_cfg.type)
     if item == nil then
         local template = self:getTemplate()
-        local result = template:insertQuery(db, {rid = rid, type = chapter_cfg.type, count = 1, totalCount = 1})
+        local result = template:insertQuery(db, {rid = rid, type = chapter_cfg.type, count = 1, totalCount = 1, enterTime = ngx_now(), extCount = 0})
         if result and result.insert_id then
             return self:load(db, {id = result.insert_id}), nil, clevel_cfgs[1]
         end
     else
         item:add("count", 1)
         item:add("totalCount", 1)
+        item:set("enterTime", ngx_now())
         return {item:get()}, nil, clevel_cfgs[1]
     end
     return nil, "NoParam"

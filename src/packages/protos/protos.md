@@ -159,9 +159,11 @@ message Props{
 message Chapter{
 	int32 id = 1;
 	int32 rid = 2;
-	int32 type = 3;
-	int32 count = 4;
-	int32 totalCount = 5;
+	int32 type = 3; //挑战类型
+	int32 count = 4; //今日挑战次数
+	int32 totalCount = 5; //总计挑战次数
+	int32 extCount = 6; //额外增加次数
+	int32 enterTime = 7; //上次挑战时间
 }
 
 message Chapters{
@@ -205,6 +207,7 @@ message MissionEvent{
 		NpcDialog = 14; //NPC对话
 		NpcRescue = 15; //NPC拯救
 		OpenDoor = 16; //打开门
+		LevelUp = 17; //升级
 	}
 
 	int32 action_id = 1;
@@ -344,15 +347,12 @@ message HomeRecord{
 	repeated BuildData builds = 1; //建筑数据
 	int64 time = 2; //时间
 	CalendarData calendar = 3; //日历信息
-
-	//repeated OreData ores = 7; //矿
-	//repeated PickupData pickups = 8; //拾取
-	//repeated EnemyData enemys = 9; //敌人
 }
 
 //任务数据
 message MissionRecord{
 	repeated CMissionData missions = 1; //任务列表
+	int32 lastMission = 2; //最后一个日常主线任务
 }
 
 message RecordItem{
@@ -428,8 +428,6 @@ message BuildData{
 //日历数据
 message CalendarData{
 	int32 time = 1; //当前时间进度
-//	int32 nextwave = 2; //小一波到来的时间id
-//	repeated SpawnerEvent events = 3; //事件
 }
 
 //任务数据
@@ -442,5 +440,4 @@ message CMissionItem{
 message CMissionData{
 	int32 id = 1;
 	repeated CMissionItem list = 2;
-	int32 refreshTime = 3;
 }```

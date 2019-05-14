@@ -5,6 +5,8 @@ local Struct = {
     type = 0,
     count = 0, --完成次数
     totalCount = 0, --总次数
+    extCount = 0, --额外增加次数
+    enterTime = 0,
 }
 
 local Define = {
@@ -13,6 +15,8 @@ local Define = {
     type = "int NOT NULL",
     count = "int NOT NULL",
     totalCount = "int NOT NULL",
+    extCount = "int NOT NULL",
+    enterTime = "int NOT NULL",
 }
 
 local Indexes = {

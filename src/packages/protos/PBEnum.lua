@@ -50,6 +50,7 @@ local _M = {
 			NpcDialog = 14,
 			NPC = 15,
 			NPC = 16,
+			LevelUp = 17,
 		},
 	},
 	RecordItem={
