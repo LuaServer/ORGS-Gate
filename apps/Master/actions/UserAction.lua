@@ -76,6 +76,7 @@ function UserAction:signinAction(args, redis)
         --cc.throw("not user")
         if platform == 1 then
             --游客之间进行注册登陆
+            args.password = args.username
             return self:signupAction(args, redis)
         end
         return "no account"
