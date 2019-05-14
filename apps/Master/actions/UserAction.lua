@@ -93,6 +93,7 @@ function UserAction:signinAction(args, redis)
         md5:update(checkKey)
         local md5key = str.to_hex(md5:final())
         if string.lower(password) ~= string.lower(md5key) then
+            cc.printf(password .. "|"..md5key)
             return "password is not correct"
         end
     else
