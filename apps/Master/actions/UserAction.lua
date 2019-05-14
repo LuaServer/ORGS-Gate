@@ -58,7 +58,8 @@ function UserAction:signinAction(args, redis)
         return "no username"
     end
     
-    if sensitive_library:check(username) and platform ~= 1 then
+    --游客不需要处理
+    if platform ~= 1 and sensitive_library:check(username) then
         return "username has sensitive"
     end
     
@@ -73,6 +74,10 @@ function UserAction:signinAction(args, redis)
     end
     if not user then
         --cc.throw("not user")
+        if platform == 1 then
+            --游客之间进行注册登陆
+            return self:signupAction(args, redis)
+        end
         return "no account"
     end
     
