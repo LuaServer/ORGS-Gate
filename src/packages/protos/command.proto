@@ -14,6 +14,7 @@ package pb;
 
 	ShopRecord==21
 	ShopBuy==22
+	ExchangeItem==23
 	
 	OpenBox==31
 	GainBox==32
@@ -167,12 +168,15 @@ message Chapters{
 	repeated Chapter items = 1;
 }
 
+//游戏存档数据
 message GameRecord{
 	int32 id = 1;
 	int32 rid = 2;
 	bytes home = 3; //家的数据
 	bytes player = 4; //玩家数据
 	bytes missions = 5; //任务数据
+	int32 savetime = 6; //保存时间
+	bytes used = 7; //使用过的道具存档
 }
 
 //完成任务
@@ -352,50 +356,38 @@ message MissionRecord{
 	int32 lastMission = 2; //最后一个日常主线任务
 }
 
+//使用过的道具数量
+message UsedItem{
+	int32 id = 1;
+	int32 count = 2;	
+}
+
+//使用过的道具记录
+message UsedRecord{
+	repeated UsedItem items = 1;
+}
+
+//存档记录
 message RecordItem{
 	enum SaveType{
 		Player = 0;
 		Home = 1;
 		Mission = 2;
+		Used = 3;
 	}
 	SaveType tp = 1;
 	bytes record = 2;
 }
 
+//保存数据
 message RecordSave{
 	repeated RecordItem items = 1;
 }
 
-//矿产数据
-message OreData{
-	string idstr = 1;
-	float timing = 2;
-	int32 health = 3;
-}
-
-//拾取数据
-message PickupData{
-	string idstr = 1;
-	float timing = 2;
-}
-
-//敌人数据
-message EnemyData{
-	int32 id = 1; //角色id
-	int32 cid = 2; //配置表id
-	int32 health = 3; //剩余血量
-	int32 tid = 4; //目标id
-	Vector position = 5; //位置
-	Vector rotation = 6; // 方向
-	string router = 7; //路径
-	int32 routerIndex = 8; //路径序号
-	string spawner = 9; //产出主体
-}
-
-//游戏世界
-message SpawnerEvent{
- 	int32 id = 1; //事件id
- 	int32 count = 2; //怪物剩余数量
+//兑换物品
+message ExchangeItem{
+	int32 id = 1; //兑换物品id
+	RecordItem item = 2; //兑换时的存档
 }
 
 //建筑数据

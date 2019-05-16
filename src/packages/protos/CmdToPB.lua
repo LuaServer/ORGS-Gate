@@ -32,5 +32,6 @@ local _M = {
     [111] = "ADList",
     [21] = "ShopRecord",
     [42] = "RecordSave",
+    [23] = "ExchangeItem",
 }
 return _M

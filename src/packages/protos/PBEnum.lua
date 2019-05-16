@@ -58,6 +58,7 @@ local _M = {
 			e = 0,
 			Home = 1,
 			Mission = 2,
+			Used = 3,
 		},
 	},
 	BuildData={

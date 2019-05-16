@@ -32,5 +32,6 @@ local _M = {
     ADList = 111,
     ShopRecord = 21,
     RecordSave = 42,
+    ExchangeItem = 23,
 }
 return _M

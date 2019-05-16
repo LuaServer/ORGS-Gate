@@ -20,6 +20,7 @@ function Record:Initialize(db, rid)
         data.home = ""
         data.player = ""
         data.missions = ""
+        data.used = ""
         local result, err = self:insertQuery(db, data)
         if err then
             cc.printf(err)

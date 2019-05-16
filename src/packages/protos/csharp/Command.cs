@@ -49,72 +49,68 @@ namespace Pb {
             "cm9wIngKB0NoYXB0ZXISCgoCaWQYASABKAUSCwoDcmlkGAIgASgFEgwKBHR5",
             "cGUYAyABKAUSDQoFY291bnQYBCABKAUSEgoKdG90YWxDb3VudBgFIAEoBRIQ",
             "CghleHRDb3VudBgGIAEoBRIRCgllbnRlclRpbWUYByABKAUiJgoIQ2hhcHRl",
-            "cnMSGgoFaXRlbXMYASADKAsyCy5wYi5DaGFwdGVyIlUKCkdhbWVSZWNvcmQS",
+            "cnMSGgoFaXRlbXMYASADKAsyCy5wYi5DaGFwdGVyInUKCkdhbWVSZWNvcmQS",
             "CgoCaWQYASABKAUSCwoDcmlkGAIgASgFEgwKBGhvbWUYAyABKAwSDgoGcGxh",
-            "eWVyGAQgASgMEhAKCG1pc3Npb25zGAUgASgMIhsKDUZpbmlzaE1pc3Npb24S",
-            "CgoCaWQYASABKAUiGAoKRmluaXNoQWNodhIKCgJpZBgBIAEoBSKAAwoMTWlz",
-            "c2lvbkV2ZW50EhEKCWFjdGlvbl9pZBgBIAEoBRIUCgxhY3Rpb25fcGxhY2UY",
-            "AiABKAUSFAoMYWN0aW9uX2NvdW50GAMgASgFEhMKC2FjdGlvbl90eXBlGAQg",
-            "ASgFEhcKD2FjdGlvbl9vdmVycmlkZRgFIAEoCCKCAgoFTVR5cGUSCAoETm9u",
-            "ZRAAEggKBEtpbGwQARILCgdDb2xsZWN0EAISDAoITWFrZVByb3AQAxIJCgVC",
-            "dWlsZBAEEgkKBUFsaXZlEAUSDgoKVXNlRGlhbW9uZBAGEgsKB1VzZVRlY2gQ",
-            "BxILCgdVc2VJdGVtEAgSCQoFU2xlZXAQCRIRCg1VcGdyYWRlVGFsZW50EAoS",
-            "EQoNRmluaXNoTWlzc2lvbhALEhEKDUZpbmlzaENoYXB0ZXIQDBINCglNYWtl",
-            "RXF1aXAQDRINCglOcGNEaWFsb2cQDhINCglOcGNSZXNjdWUQDxIMCghPcGVu",
-            "RG9vchAQEgsKB0xldmVsVXAQESJRCgtNaXNzaW9uSXRlbRIKCgJpZBgBIAEo",
-            "BRIPCgdwcm9jZXNzGAIgASgFEgsKA2NpZBgDIAEoBRILCgNyaWQYBCABKAUS",
-            "CwoDZ290GAUgASgFIi0KC01pc3Npb25MaXN0Eh4KBWl0ZW1zGAEgAygLMg8u",
-            "cGIuTWlzc2lvbkl0ZW0iTgoIQWNodkl0ZW0SCgoCaWQYASABKAUSDwoHcHJv",
-            "Y2VzcxgCIAEoBRILCgNjaWQYAyABKAUSCwoDcmlkGAQgASgFEgsKA2dvdBgF",
-            "IAEoBSInCghBY2h2TGlzdBIbCgVpdGVtcxgBIAMoCzIMLnBiLkFjaHZJdGVt",
-            "Ij8KA0JveBIKCgJpZBgBIAEoBRILCgNyaWQYAiABKAUSCwoDY2lkGAMgASgF",
-            "EhIKCnVubG9ja1RpbWUYBCABKAUiHwoFQm94ZXMSFgoFaXRlbXMYASADKAsy",
-            "By5wYi5Cb3giLwoGUmV3YXJkEgoKAnRwGAEgASgFEgoKAmlkGAIgASgFEg0K",
-            "BWNvdW50GAMgASgFIiQKB1Jld2FyZHMSGQoFaXRlbXMYASADKAsyCi5wYi5S",
-            "ZXdhcmQiPQoGVGFsZW50EgoKAmlkGAEgASgFEgsKA3JpZBgCIAEoBRILCgNj",
-            "aWQYAyABKAUSDQoFbGV2ZWwYBCABKAUiJAoHVGFsZW50cxIZCgVpdGVtcxgB",
-            "IAMoCzIKLnBiLlRhbGVudCIqCgxUYWxlbnRVbmxvY2sSCwoDY2lkGAEgASgF",
-            "Eg0KBWxldmVsGAIgASgFIjEKDFNpZ25pblJlY29yZBINCgV0aW1lcxgBIAEo",
-            "BRISCgZyZWNvcmQYAiADKAVCAhABIhgKCVNpZ25pbkdldBILCgNkYXkYASAB",
-            "KAUiFQoHU2hvcEJ1eRIKCgJpZBgBIAEoBSIUCgZBRFNob3cSCgoCaWQYASAB",
-            "KAUiSwoGQURJdGVtEgoKAmlkGAEgASgFEgsKA3JpZBgCIAEoBRILCgNjaWQY",
-            "AyABKAUSDAoEdGltZRgEIAEoBRINCgVjb3VudBgFIAEoBSIjCgZBRExpc3QS",
-            "GQoFaXRlbXMYASADKAsyCi5wYi5BREl0ZW0iNwoKU2hvcFJlY29yZBIKCgJp",
-            "ZBgBIAEoBRILCgNyaWQYAiABKAUSEAoIYnV5VGltZXMYAyABKAUiLAoNQ29t",
-            "cG9zaXRlSXRlbRIKCgJpZBgBIAEoBRIPCgd0aW1lRW5kGAIgASgFIkMKCEl0",
-            "ZW1EYXRhEgoKAmlkGAEgASgFEg0KBWNvdW50GAIgASgFEgoKAmhwGAMgASgF",
-            "EhAKCGxvY2F0aW9uGAQgASgFIuMBCgxQbGF5ZXJSZWNvcmQSDgoGaGVhbHRo",
-            "GAEgASgFEg8KB3N0YW1pbmEYAiABKAUSGwoFcHJvcHMYAyADKAsyDC5wYi5J",
-            "dGVtRGF0YRIdCgd3ZWFwb25zGAQgAygLMgwucGIuSXRlbURhdGESHAoIUG9z",
-            "aXRpb24YBSABKAsyCi5wYi5WZWN0b3ISIgoMZXF1aXBlZFByb3BzGAYgAygL",
-            "MgwucGIuSXRlbURhdGESJAoOZXF1aXBlZFdlYXBvbnMYByADKAsyDC5wYi5J",
-            "dGVtRGF0YRIOCgZlbmVyZ3kYCCABKAUiXQoKSG9tZVJlY29yZBIdCgZidWls",
-            "ZHMYASADKAsyDS5wYi5CdWlsZERhdGESDAoEdGltZRgCIAEoAxIiCghjYWxl",
-            "bmRhchgDIAEoCzIQLnBiLkNhbGVuZGFyRGF0YSJICg1NaXNzaW9uUmVjb3Jk",
-            "EiIKCG1pc3Npb25zGAEgAygLMhAucGIuQ01pc3Npb25EYXRhEhMKC2xhc3RN",
-            "aXNzaW9uGAIgASgFInAKClJlY29yZEl0ZW0SIwoCdHAYASABKA4yFy5wYi5S",
-            "ZWNvcmRJdGVtLlNhdmVUeXBlEg4KBnJlY29yZBgCIAEoDCItCghTYXZlVHlw",
-            "ZRIKCgZQbGF5ZXIQABIICgRIb21lEAESCwoHTWlzc2lvbhACIisKClJlY29y",
-            "ZFNhdmUSHQoFaXRlbXMYASADKAsyDi5wYi5SZWNvcmRJdGVtIjgKB09yZURh",
-            "dGESDQoFaWRzdHIYASABKAkSDgoGdGltaW5nGAIgASgCEg4KBmhlYWx0aBgD",
-            "IAEoBSIrCgpQaWNrdXBEYXRhEg0KBWlkc3RyGAEgASgJEg4KBnRpbWluZxgC",
-            "IAEoAiKzAQoJRW5lbXlEYXRhEgoKAmlkGAEgASgFEgsKA2NpZBgCIAEoBRIO",
-            "CgZoZWFsdGgYAyABKAUSCwoDdGlkGAQgASgFEhwKCHBvc2l0aW9uGAUgASgL",
-            "MgoucGIuVmVjdG9yEhwKCHJvdGF0aW9uGAYgASgLMgoucGIuVmVjdG9yEg4K",
-            "BnJvdXRlchgHIAEoCRITCgtyb3V0ZXJJbmRleBgIIAEoBRIPCgdzcGF3bmVy",
-            "GAkgASgJIikKDFNwYXduZXJFdmVudBIKCgJpZBgBIAEoBRINCgVjb3VudBgC",
-            "IAEoBSLgAgoJQnVpbGREYXRhEgsKA2NpZBgBIAEoBRImCgVidHlwZRgCIAEo",
-            "DjIXLnBiLkJ1aWxkRGF0YS5CdWlsZFR5cGUSDgoGaGVhbHRoGAMgASgFEg8K",
-            "B3RpbWVFbmQYBCABKAUSEwoLYnVpbGRTdGF0dXMYBSABKAUSJQoKY29tcG9z",
-            "aXRlcxgGIAMoCzIRLnBiLkNvbXBvc2l0ZUl0ZW0SGwoFcHJvcHMYByADKAsy",
-            "DC5wYi5JdGVtRGF0YRIdCgd3ZWFwb25zGAggAygLMgwucGIuSXRlbURhdGEi",
-            "hAEKCUJ1aWxkVHlwZRIICgROb25lEAASBwoDQmVkEAESCgoGRHluYW1vEAIS",
-            "DQoJV29ya0JlbmNoEAMSCwoHS2l0Y2hlbhAEEg4KCkxhYm9yYXRvcnkQBRIR",
-            "Cg1NZWRpY2luZUNoZXN0EAYSDQoJV2FyZUhvdXNlEAcSCgoGQ29wdGVyEAgi",
-            "HAoMQ2FsZW5kYXJEYXRhEgwKBHRpbWUYASABKAUiKwoMQ01pc3Npb25JdGVt",
-            "EgoKAmlkGAEgASgFEg8KB3Byb2Nlc3MYAiABKAUiOgoMQ01pc3Npb25EYXRh",
-            "EgoKAmlkGAEgASgFEh4KBGxpc3QYAiADKAsyEC5wYi5DTWlzc2lvbkl0ZW1i",
-            "BnByb3RvMw=="));
+            "eWVyGAQgASgMEhAKCG1pc3Npb25zGAUgASgMEhAKCHNhdmV0aW1lGAYgASgF",
+            "EgwKBHVzZWQYByABKAwiGwoNRmluaXNoTWlzc2lvbhIKCgJpZBgBIAEoBSIY",
+            "CgpGaW5pc2hBY2h2EgoKAmlkGAEgASgFIoADCgxNaXNzaW9uRXZlbnQSEQoJ",
+            "YWN0aW9uX2lkGAEgASgFEhQKDGFjdGlvbl9wbGFjZRgCIAEoBRIUCgxhY3Rp",
+            "b25fY291bnQYAyABKAUSEwoLYWN0aW9uX3R5cGUYBCABKAUSFwoPYWN0aW9u",
+            "X292ZXJyaWRlGAUgASgIIoICCgVNVHlwZRIICgROb25lEAASCAoES2lsbBAB",
+            "EgsKB0NvbGxlY3QQAhIMCghNYWtlUHJvcBADEgkKBUJ1aWxkEAQSCQoFQWxp",
+            "dmUQBRIOCgpVc2VEaWFtb25kEAYSCwoHVXNlVGVjaBAHEgsKB1VzZUl0ZW0Q",
+            "CBIJCgVTbGVlcBAJEhEKDVVwZ3JhZGVUYWxlbnQQChIRCg1GaW5pc2hNaXNz",
+            "aW9uEAsSEQoNRmluaXNoQ2hhcHRlchAMEg0KCU1ha2VFcXVpcBANEg0KCU5w",
+            "Y0RpYWxvZxAOEg0KCU5wY1Jlc2N1ZRAPEgwKCE9wZW5Eb29yEBASCwoHTGV2",
+            "ZWxVcBARIlEKC01pc3Npb25JdGVtEgoKAmlkGAEgASgFEg8KB3Byb2Nlc3MY",
+            "AiABKAUSCwoDY2lkGAMgASgFEgsKA3JpZBgEIAEoBRILCgNnb3QYBSABKAUi",
+            "LQoLTWlzc2lvbkxpc3QSHgoFaXRlbXMYASADKAsyDy5wYi5NaXNzaW9uSXRl",
+            "bSJOCghBY2h2SXRlbRIKCgJpZBgBIAEoBRIPCgdwcm9jZXNzGAIgASgFEgsK",
+            "A2NpZBgDIAEoBRILCgNyaWQYBCABKAUSCwoDZ290GAUgASgFIicKCEFjaHZM",
+            "aXN0EhsKBWl0ZW1zGAEgAygLMgwucGIuQWNodkl0ZW0iPwoDQm94EgoKAmlk",
+            "GAEgASgFEgsKA3JpZBgCIAEoBRILCgNjaWQYAyABKAUSEgoKdW5sb2NrVGlt",
+            "ZRgEIAEoBSIfCgVCb3hlcxIWCgVpdGVtcxgBIAMoCzIHLnBiLkJveCIvCgZS",
+            "ZXdhcmQSCgoCdHAYASABKAUSCgoCaWQYAiABKAUSDQoFY291bnQYAyABKAUi",
+            "JAoHUmV3YXJkcxIZCgVpdGVtcxgBIAMoCzIKLnBiLlJld2FyZCI9CgZUYWxl",
+            "bnQSCgoCaWQYASABKAUSCwoDcmlkGAIgASgFEgsKA2NpZBgDIAEoBRINCgVs",
+            "ZXZlbBgEIAEoBSIkCgdUYWxlbnRzEhkKBWl0ZW1zGAEgAygLMgoucGIuVGFs",
+            "ZW50IioKDFRhbGVudFVubG9jaxILCgNjaWQYASABKAUSDQoFbGV2ZWwYAiAB",
+            "KAUiMQoMU2lnbmluUmVjb3JkEg0KBXRpbWVzGAEgASgFEhIKBnJlY29yZBgC",
+            "IAMoBUICEAEiGAoJU2lnbmluR2V0EgsKA2RheRgBIAEoBSIVCgdTaG9wQnV5",
+            "EgoKAmlkGAEgASgFIhQKBkFEU2hvdxIKCgJpZBgBIAEoBSJLCgZBREl0ZW0S",
+            "CgoCaWQYASABKAUSCwoDcmlkGAIgASgFEgsKA2NpZBgDIAEoBRIMCgR0aW1l",
+            "GAQgASgFEg0KBWNvdW50GAUgASgFIiMKBkFETGlzdBIZCgVpdGVtcxgBIAMo",
+            "CzIKLnBiLkFESXRlbSI3CgpTaG9wUmVjb3JkEgoKAmlkGAEgASgFEgsKA3Jp",
+            "ZBgCIAEoBRIQCghidXlUaW1lcxgDIAEoBSIsCg1Db21wb3NpdGVJdGVtEgoK",
+            "AmlkGAEgASgFEg8KB3RpbWVFbmQYAiABKAUiQwoISXRlbURhdGESCgoCaWQY",
+            "ASABKAUSDQoFY291bnQYAiABKAUSCgoCaHAYAyABKAUSEAoIbG9jYXRpb24Y",
+            "BCABKAUi4wEKDFBsYXllclJlY29yZBIOCgZoZWFsdGgYASABKAUSDwoHc3Rh",
+            "bWluYRgCIAEoBRIbCgVwcm9wcxgDIAMoCzIMLnBiLkl0ZW1EYXRhEh0KB3dl",
+            "YXBvbnMYBCADKAsyDC5wYi5JdGVtRGF0YRIcCghQb3NpdGlvbhgFIAEoCzIK",
+            "LnBiLlZlY3RvchIiCgxlcXVpcGVkUHJvcHMYBiADKAsyDC5wYi5JdGVtRGF0",
+            "YRIkCg5lcXVpcGVkV2VhcG9ucxgHIAMoCzIMLnBiLkl0ZW1EYXRhEg4KBmVu",
+            "ZXJneRgIIAEoBSJdCgpIb21lUmVjb3JkEh0KBmJ1aWxkcxgBIAMoCzINLnBi",
+            "LkJ1aWxkRGF0YRIMCgR0aW1lGAIgASgDEiIKCGNhbGVuZGFyGAMgASgLMhAu",
+            "cGIuQ2FsZW5kYXJEYXRhIkgKDU1pc3Npb25SZWNvcmQSIgoIbWlzc2lvbnMY",
+            "ASADKAsyEC5wYi5DTWlzc2lvbkRhdGESEwoLbGFzdE1pc3Npb24YAiABKAUi",
+            "JQoIVXNlZEl0ZW0SCgoCaWQYASABKAUSDQoFY291bnQYAiABKAUiKQoKVXNl",
+            "ZFJlY29yZBIbCgVpdGVtcxgBIAMoCzIMLnBiLlVzZWRJdGVtInoKClJlY29y",
+            "ZEl0ZW0SIwoCdHAYASABKA4yFy5wYi5SZWNvcmRJdGVtLlNhdmVUeXBlEg4K",
+            "BnJlY29yZBgCIAEoDCI3CghTYXZlVHlwZRIKCgZQbGF5ZXIQABIICgRIb21l",
+            "EAESCwoHTWlzc2lvbhACEggKBFVzZWQQAyIrCgpSZWNvcmRTYXZlEh0KBWl0",
+            "ZW1zGAEgAygLMg4ucGIuUmVjb3JkSXRlbSI4CgxFeGNoYW5nZUl0ZW0SCgoC",
+            "aWQYASABKAUSHAoEaXRlbRgCIAEoCzIOLnBiLlJlY29yZEl0ZW0i4AIKCUJ1",
+            "aWxkRGF0YRILCgNjaWQYASABKAUSJgoFYnR5cGUYAiABKA4yFy5wYi5CdWls",
+            "ZERhdGEuQnVpbGRUeXBlEg4KBmhlYWx0aBgDIAEoBRIPCgd0aW1lRW5kGAQg",
+            "ASgFEhMKC2J1aWxkU3RhdHVzGAUgASgFEiUKCmNvbXBvc2l0ZXMYBiADKAsy",
+            "ES5wYi5Db21wb3NpdGVJdGVtEhsKBXByb3BzGAcgAygLMgwucGIuSXRlbURh",
+            "dGESHQoHd2VhcG9ucxgIIAMoCzIMLnBiLkl0ZW1EYXRhIoQBCglCdWlsZFR5",
+            "cGUSCAoETm9uZRAAEgcKA0JlZBABEgoKBkR5bmFtbxACEg0KCVdvcmtCZW5j",
+            "aBADEgsKB0tpdGNoZW4QBBIOCgpMYWJvcmF0b3J5EAUSEQoNTWVkaWNpbmVD",
+            "aGVzdBAGEg0KCVdhcmVIb3VzZRAHEgoKBkNvcHRlchAIIhwKDENhbGVuZGFy",
+            "RGF0YRIMCgR0aW1lGAEgASgFIisKDENNaXNzaW9uSXRlbRIKCgJpZBgBIAEo",
+            "BRIPCgdwcm9jZXNzGAIgASgFIjoKDENNaXNzaW9uRGF0YRIKCgJpZBgBIAEo",
+            "BRIeCgRsaXN0GAIgAygLMhAucGIuQ01pc3Npb25JdGVtYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -132,7 +128,7 @@ namespace Pb {
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.Props), global::Pb.Props.Parser, new[]{ "Items" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.Chapter), global::Pb.Chapter.Parser, new[]{ "Id", "Rid", "Type", "Count", "TotalCount", "ExtCount", "EnterTime" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.Chapters), global::Pb.Chapters.Parser, new[]{ "Items" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.GameRecord), global::Pb.GameRecord.Parser, new[]{ "Id", "Rid", "Home", "Player", "Missions" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.GameRecord), global::Pb.GameRecord.Parser, new[]{ "Id", "Rid", "Home", "Player", "Missions", "Savetime", "Used" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.FinishMission), global::Pb.FinishMission.Parser, new[]{ "Id" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.FinishAchv), global::Pb.FinishAchv.Parser, new[]{ "Id" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.MissionEvent), global::Pb.MissionEvent.Parser, new[]{ "ActionId", "ActionPlace", "ActionCount", "ActionType", "ActionOverride" }, null, new[]{ typeof(global::Pb.MissionEvent.Types.MType) }, null),
@@ -159,12 +155,11 @@ namespace Pb {
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.PlayerRecord), global::Pb.PlayerRecord.Parser, new[]{ "Health", "Stamina", "Props", "Weapons", "Position", "EquipedProps", "EquipedWeapons", "Energy" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.HomeRecord), global::Pb.HomeRecord.Parser, new[]{ "Builds", "Time", "Calendar" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.MissionRecord), global::Pb.MissionRecord.Parser, new[]{ "Missions", "LastMission" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.UsedItem), global::Pb.UsedItem.Parser, new[]{ "Id", "Count" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.UsedRecord), global::Pb.UsedRecord.Parser, new[]{ "Items" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.RecordItem), global::Pb.RecordItem.Parser, new[]{ "Tp", "Record" }, null, new[]{ typeof(global::Pb.RecordItem.Types.SaveType) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.RecordSave), global::Pb.RecordSave.Parser, new[]{ "Items" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.OreData), global::Pb.OreData.Parser, new[]{ "Idstr", "Timing", "Health" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.PickupData), global::Pb.PickupData.Parser, new[]{ "Idstr", "Timing" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.EnemyData), global::Pb.EnemyData.Parser, new[]{ "Id", "Cid", "Health", "Tid", "Position", "Rotation", "Router", "RouterIndex", "Spawner" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.SpawnerEvent), global::Pb.SpawnerEvent.Parser, new[]{ "Id", "Count" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Pb.ExchangeItem), global::Pb.ExchangeItem.Parser, new[]{ "Id", "Item" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.BuildData), global::Pb.BuildData.Parser, new[]{ "Cid", "Btype", "Health", "TimeEnd", "BuildStatus", "Composites", "Props", "Weapons" }, null, new[]{ typeof(global::Pb.BuildData.Types.BuildType) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.CalendarData), global::Pb.CalendarData.Parser, new[]{ "Time" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Pb.CMissionItem), global::Pb.CMissionItem.Parser, new[]{ "Id", "Process" }, null, null, null),
@@ -189,6 +184,7 @@ namespace Pb {
   ///
   /// ShopRecord==21
   /// ShopBuy==22
+  /// ExchangeItem==23
   ///
   /// OpenBox==31
   /// GainBox==32
@@ -2712,6 +2708,9 @@ namespace Pb {
 
   }
 
+  /// <summary>
+  /// 游戏存档数据
+  /// </summary>
   public sealed partial class GameRecord : pb::IMessage<GameRecord> {
     private static readonly pb::MessageParser<GameRecord> _parser = new pb::MessageParser<GameRecord>(() => new GameRecord());
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2741,6 +2740,8 @@ namespace Pb {
       home_ = other.home_;
       player_ = other.player_;
       missions_ = other.missions_;
+      savetime_ = other.savetime_;
+      used_ = other.used_;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2812,6 +2813,34 @@ namespace Pb {
       }
     }
 
+    /// <summary>Field number for the "savetime" field.</summary>
+    public const int SavetimeFieldNumber = 6;
+    private int savetime_;
+    /// <summary>
+    /// 保存时间
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Savetime {
+      get { return savetime_; }
+      set {
+        savetime_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "used" field.</summary>
+    public const int UsedFieldNumber = 7;
+    private pb::ByteString used_ = pb::ByteString.Empty;
+    /// <summary>
+    /// 使用过的道具存档
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pb::ByteString Used {
+      get { return used_; }
+      set {
+        used_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as GameRecord);
@@ -2830,6 +2859,8 @@ namespace Pb {
       if (Home != other.Home) return false;
       if (Player != other.Player) return false;
       if (Missions != other.Missions) return false;
+      if (Savetime != other.Savetime) return false;
+      if (Used != other.Used) return false;
       return true;
     }
 
@@ -2841,6 +2872,8 @@ namespace Pb {
       if (Home.Length != 0) hash ^= Home.GetHashCode();
       if (Player.Length != 0) hash ^= Player.GetHashCode();
       if (Missions.Length != 0) hash ^= Missions.GetHashCode();
+      if (Savetime != 0) hash ^= Savetime.GetHashCode();
+      if (Used.Length != 0) hash ^= Used.GetHashCode();
       return hash;
     }
 
@@ -2871,6 +2904,14 @@ namespace Pb {
         output.WriteRawTag(42);
         output.WriteBytes(Missions);
       }
+      if (Savetime != 0) {
+        output.WriteRawTag(48);
+        output.WriteInt32(Savetime);
+      }
+      if (Used.Length != 0) {
+        output.WriteRawTag(58);
+        output.WriteBytes(Used);
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2890,6 +2931,12 @@ namespace Pb {
       }
       if (Missions.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeBytesSize(Missions);
+      }
+      if (Savetime != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Savetime);
+      }
+      if (Used.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(Used);
       }
       return size;
     }
@@ -2913,6 +2960,12 @@ namespace Pb {
       }
       if (other.Missions.Length != 0) {
         Missions = other.Missions;
+      }
+      if (other.Savetime != 0) {
+        Savetime = other.Savetime;
+      }
+      if (other.Used.Length != 0) {
+        Used = other.Used;
       }
     }
 
@@ -2942,6 +2995,14 @@ namespace Pb {
           }
           case 42: {
             Missions = input.ReadBytes();
+            break;
+          }
+          case 48: {
+            Savetime = input.ReadInt32();
+            break;
+          }
+          case 58: {
+            Used = input.ReadBytes();
             break;
           }
         }
@@ -7249,6 +7310,269 @@ namespace Pb {
 
   }
 
+  /// <summary>
+  /// 使用过的道具数量
+  /// </summary>
+  public sealed partial class UsedItem : pb::IMessage<UsedItem> {
+    private static readonly pb::MessageParser<UsedItem> _parser = new pb::MessageParser<UsedItem>(() => new UsedItem());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UsedItem> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[41]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UsedItem() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UsedItem(UsedItem other) : this() {
+      id_ = other.id_;
+      count_ = other.count_;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UsedItem Clone() {
+      return new UsedItem(this);
+    }
+
+    /// <summary>Field number for the "id" field.</summary>
+    public const int IdFieldNumber = 1;
+    private int id_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Id {
+      get { return id_; }
+      set {
+        id_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "count" field.</summary>
+    public const int CountFieldNumber = 2;
+    private int count_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Count {
+      get { return count_; }
+      set {
+        count_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UsedItem);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UsedItem other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Id != other.Id) return false;
+      if (Count != other.Count) return false;
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Id != 0) hash ^= Id.GetHashCode();
+      if (Count != 0) hash ^= Count.GetHashCode();
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Id != 0) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Id);
+      }
+      if (Count != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(Count);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Id != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Id);
+      }
+      if (Count != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Count);
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UsedItem other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Id != 0) {
+        Id = other.Id;
+      }
+      if (other.Count != 0) {
+        Count = other.Count;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 8: {
+            Id = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            Count = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  /// 使用过的道具记录
+  /// </summary>
+  public sealed partial class UsedRecord : pb::IMessage<UsedRecord> {
+    private static readonly pb::MessageParser<UsedRecord> _parser = new pb::MessageParser<UsedRecord>(() => new UsedRecord());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<UsedRecord> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[42]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UsedRecord() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UsedRecord(UsedRecord other) : this() {
+      items_ = other.items_.Clone();
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public UsedRecord Clone() {
+      return new UsedRecord(this);
+    }
+
+    /// <summary>Field number for the "items" field.</summary>
+    public const int ItemsFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Pb.UsedItem> _repeated_items_codec
+        = pb::FieldCodec.ForMessage(10, global::Pb.UsedItem.Parser);
+    private readonly pbc::RepeatedField<global::Pb.UsedItem> items_ = new pbc::RepeatedField<global::Pb.UsedItem>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Pb.UsedItem> Items {
+      get { return items_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as UsedRecord);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(UsedRecord other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if(!items_.Equals(other.items_)) return false;
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      hash ^= items_.GetHashCode();
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      items_.WriteTo(output, _repeated_items_codec);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      size += items_.CalculateSize(_repeated_items_codec);
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(UsedRecord other) {
+      if (other == null) {
+        return;
+      }
+      items_.Add(other.items_);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 10: {
+            items_.AddEntriesFrom(input, _repeated_items_codec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  /// 存档记录
+  /// </summary>
   public sealed partial class RecordItem : pb::IMessage<RecordItem> {
     private static readonly pb::MessageParser<RecordItem> _parser = new pb::MessageParser<RecordItem>(() => new RecordItem());
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7256,7 +7580,7 @@ namespace Pb {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[41]; }
+      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[43]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7400,6 +7724,7 @@ namespace Pb {
         [pbr::OriginalName("Player")] Player = 0,
         [pbr::OriginalName("Home")] Home = 1,
         [pbr::OriginalName("Mission")] Mission = 2,
+        [pbr::OriginalName("Used")] Used = 3,
       }
 
     }
@@ -7407,6 +7732,9 @@ namespace Pb {
 
   }
 
+  /// <summary>
+  /// 保存数据
+  /// </summary>
   public sealed partial class RecordSave : pb::IMessage<RecordSave> {
     private static readonly pb::MessageParser<RecordSave> _parser = new pb::MessageParser<RecordSave>(() => new RecordSave());
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7414,7 +7742,7 @@ namespace Pb {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[42]; }
+      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[44]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7517,336 +7845,12 @@ namespace Pb {
   }
 
   /// <summary>
-  /// 矿产数据
+  /// 兑换物品
   /// </summary>
-  public sealed partial class OreData : pb::IMessage<OreData> {
-    private static readonly pb::MessageParser<OreData> _parser = new pb::MessageParser<OreData>(() => new OreData());
+  public sealed partial class ExchangeItem : pb::IMessage<ExchangeItem> {
+    private static readonly pb::MessageParser<ExchangeItem> _parser = new pb::MessageParser<ExchangeItem>(() => new ExchangeItem());
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<OreData> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[43]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public OreData() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public OreData(OreData other) : this() {
-      idstr_ = other.idstr_;
-      timing_ = other.timing_;
-      health_ = other.health_;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public OreData Clone() {
-      return new OreData(this);
-    }
-
-    /// <summary>Field number for the "idstr" field.</summary>
-    public const int IdstrFieldNumber = 1;
-    private string idstr_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Idstr {
-      get { return idstr_; }
-      set {
-        idstr_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "timing" field.</summary>
-    public const int TimingFieldNumber = 2;
-    private float timing_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float Timing {
-      get { return timing_; }
-      set {
-        timing_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "health" field.</summary>
-    public const int HealthFieldNumber = 3;
-    private int health_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Health {
-      get { return health_; }
-      set {
-        health_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as OreData);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(OreData other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Idstr != other.Idstr) return false;
-      if (Timing != other.Timing) return false;
-      if (Health != other.Health) return false;
-      return true;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Idstr.Length != 0) hash ^= Idstr.GetHashCode();
-      if (Timing != 0F) hash ^= Timing.GetHashCode();
-      if (Health != 0) hash ^= Health.GetHashCode();
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Idstr.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Idstr);
-      }
-      if (Timing != 0F) {
-        output.WriteRawTag(21);
-        output.WriteFloat(Timing);
-      }
-      if (Health != 0) {
-        output.WriteRawTag(24);
-        output.WriteInt32(Health);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Idstr.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Idstr);
-      }
-      if (Timing != 0F) {
-        size += 1 + 4;
-      }
-      if (Health != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Health);
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(OreData other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Idstr.Length != 0) {
-        Idstr = other.Idstr;
-      }
-      if (other.Timing != 0F) {
-        Timing = other.Timing;
-      }
-      if (other.Health != 0) {
-        Health = other.Health;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            input.SkipLastField();
-            break;
-          case 10: {
-            Idstr = input.ReadString();
-            break;
-          }
-          case 21: {
-            Timing = input.ReadFloat();
-            break;
-          }
-          case 24: {
-            Health = input.ReadInt32();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  /// <summary>
-  /// 拾取数据
-  /// </summary>
-  public sealed partial class PickupData : pb::IMessage<PickupData> {
-    private static readonly pb::MessageParser<PickupData> _parser = new pb::MessageParser<PickupData>(() => new PickupData());
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<PickupData> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[44]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public PickupData() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public PickupData(PickupData other) : this() {
-      idstr_ = other.idstr_;
-      timing_ = other.timing_;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public PickupData Clone() {
-      return new PickupData(this);
-    }
-
-    /// <summary>Field number for the "idstr" field.</summary>
-    public const int IdstrFieldNumber = 1;
-    private string idstr_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Idstr {
-      get { return idstr_; }
-      set {
-        idstr_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "timing" field.</summary>
-    public const int TimingFieldNumber = 2;
-    private float timing_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float Timing {
-      get { return timing_; }
-      set {
-        timing_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as PickupData);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(PickupData other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Idstr != other.Idstr) return false;
-      if (Timing != other.Timing) return false;
-      return true;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Idstr.Length != 0) hash ^= Idstr.GetHashCode();
-      if (Timing != 0F) hash ^= Timing.GetHashCode();
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Idstr.Length != 0) {
-        output.WriteRawTag(10);
-        output.WriteString(Idstr);
-      }
-      if (Timing != 0F) {
-        output.WriteRawTag(21);
-        output.WriteFloat(Timing);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Idstr.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Idstr);
-      }
-      if (Timing != 0F) {
-        size += 1 + 4;
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(PickupData other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Idstr.Length != 0) {
-        Idstr = other.Idstr;
-      }
-      if (other.Timing != 0F) {
-        Timing = other.Timing;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            input.SkipLastField();
-            break;
-          case 10: {
-            Idstr = input.ReadString();
-            break;
-          }
-          case 21: {
-            Timing = input.ReadFloat();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  /// <summary>
-  /// 敌人数据
-  /// </summary>
-  public sealed partial class EnemyData : pb::IMessage<EnemyData> {
-    private static readonly pb::MessageParser<EnemyData> _parser = new pb::MessageParser<EnemyData>(() => new EnemyData());
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<EnemyData> Parser { get { return _parser; } }
+    public static pb::MessageParser<ExchangeItem> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
@@ -7859,35 +7863,28 @@ namespace Pb {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EnemyData() {
+    public ExchangeItem() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EnemyData(EnemyData other) : this() {
+    public ExchangeItem(ExchangeItem other) : this() {
       id_ = other.id_;
-      cid_ = other.cid_;
-      health_ = other.health_;
-      tid_ = other.tid_;
-      Position = other.position_ != null ? other.Position.Clone() : null;
-      Rotation = other.rotation_ != null ? other.Rotation.Clone() : null;
-      router_ = other.router_;
-      routerIndex_ = other.routerIndex_;
-      spawner_ = other.spawner_;
+      Item = other.item_ != null ? other.Item.Clone() : null;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public EnemyData Clone() {
-      return new EnemyData(this);
+    public ExchangeItem Clone() {
+      return new ExchangeItem(this);
     }
 
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 1;
     private int id_;
     /// <summary>
-    /// 角色id
+    /// 兑换物品id
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Id {
@@ -7897,125 +7894,27 @@ namespace Pb {
       }
     }
 
-    /// <summary>Field number for the "cid" field.</summary>
-    public const int CidFieldNumber = 2;
-    private int cid_;
+    /// <summary>Field number for the "item" field.</summary>
+    public const int ItemFieldNumber = 2;
+    private global::Pb.RecordItem item_;
     /// <summary>
-    /// 配置表id
+    /// 兑换时的存档
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Cid {
-      get { return cid_; }
+    public global::Pb.RecordItem Item {
+      get { return item_; }
       set {
-        cid_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "health" field.</summary>
-    public const int HealthFieldNumber = 3;
-    private int health_;
-    /// <summary>
-    /// 剩余血量
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Health {
-      get { return health_; }
-      set {
-        health_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "tid" field.</summary>
-    public const int TidFieldNumber = 4;
-    private int tid_;
-    /// <summary>
-    /// 目标id
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Tid {
-      get { return tid_; }
-      set {
-        tid_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "position" field.</summary>
-    public const int PositionFieldNumber = 5;
-    private global::Pb.Vector position_;
-    /// <summary>
-    /// 位置
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Pb.Vector Position {
-      get { return position_; }
-      set {
-        position_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "rotation" field.</summary>
-    public const int RotationFieldNumber = 6;
-    private global::Pb.Vector rotation_;
-    /// <summary>
-    ///  方向
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::Pb.Vector Rotation {
-      get { return rotation_; }
-      set {
-        rotation_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "router" field.</summary>
-    public const int RouterFieldNumber = 7;
-    private string router_ = "";
-    /// <summary>
-    /// 路径
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Router {
-      get { return router_; }
-      set {
-        router_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "routerIndex" field.</summary>
-    public const int RouterIndexFieldNumber = 8;
-    private int routerIndex_;
-    /// <summary>
-    /// 路径序号
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int RouterIndex {
-      get { return routerIndex_; }
-      set {
-        routerIndex_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "spawner" field.</summary>
-    public const int SpawnerFieldNumber = 9;
-    private string spawner_ = "";
-    /// <summary>
-    /// 产出主体
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Spawner {
-      get { return spawner_; }
-      set {
-        spawner_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+        item_ = value;
       }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as EnemyData);
+      return Equals(other as ExchangeItem);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(EnemyData other) {
+    public bool Equals(ExchangeItem other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -8023,14 +7922,7 @@ namespace Pb {
         return true;
       }
       if (Id != other.Id) return false;
-      if (Cid != other.Cid) return false;
-      if (Health != other.Health) return false;
-      if (Tid != other.Tid) return false;
-      if (!object.Equals(Position, other.Position)) return false;
-      if (!object.Equals(Rotation, other.Rotation)) return false;
-      if (Router != other.Router) return false;
-      if (RouterIndex != other.RouterIndex) return false;
-      if (Spawner != other.Spawner) return false;
+      if (!object.Equals(Item, other.Item)) return false;
       return true;
     }
 
@@ -8038,14 +7930,7 @@ namespace Pb {
     public override int GetHashCode() {
       int hash = 1;
       if (Id != 0) hash ^= Id.GetHashCode();
-      if (Cid != 0) hash ^= Cid.GetHashCode();
-      if (Health != 0) hash ^= Health.GetHashCode();
-      if (Tid != 0) hash ^= Tid.GetHashCode();
-      if (position_ != null) hash ^= Position.GetHashCode();
-      if (rotation_ != null) hash ^= Rotation.GetHashCode();
-      if (Router.Length != 0) hash ^= Router.GetHashCode();
-      if (RouterIndex != 0) hash ^= RouterIndex.GetHashCode();
-      if (Spawner.Length != 0) hash ^= Spawner.GetHashCode();
+      if (item_ != null) hash ^= Item.GetHashCode();
       return hash;
     }
 
@@ -8060,37 +7945,9 @@ namespace Pb {
         output.WriteRawTag(8);
         output.WriteInt32(Id);
       }
-      if (Cid != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Cid);
-      }
-      if (Health != 0) {
-        output.WriteRawTag(24);
-        output.WriteInt32(Health);
-      }
-      if (Tid != 0) {
-        output.WriteRawTag(32);
-        output.WriteInt32(Tid);
-      }
-      if (position_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(Position);
-      }
-      if (rotation_ != null) {
-        output.WriteRawTag(50);
-        output.WriteMessage(Rotation);
-      }
-      if (Router.Length != 0) {
-        output.WriteRawTag(58);
-        output.WriteString(Router);
-      }
-      if (RouterIndex != 0) {
-        output.WriteRawTag(64);
-        output.WriteInt32(RouterIndex);
-      }
-      if (Spawner.Length != 0) {
-        output.WriteRawTag(74);
-        output.WriteString(Spawner);
+      if (item_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Item);
       }
     }
 
@@ -8100,70 +7957,25 @@ namespace Pb {
       if (Id != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Id);
       }
-      if (Cid != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Cid);
-      }
-      if (Health != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Health);
-      }
-      if (Tid != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Tid);
-      }
-      if (position_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Position);
-      }
-      if (rotation_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Rotation);
-      }
-      if (Router.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Router);
-      }
-      if (RouterIndex != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(RouterIndex);
-      }
-      if (Spawner.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Spawner);
+      if (item_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Item);
       }
       return size;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(EnemyData other) {
+    public void MergeFrom(ExchangeItem other) {
       if (other == null) {
         return;
       }
       if (other.Id != 0) {
         Id = other.Id;
       }
-      if (other.Cid != 0) {
-        Cid = other.Cid;
-      }
-      if (other.Health != 0) {
-        Health = other.Health;
-      }
-      if (other.Tid != 0) {
-        Tid = other.Tid;
-      }
-      if (other.position_ != null) {
-        if (position_ == null) {
-          position_ = new global::Pb.Vector();
+      if (other.item_ != null) {
+        if (item_ == null) {
+          item_ = new global::Pb.RecordItem();
         }
-        Position.MergeFrom(other.Position);
-      }
-      if (other.rotation_ != null) {
-        if (rotation_ == null) {
-          rotation_ = new global::Pb.Vector();
-        }
-        Rotation.MergeFrom(other.Rotation);
-      }
-      if (other.Router.Length != 0) {
-        Router = other.Router;
-      }
-      if (other.RouterIndex != 0) {
-        RouterIndex = other.RouterIndex;
-      }
-      if (other.Spawner.Length != 0) {
-        Spawner = other.Spawner;
+        Item.MergeFrom(other.Item);
       }
     }
 
@@ -8179,196 +7991,11 @@ namespace Pb {
             Id = input.ReadInt32();
             break;
           }
-          case 16: {
-            Cid = input.ReadInt32();
-            break;
-          }
-          case 24: {
-            Health = input.ReadInt32();
-            break;
-          }
-          case 32: {
-            Tid = input.ReadInt32();
-            break;
-          }
-          case 42: {
-            if (position_ == null) {
-              position_ = new global::Pb.Vector();
+          case 18: {
+            if (item_ == null) {
+              item_ = new global::Pb.RecordItem();
             }
-            input.ReadMessage(position_);
-            break;
-          }
-          case 50: {
-            if (rotation_ == null) {
-              rotation_ = new global::Pb.Vector();
-            }
-            input.ReadMessage(rotation_);
-            break;
-          }
-          case 58: {
-            Router = input.ReadString();
-            break;
-          }
-          case 64: {
-            RouterIndex = input.ReadInt32();
-            break;
-          }
-          case 74: {
-            Spawner = input.ReadString();
-            break;
-          }
-        }
-      }
-    }
-
-  }
-
-  /// <summary>
-  /// 游戏世界
-  /// </summary>
-  public sealed partial class SpawnerEvent : pb::IMessage<SpawnerEvent> {
-    private static readonly pb::MessageParser<SpawnerEvent> _parser = new pb::MessageParser<SpawnerEvent>(() => new SpawnerEvent());
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<SpawnerEvent> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[46]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public SpawnerEvent() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public SpawnerEvent(SpawnerEvent other) : this() {
-      id_ = other.id_;
-      count_ = other.count_;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public SpawnerEvent Clone() {
-      return new SpawnerEvent(this);
-    }
-
-    /// <summary>Field number for the "id" field.</summary>
-    public const int IdFieldNumber = 1;
-    private int id_;
-    /// <summary>
-    /// 事件id
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Id {
-      get { return id_; }
-      set {
-        id_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "count" field.</summary>
-    public const int CountFieldNumber = 2;
-    private int count_;
-    /// <summary>
-    /// 怪物剩余数量
-    /// </summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Count {
-      get { return count_; }
-      set {
-        count_ = value;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as SpawnerEvent);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(SpawnerEvent other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Id != other.Id) return false;
-      if (Count != other.Count) return false;
-      return true;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Id != 0) hash ^= Id.GetHashCode();
-      if (Count != 0) hash ^= Count.GetHashCode();
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (Id != 0) {
-        output.WriteRawTag(8);
-        output.WriteInt32(Id);
-      }
-      if (Count != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Count);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (Id != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Id);
-      }
-      if (Count != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Count);
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(SpawnerEvent other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Id != 0) {
-        Id = other.Id;
-      }
-      if (other.Count != 0) {
-        Count = other.Count;
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            input.SkipLastField();
-            break;
-          case 8: {
-            Id = input.ReadInt32();
-            break;
-          }
-          case 16: {
-            Count = input.ReadInt32();
+            input.ReadMessage(item_);
             break;
           }
         }
@@ -8387,7 +8014,7 @@ namespace Pb {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[47]; }
+      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[46]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8728,7 +8355,7 @@ namespace Pb {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[48]; }
+      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[47]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8851,7 +8478,7 @@ namespace Pb {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[49]; }
+      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[48]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8999,7 +8626,7 @@ namespace Pb {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[50]; }
+      get { return global::Pb.CommandReflection.Descriptor.MessageTypes[49]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

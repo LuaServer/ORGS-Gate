@@ -473,6 +473,8 @@ function User:onRecordSave(db, msg, instance, msgid)
             self._Record:set("player", item.record)
         elseif item.tp == "Mission" then
             self._Record:set("missions", item.record)
+        elseif item.tp == "Used" then
+            self._Record:set("used", item.record)
         end
     end
     local record_data = self._Record:get()
