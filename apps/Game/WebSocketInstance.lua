@@ -193,6 +193,7 @@ function WebSocketInstance:onProcess(rawmessage)
     end
 end
 
+--protobuf数据
 function WebSocketInstance:onProtobuf(message)
     local this = self
     self:safeFunction(function()
@@ -202,6 +203,7 @@ function WebSocketInstance:onProtobuf(message)
     return true
 end
 
+--json数据
 function WebSocketInstance:onData(message)
     local this = self
     self:safeFunction(function()

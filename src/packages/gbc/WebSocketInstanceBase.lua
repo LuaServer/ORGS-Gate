@@ -343,6 +343,7 @@ function WebSocketInstanceBase:onProtobuf(_rawMessage)
     return nil, "not support protobuf"
 end
 
+--json数据处理
 function WebSocketInstanceBase:onData(_message)
     
     return false, "not message action"

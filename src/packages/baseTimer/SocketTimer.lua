@@ -59,6 +59,7 @@ function SocketTimer:closeSocket(redis)
     end
 end
 
+--处理来着Game服务器的消息
 function SocketTimer:ProcessMessage(frame, ftype)
     self:safeFunction(function ()
         if frame then
@@ -81,6 +82,7 @@ function SocketTimer:ProcessMessage(frame, ftype)
     end)
 end
 
+--服务器循环
 function SocketTimer:runEventLoop()
     local sub, _err = self:getRedis():makeSubscribeLoop(self.param.channel)
     if not sub then
@@ -88,6 +90,7 @@ function SocketTimer:runEventLoop()
         return false
     end
     local this = self
+    --接收到channel消息就发送到Game服务器
     sub:start(function(subRedis, _channel, msg)
         if this._socket ~= nil then
             local _, err = this._socket:send_binary(msg)
@@ -140,6 +143,7 @@ function SocketTimer:runEventLoop()
                 end
             end
         else
+            --重新连接服务器
             self:connect()
             ngx_sleep(5)
         end

@@ -41,6 +41,7 @@ function WebSocketInstance:authConnect()
     return nil, nil, "authConnect failed"
 end
 
+--用户链接上
 function WebSocketInstance:onConnected()
     cc.printf("onConnected user:"..self:getConnectId())
     self:sendToGameServer({
@@ -50,6 +51,7 @@ function WebSocketInstance:onConnected()
     })
 end
 
+--用户断开连接
 function WebSocketInstance:onDisconnected(closeReason)
     cc.printf("onDisconnected user:"..self:getConnectId())
     self:sendToGameServer({
@@ -62,6 +64,7 @@ function WebSocketInstance:onDisconnected(closeReason)
     end
 end
 
+--发送数据到游戏服务器
 function WebSocketInstance:sendToGameServer(msg)
     local ok, err = self:sendToChannel(self._GATE_CN, msg)
     if not ok then
@@ -70,6 +73,7 @@ function WebSocketInstance:sendToGameServer(msg)
     return ok
 end
 
+--接受到protobuf消息
 function WebSocketInstance:onProtobuf(rawMessage)
     if rawMessage then
         return self:sendToGameServer({
