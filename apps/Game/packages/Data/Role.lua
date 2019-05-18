@@ -21,7 +21,7 @@ function Role:Create(db, pid, nickname, cid)
         return nil, "NoParam"
     end
     
-    if #nickname <= 6 then
+    if #nickname < 6 then
         return nil, "NoSetNickname"
     end
     
