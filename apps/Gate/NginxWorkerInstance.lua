@@ -5,6 +5,7 @@ local NginxWorkerInstance = cc.class("NginxWorkerInstance", gbc.NginxWorkerInsta
 local Timer = cc.import("#Timer", ...)
 local LoopTimer = Timer.LoopTimer
 local GateSocketTimer = Timer.GateSocketTimer
+local MessageType = gbc.MessageType
 
 local Constants = gbc.Constants
 
@@ -38,7 +39,16 @@ function NginxWorkerInstance:onWorkerFirst()
     
     --保存数据库命令
     self:runTimer(1, LoopTimer, self.config, {
-        channel = channel
+        channel = channel,
+        message = MessageType.DB_SAVE,
+        interval = 300,
+    })
+    
+    --检测网络断开情况
+    self:runTimer(1, LoopTimer, self.config, {
+        channel = channel,
+        message = MessageType.CHECKCONNECTED,
+        interval = 60,
     })
 end
 

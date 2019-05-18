@@ -30,6 +30,20 @@ local sensitive_library = sensitive.library
 
 function User:ctor(id)
     self.id = id
+    self.sessionTime = ngx_now()
+end
+
+--更新时间
+function User:UpdateSessionTime()
+    self.sessionTime = ngx_now()
+end
+
+--60秒没反应离线
+function User:IsOffline(time)
+    if time - self.sessionTime > 60 then
+        return true
+    end
+    return false
 end
 
 function User:loadUser(db, instance, rid, lastTime, loginTime)

@@ -174,22 +174,22 @@ function WebSocketInstance:onProcess(rawmessage)
                     local content = pb.decode("pb."..protoname, message.content)
                     if content and self.userCenter then
                         self.userCenter:Process(data.connectid, content, self:getMysql(), protoname, message.msgid)
-                        return
+                    else
+                        cc.printf("content is nil by parse:"..protoname)
                     end
-                    cc.printf("content is nil by parse:"..protoname)
-                    return
+                else
+                    cc.printf("protoname is nil by type:"..message.type)
                 end
-                cc.printf("protoname is nil by type:"..message.type)
-                return
+            else
+                cc.printf("message type is nil")
             end
-            cc.printf("message type is nil")
-            return
+        else
+            cc.printf("message is not table")
         end
-        cc.printf("message is not table")
-        return
-    end
-    if data and self.userCenter then
-        self.userCenter:Process(data.connectid, data.message, self:getMysql())
+    else
+        if data and self.userCenter then
+            self.userCenter:Process(data.connectid, data.message, self:getMysql())
+        end
     end
 end
 

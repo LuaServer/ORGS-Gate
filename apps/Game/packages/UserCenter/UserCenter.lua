@@ -26,6 +26,30 @@ function UserCenter:canLogin(connectid)
     end
 end
 
+--更新在线时间
+function UserCenter:updateSessionTime(connectid)
+    local user = self.users[connectid]
+    if user then
+        user:UpdateSessionTime()
+    else
+        cc.printf("user is offline:"..connectid)
+    end
+end
+
+--检测掉线玩家
+function UserCenter:checkOnlineUser(db)
+    local list = {}
+    for connectid, _ in pairs(self.users) do
+        table.insert(list, connectid)
+    end
+    for connectid, _ in ipairs(list) do
+        local user = self.users[connectid]
+        if user and user:IsOffline() then
+            self:userLogout(connectid, db)
+        end
+    end
+end
+
 function UserCenter:userLogin(connectid, db)
     if self:canLogin(connectid) then
         local user = self.users[connectid]
@@ -49,7 +73,6 @@ function UserCenter:userLogout(connectid, db)
         self.users[connectid] = nil
         sdLogin:incr("PID:"..connectid, -1, 0)
     end
-    --cc.printf(string.format("User:%d |--|%s----å|%d", connectid, self.connect_channel, lgcnt))
 end
 
 function UserCenter:checkdb(db)
@@ -69,18 +92,18 @@ function UserCenter:Process(connectid, message, db, msgtype, msgid)
         if self:checkdb(db) then
             self:SaveAll(db)
         end
+    elseif MessageType.CHECKCONNECTED == message then
+        self:checkOnlineUser(db)
+    elseif MessageType.UPDATE_SESSION == message then
+        self:updateSessionTime(connectid)
     else
         local user = self.users[connectid]
         if user then
             user:Process(db, message, self.instance, msgtype, msgid)
+        else
+            --用户已经离线，需要重新登陆
+            cc.printf("user is offline:"..connectid)
         end
-    end
-end
-
-function UserCenter:SaveAll(db)
-    --cc.printf("SaveAll")
-    for _, user in pairs(self.users) do
-        user:Save(db)
     end
 end
 
@@ -91,10 +114,17 @@ function UserCenter:Save(connectid, db)
     end
 end
 
+--保存所有数据
+function UserCenter:SaveAll(db)
+    for _, user in pairs(self.users) do
+        user:Save(db)
+    end
+end
+
+--移除所有用户
 function UserCenter:RemoveAll()
     for id, _ in pairs(self.users) do
         sdLogin:incr("PID:"..id, -1, 0)
-        --cc.printf(string.format("User:%d |--|%s----å|%d", id, self.connect_channel, lgcnt))
     end
     self.users = {}
 end

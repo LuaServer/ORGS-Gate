@@ -73,6 +73,15 @@ function WebSocketInstance:sendToGameServer(msg)
     return ok
 end
 
+--接收到来自客户端的ping
+function WebSocketInstance:onPing()
+    self:sendToGameServer({
+        connectid = self.pid,
+        message = MessageType.UPDATE_SESSION,
+        format = "",
+    })
+end
+
 --接受到protobuf消息
 function WebSocketInstance:onProtobuf(rawMessage)
     if rawMessage then

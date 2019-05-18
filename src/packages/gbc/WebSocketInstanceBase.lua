@@ -151,6 +151,14 @@ function WebSocketInstanceBase:sendToChannel(channel, msg)
     return false, "sendToChannel failed"
 end
 
+function WebSocketInstanceBase:onPing()
+    -- body
+end
+
+function WebSocketInstanceBase:onPong()
+    -- body
+end
+
 function WebSocketInstanceBase:runEventLoop()
     -- auth client
     local this = self
@@ -268,8 +276,10 @@ function WebSocketInstanceBase:runEventLoop()
                 break
             elseif ftype == "ping" then
                 socket:send_pong()
+                self:onPing()
             elseif ftype == "pong" then
                 -- client ponged
+                self:onPong()
             elseif ftype == "text" or ftype == "binary" then
                 local _, err = self:processMessage(frame, ftype)
                 if err then
