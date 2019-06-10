@@ -22,10 +22,12 @@ function WebSocketInstance:authConnect()
     
     local master = self:GetConfig("Master")
     if not master then
+        cc.printf("can not find Master config")
         return nil, nil, "can not find master"
     end
     local token, pid, err = WebSocketInstance.super.authConnect(self)
     if not token then
+        cc.printf("can not find token")
         return nil, pid, err
     end
     --cc.printf("authConnect")
@@ -38,6 +40,7 @@ function WebSocketInstance:authConnect()
         self.pid = user.id
         return token, user.id
     end
+    cc.printf("verify token failed")
     return nil, nil, "authConnect failed"
 end
 

@@ -55,48 +55,51 @@ local config = {
                 port = 8088,
                 host = "127.0.0.1",
                 apps = {
-                    Master = "_GBC_CORE_ROOT_/apps/Master",
+                    -- Master = "_GBC_CORE_ROOT_/apps/Master",
                     website = "_GBC_CORE_ROOT_/apps/website",
                     update = "_GBC_CORE_ROOT_/apps/update",
                 },
             },
-            {
-                name = "Game",
-                numOfWorkers = 2,
-                port = 8089,
-                host = "127.0.0.1",
-                servername = "qcfs01",
-                apps = {
-                    Game = "_GBC_CORE_ROOT_/apps/Game",
-                },
-            },
-            {
-                name = "Gate1",
-                numOfWorkers = 2,
-                port = 8090,
-                host = "cb2.funkiigame.com",
-                apps = {
-                    Gate1 = "_GBC_CORE_ROOT_/apps/Gate",
-                },
-            },
-            {
-                name = "Gate2",
-                numOfWorkers = 2,
-                port = 8091,
-                host = "cb2.funkiigame.com",
-                apps = {
-                    Gate2 = "_GBC_CORE_ROOT_/apps/Gate",
-                },
-            },
-            {
-                name = "Gate3",
-                numOfWorkers = 2,
-                port = 8092,
-                host = "cb2.funkiigame.com",
-                apps = {
-                    Gate3 = "_GBC_CORE_ROOT_/apps/Gate",
-                },
-            },
+            -- {
+            --     name = "Game",
+            --     numOfWorkers = 2,
+            --     port = 8089,
+            --     host = "192.168.0.66",
+            --     servername = "qcfs01",
+            --     apps = {
+            --         Game = "_GBC_CORE_ROOT_/apps/Game",
+            --     },
+            -- },
+            -- {
+            --     name = "Gate1",
+            --     numOfWorkers = 2,
+            --     port = 8090,
+            --     --host = "cb2.funkiigame.com",
+            --     host = "192.168.0.66",
+            --     apps = {
+            --         Gate1 = "_GBC_CORE_ROOT_/apps/Gate",
+            --     },
+            -- },
+            -- {
+            --     name = "Gate2",
+            --     numOfWorkers = 2,
+            --     port = 8091,
+            --     --host = "cb2.funkiigame.com",
+            --     host = "192.168.0.66",
+            --     apps = {
+            --         Gate2 = "_GBC_CORE_ROOT_/apps/Gate",
+            --     },
+            -- },
+            -- {
+            --     name = "Gate3",
+            --     numOfWorkers = 2,
+            --     port = 8092,
+            --     --host = "cb2.funkiigame.com",
+            --     host = "192.168.0.66",
+            --     apps = {
+            --         Gate3 = "_GBC_CORE_ROOT_/apps/Gate",
+            --     },
+            -- },
             
         },
         

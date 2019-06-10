@@ -38,10 +38,12 @@ package pb;
 	GameRecord==112
 
 	Chapter==1021
+	MissionItem==1051
 	Box==1061
 	Prop==1071
-	MissionItem==1051
 	AchvItem==1091
+	Talent==1101
+	ADItem==1111
 */
 message Pack{
 	int32 type = 1;

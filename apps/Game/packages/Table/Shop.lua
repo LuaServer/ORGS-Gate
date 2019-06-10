@@ -2,7 +2,7 @@
 local Struct = {
     id = 0,
     rid = 0,
-    buyTimes = "", --已经购买过的id列表
+    buyTimes = 0, --已经购买过的id列表
 }
 
 local Define = {

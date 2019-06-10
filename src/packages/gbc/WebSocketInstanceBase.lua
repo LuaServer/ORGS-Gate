@@ -186,6 +186,7 @@ function WebSocketInstanceBase:runEventLoop()
         connectId = tostring(redis:incr(Constants.NEXT_CONNECT_ID_KEY))
     end
     
+    --添加程序名称，使得id唯一
     connectId = self.config.app.appName .. "-" .. connectId
     
     self._connectId = connectId

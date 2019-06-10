@@ -27,12 +27,14 @@ namespace Pb{
         Box = 1061,
         Boxes = 106,
         Rewards = 108,
+        Talent = 1101,
         Talents = 110,
         TalentUnlock = 54,
         SigninRecord = 12,
         SigninGet = 13,
         ShopBuy = 22,
         ADShow = 41,
+        ADItem = 1111,
         ADList = 111,
         ShopRecord = 21,
         RecordSave = 42,
@@ -67,12 +69,14 @@ namespace Pb{
             dict.Add(PBDefine.Box, Box.Parser);
             dict.Add(PBDefine.Boxes, Boxes.Parser);
             dict.Add(PBDefine.Rewards, Rewards.Parser);
+            dict.Add(PBDefine.Talent, Talent.Parser);
             dict.Add(PBDefine.Talents, Talents.Parser);
             dict.Add(PBDefine.TalentUnlock, TalentUnlock.Parser);
             dict.Add(PBDefine.SigninRecord, SigninRecord.Parser);
             dict.Add(PBDefine.SigninGet, SigninGet.Parser);
             dict.Add(PBDefine.ShopBuy, ShopBuy.Parser);
             dict.Add(PBDefine.ADShow, ADShow.Parser);
+            dict.Add(PBDefine.ADItem, ADItem.Parser);
             dict.Add(PBDefine.ADList, ADList.Parser);
             dict.Add(PBDefine.ShopRecord, ShopRecord.Parser);
             dict.Add(PBDefine.RecordSave, RecordSave.Parser);
