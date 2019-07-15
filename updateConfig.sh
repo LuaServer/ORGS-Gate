@@ -10,6 +10,6 @@ cd $PROTO_DIR
 ./convert.sh
 cd $ROOT_DIR
 
-# DB_PATH=/Users/funkii/projects/gitlab/CityBlockade25D/Assets/StreamingAssets/
-# cp -rf $DB_DIR $DB_PATH
+DB_PATH=/Users/funkii/projects/CB2_TD/Assets/StreamingAssets/
+cp -rf $DB_DIR $DB_PATH
 cp -rf $DB_DIR $WS_DIR

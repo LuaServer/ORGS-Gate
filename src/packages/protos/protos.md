@@ -9,51 +9,67 @@ package pb;
 	Error==2
 	Operation==3
 	CreateRole==4
-	FinishChapter==5
 
-	Delete==11
-	SigninRecord==12
-	SigninGet==13
-
-	ShopRecord==21
-	ShopBuy==22
-	ExchangeItem==23
+	Delete==101
+	Rewards==102
+	Role==1001
 	
-	OpenBox==31
-	GainBox==32
-	ADShow==41
-	RecordSave==42
+	Chapters==1101
+	Chapter==1102
+	FinishChapter==1103
 
-	FinishMission==51
-	MissionEvent==52
-	FinishAchv==53
-	TalentUnlock==54
+	Props==1201
+	Prop==1202
 
-	Role==101
-	Chapters==102
-	MissionList==105
-	Boxes==106
-	Props==107
-	Rewards==108
-	AchvList==109
-	Talents==110
-	ADList==111
-	GameRecord==112
+	Talents==1301
+	Talent==1302
+	TalentUnlock==1303
 
-	Chapter==1021
-	MissionItem==1051
-	Box==1061
-	Prop==1071
-	AchvItem==1091
-	Talent==1101
-	ADItem==1111
+	MissionList==1401
+	MissionItem==1402
+	FinishMission==1403
+	MissionEvent==1404
+
+	AchvList==1501
+	AchvItem==1502
+	FinishAchv==1503
+
+	ADList==1601
+	ADItem==1602
+	ADShow==1603
+
+	BuyList==1701
+	BuyItem==1702
+
+	SigninRecord==1801
+	SigninGet==1802
+
+	ShopRecord==1901
+	ShopBuy==1902
+
+	Boxes==2001
+	Box==2002
+	OpenBox==2003
+	GainBox==2004
+
+	GameRecord==2101
+	RecordSave==2102
+	ExchangeItem==2103
+
+	PayList==2201
+	PayItem==2202
+	PayBuy==2203
+	
 */
+
+//封装包
 message Pack{
 	int32 type = 1;
 	bytes content = 2; //actions的参数
 	int32 msgid = 3;
 }
 
+//错误类型
 message Error{
 	enum EType{
 		None = 0;
@@ -91,6 +107,7 @@ message Error{
 	EType code = 1; //错误码
 }
 
+//操作结果
 message Operation{
 	bool result = 1;
 	int32 type = 2;
@@ -106,21 +123,6 @@ oid：配置表中的originalId
 //创建角色命令
 message CreateRole{
 	string nickname = 1; //昵称
-}
-
-//完成章节
-message FinishChapter{
-	int32 cid = 1; //章节ID
-	int32 star = 2; //星级
-}
-
-//打开箱子
-message OpenBox{
-	int32 id = 1;
-}
-//收取箱子里的物品
-message GainBox{
-	int32 id = 1;
 }
 
 message Delete{
@@ -173,16 +175,12 @@ message Chapters{
 	repeated Chapter items = 1;
 }
 
-//游戏存档数据
-message GameRecord{
-	int32 id = 1;
-	int32 rid = 2;
-	bytes home = 3; //家的数据
-	bytes player = 4; //玩家数据
-	bytes missions = 5; //任务数据
-	int32 savetime = 6; //保存时间
-	bytes used = 7; //使用过的道具存档
+//完成章节
+message FinishChapter{
+	int32 cid = 1; //章节ID
+	int32 star = 2; //星级
 }
+
 
 //完成任务
 message FinishMission{
@@ -262,6 +260,15 @@ message Boxes{
 	repeated Box items = 1;
 }
 
+//打开箱子
+message OpenBox{
+	int32 id = 1;
+}
+//收取箱子里的物品
+message GainBox{
+	int32 id = 1;
+}
+
 message Reward{
 	int32 tp = 1; //1钻石，2:科技点，3:道具
 	int32 id = 2;
@@ -297,6 +304,21 @@ message SigninGet{
 	int32 day = 1; //获取第几天的奖励
 }
 
+message PayBuy{
+	int32 id = 1; //pay里面的id
+}
+
+message BuyItem{
+	int32 id = 1; //id
+	int32 rid = 2; //角色id
+	int32 cid = 3; //配置表id
+	int32 times = 4; //购买次数
+}
+
+message BuyList{
+	repeated BuyItem items = 1;
+}
+
 message ShopBuy{
 	int32 id = 1; //购买商店物品
 }
@@ -323,6 +345,9 @@ message ShopRecord{
 	int32 buyTimes = 3;
 }
 
+
+
+
 message CompositeItem{
 	int32 id = 1;
 	int32 timeEnd = 2;
@@ -334,6 +359,17 @@ message ItemData{
 	int32 count = 2; //道具数量或者武器的子弹装载数量
 	int32 hp = 3; //耐久度/血量
 	int32 location = 4; //位置信息
+}
+
+//游戏存档数据
+message GameRecord{
+	int32 id = 1;
+	int32 rid = 2;
+	bytes home = 3; //家的数据
+	bytes player = 4; //玩家数据
+	bytes missions = 5; //任务数据
+	int32 savetime = 6; //保存时间
+	bytes used = 7; //使用过的道具存档
 }
 
 //角色数据
